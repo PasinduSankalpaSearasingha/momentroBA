@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Momentro Intelligence | Executive & Company Intelligence Dossier</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/report.css">
+</head>
+<body>
+
+  <!-- Hidden SVG Symbol Sprite Definitions (Monochrome Enterprise Icons - Zero Colored Emojis) -->
+  <svg style="display: none;" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="icon-briefcase" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+      <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+    </symbol>
+    <symbol id="icon-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+      <circle cx="9" cy="7" r="4"></circle>
+      <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+      <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+    </symbol>
+    <symbol id="icon-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="10"></circle>
+      <line x1="2" y1="12" x2="22" y2="12"></line>
+      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+    </symbol>
+    <symbol id="icon-message-square" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+    </symbol>
+    <symbol id="icon-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+    </symbol>
+    <symbol id="icon-check-circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+      <polyline points="22 4 12 14.01 9 11.01"></polyline>
+    </symbol>
+    <symbol id="icon-external-link" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+      <polyline points="15 3 21 3 21 9"></polyline>
+      <line x1="10" y1="14" x2="21" y2="3"></line>
+    </symbol>
+    <symbol id="icon-map-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+      <circle cx="12" cy="10" r="3"></circle>
+    </symbol>
+    <symbol id="icon-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+      <line x1="16" y1="2" x2="16" y2="6"></line>
+      <line x1="8" y1="2" x2="8" y2="6"></line>
+      <line x1="3" y1="10" x2="21" y2="10"></line>
+    </symbol>
+    <symbol id="icon-trending-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+      <polyline points="17 6 23 6 23 12"></polyline>
+    </symbol>
+    <symbol id="icon-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="11" cy="11" r="8"></circle>
+      <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+    </symbol>
+    <symbol id="icon-download" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+      <polyline points="7 10 12 15 17 10"></polyline>
+      <line x1="12" y1="15" x2="12" y2="3"></line>
+    </symbol>
+    <symbol id="icon-printer" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="6 9 6 2 18 2 18 9"></polyline>
+      <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+      <rect x="6" y="14" width="12" height="8"></rect>
+    </symbol>
+    <symbol id="icon-code" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="16 18 22 12 16 6"></polyline>
+      <polyline points="8 6 2 12 8 18"></polyline>
+    </symbol>
+    <symbol id="icon-thumbs-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
+    </symbol>
+    <symbol id="icon-repeat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="17 1 21 5 17 9"></polyline>
+      <path d="M3 11V9a4 4 0 0 1 4-4h14"></path>
+      <polyline points="7 23 3 19 7 15"></polyline>
+      <path d="M21 13v2a4 4 0 0 1-4 4H3"></path>
+    </symbol>
+    <symbol id="icon-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="10"></circle>
+      <polyline points="12 6 12 12 16 14"></polyline>
+    </symbol>
+    <symbol id="icon-layers" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+      <polyline points="2 17 12 22 22 17"></polyline>
+      <polyline points="2 12 12 17 22 12"></polyline>
+    </symbol>
+    <symbol id="icon-cpu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+      <rect x="9" y="9" width="6" height="6"></rect>
+      <line x1="9" y1="1" x2="9" y2="4"></line>
+      <line x1="15" y1="1" x2="15" y2="4"></line>
+      <line x1="9" y1="20" x2="9" y2="23"></line>
+      <line x1="15" y1="20" x2="15" y2="23"></line>
+      <line x1="20" y1="9" x2="23" y2="9"></line>
+      <line x1="20" y1="14" x2="23" y2="14"></line>
+      <line x1="1" y1="9" x2="4" y2="9"></line>
+      <line x1="1" y1="14" x2="4" y2="14"></line>
+    </symbol>
+    <symbol id="icon-award" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="8" r="7"></circle>
+      <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+    </symbol>
+    <symbol id="icon-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="18" y1="6" x2="6" y2="18"></line>
+      <line x1="6" y1="6" x2="18" y2="18"></line>
+    </symbol>
+  </svg>
+
+  <!-- Top Enterprise Navigation Bar -->
+  <header class="app-topbar">
+    <div class="topbar-inner">
+      <div class="topbar-left">
+        <a href="./leads.html" class="btn btn-secondary btn-sm" id="btn-back-to-leads" style="margin-right:0.4rem;display:inline-flex;align-items:center;gap:0.4rem;text-decoration:none;">
+          <svg class="icon" style="width:14px;height:14px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"></polyline></svg>
+          <span>All Leads</span>
+        </a>
+        <a href="/bi-automation" class="btn btn-secondary btn-sm" style="margin-right:0.5rem;display:inline-flex;align-items:center;gap:0.4rem;text-decoration:none;color:#60a5fa;border-color:rgba(59,130,246,0.4);background:rgba(59,130,246,0.1);">
+          <svg class="icon" style="width:14px;height:14px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          <span>⚡ BI Command Center</span>
+        </a>
+        <div class="brand-badge">
+          <svg class="brand-icon"><use href="#icon-briefcase"></use></svg>
+          <span class="brand-name">MOMENTRO</span>
+          <span class="brand-division">INTELLIGENCE</span>
+        </div>
+        <div class="topbar-divider"></div>
+        <nav class="breadcrumb-nav">
+          <a href="./leads.html" class="breadcrumb-item" style="text-decoration:none;color:inherit;opacity:0.7;">All Leads</a>
+          <span class="breadcrumb-sep">/</span>
+          <span class="breadcrumb-item active" id="breadcrumb-company">Loading...</span>
+        </nav>
+        <span class="status-chip live-status">
+          <span class="status-dot pulse"></span> Verified Profile
+        </span>
+      </div>
+
+      <div class="topbar-actions">
+        <button type="button" class="btn btn-secondary btn-sm" id="btn-export-json" title="Download Raw Intelligence JSON">
+          <svg class="icon"><use href="#icon-download"></use></svg>
+          <span>Export JSON</span>
+        </button>
+        <button type="button" class="btn btn-secondary btn-sm" id="btn-print" title="Print or Save PDF Report">
+          <svg class="icon"><use href="#icon-printer"></use></svg>
+          <span>Print Report</span>
+        </button>
+        <button type="button" class="btn btn-secondary btn-sm" id="btn-view-raw" title="View Source Intelligence">
+          <svg class="icon"><use href="#icon-code"></use></svg>
+          <span>Raw Data</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <div class="dashboard-wrapper">
+
+    <!-- Executive Hero & Company Banner Card -->
+    <section class="hero-card">
+      <div class="hero-cover" id="hero-cover">
+        <div class="hero-cover-overlay"></div>
+      </div>
+      <div class="hero-body">
+        <div class="hero-profile-row">
+          <div class="hero-logo-wrapper">
+            <img id="company-logo" class="company-logo" src="" alt="Company Logo">
+            <span class="verified-badge-icon" title="Verified Organization">
+              <svg class="icon"><use href="#icon-check-circle"></use></svg>
+            </span>
+          </div>
+
+          <div class="hero-title-section">
+            <div class="hero-header-line">
+              <h1 id="company-name" class="company-title">Loading...</h1>
+              <span class="badge badge-primary" id="company-type"></span>
+              <span class="badge badge-neutral" id="company-founded"></span>
+            </div>
+            <p id="company-tagline" class="company-tagline"></p>
+
+            <div class="hero-meta-strip">
+              <span class="meta-item">
+                <svg class="icon"><use href="#icon-briefcase"></use></svg>
+                <span id="company-industry">IT Services and IT Consulting</span>
+              </span>
+              <span class="meta-item">
+                <svg class="icon"><use href="#icon-map-pin"></use></svg>
+                <span id="company-primary-location"></span>
+              </span>
+              <a href="#" id="link-website" class="meta-link" target="_blank" rel="noopener noreferrer">
+                <svg class="icon"><use href="#icon-globe"></use></svg>
+                <span id="label-website"></span>
+                <svg class="icon-sm"><use href="#icon-external-link"></use></svg>
+              </a>
+              <a href="#" id="link-linkedin" class="meta-link" target="_blank" rel="noopener noreferrer">
+                <svg class="icon"><use href="#icon-external-link"></use></svg>
+                <span>LinkedIn Profile</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Executive Lead Dossier Preview Card -->
+          <div class="executive-lead-card" id="executive-card">
+            <div class="exec-card-header">
+              <div class="exec-avatar" id="exec-avatar"></div>
+              <div class="exec-identity">
+                <div class="exec-badge">EXECUTIVE LEAD</div>
+                <h3 class="exec-name" id="exec-name"></h3>
+                <p class="exec-title" id="exec-title"></p>
+              </div>
+            </div>
+            <div class="exec-details">
+              <div class="exec-meta" id="exec-quals-row">
+                <span class="exec-label">Qualifications:</span>
+                <span class="exec-value" id="exec-quals"></span>
+              </div>
+              <div class="exec-meta" id="exec-sector-row">
+                <span class="exec-label">Focus Sector:</span>
+                <span class="exec-value" id="exec-sector"></span>
+              </div>
+            </div>
+             <a href="#" id="exec-linkedin-btn" target="_blank" class="btn btn-outline btn-xs exec-btn" rel="noopener noreferrer">
+              <span>View Executive LinkedIn</span>
+              <svg class="icon-sm"><use href="#icon-external-link"></use></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Metrics Ribbon -->
+    <section class="kpi-grid">
+      <div class="kpi-card">
+        <div class="kpi-icon-box">
+          <svg class="icon"><use href="#icon-users"></use></svg>
+        </div>
+        <div class="kpi-content">
+           <div class="kpi-value" id="kpi-employees">-</div>
+           <div class="kpi-label">Total Employees</div>
+           <div class="kpi-subtext" id="kpi-employee-subtext"></div>
+         </div>
+      </div>
+
+      <div class="kpi-card">
+        <div class="kpi-icon-box">
+          <svg class="icon"><use href="#icon-trending-up"></use></svg>
+        </div>
+        <div class="kpi-content">
+          <div class="kpi-value" id="kpi-followers">-</div>
+          <div class="kpi-label">LinkedIn Followers</div>
+          <div class="kpi-subtext">Executive Audience</div>
+        </div>
+      </div>
+
+      <div class="kpi-card">
+        <div class="kpi-icon-box">
+          <svg class="icon"><use href="#icon-globe"></use></svg>
+        </div>
+        <div class="kpi-content">
+           <div class="kpi-value" id="kpi-locations">-</div>
+           <div class="kpi-label">Global Presence</div>
+           <div class="kpi-subtext" id="kpi-location-subtext"></div>
+         </div>
+      </div>
+
+      <div class="kpi-card">
+        <div class="kpi-icon-box">
+          <svg class="icon"><use href="#icon-cpu"></use></svg>
+        </div>
+        <div class="kpi-content">
+           <div class="kpi-value" id="kpi-tech-share">-</div>
+           <div class="kpi-label">Engineering Focus</div>
+           <div class="kpi-subtext" id="kpi-tech-subtext"></div>
+         </div>
+      </div>
+
+      <div class="kpi-card">
+        <div class="kpi-icon-box">
+          <svg class="icon"><use href="#icon-message-square"></use></svg>
+        </div>
+        <div class="kpi-content">
+          <div class="kpi-value" id="kpi-posts-count">10</div>
+          <div class="kpi-label">Verified Posts</div>
+          <div class="kpi-subtext">Active Executive Feed</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Enterprise Tab Navigation -->
+    <nav class="tab-navigation">
+      <button type="button" class="tab-btn active" data-tab="tab-overview">
+        <svg class="icon"><use href="#icon-briefcase"></use></svg>
+        <span>Executive Overview</span>
+      </button>
+      <button type="button" class="tab-btn" data-tab="tab-talent">
+        <svg class="icon"><use href="#icon-users"></use></svg>
+        <span>Talent &amp; Workforce Analytics</span>
+      </button>
+      <button type="button" class="tab-btn" data-tab="tab-map">
+        <svg class="icon"><use href="#icon-globe"></use></svg>
+        <span>Global Footprint</span>
+      </button>
+      <button type="button" class="tab-btn" data-tab="tab-posts">
+        <svg class="icon"><use href="#icon-message-square"></use></svg>
+        <span>Recent Updates &amp; Posts <span class="tab-counter" id="posts-tab-counter">-</span></span>
+      </button>
+      <button type="button" class="tab-btn" data-tab="tab-peers">
+        <svg class="icon"><use href="#icon-shield"></use></svg>
+        <span>Market Positioning &amp; Peers</span>
+      </button>
+    </nav>
+
+    <!-- Tab Panels Container -->
+    <main class="tab-content-container">
+
+      <!-- TAB 1: EXECUTIVE & CORPORATE OVERVIEW -->
+      <div class="tab-panel active" id="tab-overview">
+        <div class="two-col-grid">
+          <!-- Left Column: About & Mission -->
+          <div class="panel-card">
+            <div class="panel-header">
+              <div class="panel-title-group">
+                <svg class="icon"><use href="#icon-briefcase"></use></svg>
+                <h2>Company Dossier &amp; Value Proposition</h2>
+              </div>
+              <span class="badge badge-neutral">Overview</span>
+            </div>
+            <div class="panel-body">
+              <p id="company-description" class="lead-description">
+                Loading description...
+              </p>
+
+              <div class="divider"></div>
+
+              <h3 class="section-subtitle">Core Specialities &amp; Capabilities</h3>
+              <div id="specialities-container" class="tags-cluster">
+                <!-- Injected by JS -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Corporate Taxonomy & Quick Highlights -->
+          <div class="panel-card">
+            <div class="panel-header">
+              <div class="panel-title-group">
+                <svg class="icon"><use href="#icon-layers"></use></svg>
+                <h2>Corporate Taxonomy &amp; Registration</h2>
+              </div>
+            </div>
+            <div class="panel-body">
+              <div class="spec-table">
+                <div class="spec-row">
+                  <span class="spec-name">Legal Entity Name</span>
+                  <span class="spec-data" id="spec-legal-name"></span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-name">Universal Identifier</span>
+                  <span class="spec-data" id="spec-universal-id"></span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-name">Company Structure</span>
+                  <span class="spec-data" id="spec-structure"></span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-name">Founding Year</span>
+                  <span class="spec-data" id="spec-founded"></span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-name">Core Industry</span>
+                  <span class="spec-data" id="spec-industry"></span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-name">Industry Hierarchy</span>
+                  <span class="spec-data" id="spec-hierarchy"></span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-name">Operating Offices</span>
+                  <span class="spec-data" id="spec-offices-row"></span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-name">Official Website</span>
+                  <span class="spec-data"><a href="#" id="spec-website-link" target="_blank" class="text-link"></a></span>
+                </div>
+              </div>
+
+              <div class="strategic-card mt-4" id="strategic-highlight-card">
+                <div class="strat-header">
+                  <svg class="icon"><use href="#icon-award"></use></svg>
+                  <h4 id="strat-card-title"></h4>
+                </div>
+                <p class="strat-text" id="strat-card-text"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 2: TALENT & WORKFORCE ANALYTICS -->
+      <div class="tab-panel" id="tab-talent">
+        <div class="two-col-grid">
+          <!-- Department Function Breakdown -->
+          <div class="panel-card">
+             <div class="panel-header">
+              <div class="panel-title-group">
+                <svg class="icon"><use href="#icon-users"></use></svg>
+                <h2>Workforce Distribution by Department</h2>
+              </div>
+              <span class="badge badge-primary" id="workforce-badge"></span>
+            </div>
+            <div class="panel-body">
+              <div id="dept-distribution" class="analytics-bars">
+                <!-- Injected by JS -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Top Technical Skills & Academic Pipelines -->
+          <div class="panel-card">
+            <div class="panel-header">
+              <div class="panel-title-group">
+                <svg class="icon"><use href="#icon-cpu"></use></svg>
+                <h2>Core Engineering Skills &amp; Talent Pipeline</h2>
+              </div>
+            </div>
+            <div class="panel-body">
+              <h3 class="section-subtitle">Verified Technical Capabilities</h3>
+              <div id="skills-distribution" class="skills-cluster">
+                <!-- Injected by JS -->
+              </div>
+
+              <div class="divider"></div>
+
+              <h3 class="section-subtitle">Key Academic &amp; University Feeder Institutions</h3>
+              <div id="academic-pipeline" class="pipeline-list">
+                <!-- Injected by JS -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 3: GLOBAL PRESENCE & MAP -->
+      <div class="tab-panel" id="tab-map">
+        <div class="panel-card">
+          <div class="panel-header">
+            <div class="panel-title-group">
+              <svg class="icon"><use href="#icon-globe"></use></svg>
+              <h2>Global Operating Footprint</h2>
+            </div>
+            <div class="map-controls">
+              <span class="map-hint">Interactive Geographic Presence</span>
+              <div id="map-controls-dynamic" style="display:inline-flex;gap:0.5rem;flex-wrap:wrap;"></div>
+              <button type="button" class="btn btn-secondary btn-xs" id="map-zoom-reset">Global View</button>
+            </div>
+          </div>
+
+          <div class="panel-body">
+            <!-- Map Container -->
+            <div id="map-wrapper" class="map-wrapper">
+              <div id="map-svg-container" class="map-svg-container">
+                <!-- Detailed World Map SVG injected or loaded here -->
+              </div>
+              <div class="map-overlay-badge">
+                <span class="status-dot"></span> 2 Active Global Hubs
+              </div>
+            </div>
+
+            <!-- Operating Locations Cards — rendered dynamically by JS -->
+            <div class="locations-cards-grid mt-4" id="locations-cards-grid">
+              <!-- Dynamically populated by JS from company.locations -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 4: RECENT UPDATES & POSTS -->
+      <div class="tab-panel" id="tab-posts">
+        <div class="panel-card">
+          <div class="panel-header posts-panel-header">
+            <div class="panel-title-group">
+              <svg class="icon"><use href="#icon-message-square"></use></svg>
+              <h2>Executive &amp; Corporate Publications Feed</h2>
+            </div>
+
+            <!-- Feed Filter Controls -->
+            <div class="feed-filters">
+              <div class="search-input-box">
+                <svg class="icon-sm search-icon"><use href="#icon-search"></use></svg>
+                <input type="text" id="post-search-input" class="search-input" placeholder="Search posts (e.g. AI, Education, EdTech)...">
+              </div>
+
+              <select id="post-sort-select" class="filter-dropdown">
+                <option value="recent">Latest Publications</option>
+                <option value="reactions">Most Total Reactions</option>
+              </select>
+
+              <select id="post-media-filter" class="filter-dropdown">
+                <option value="all">All Media Types</option>
+                <option value="image">With Images Only</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="panel-body">
+            <div class="feed-stats-bar">
+              <span id="posts-showing-count">Showing posts...</span>
+              <span class="feed-badge">Scraped &amp; Verified</span>
+            </div>
+
+            <!-- Posts Grid -->
+            <div id="posts-container" class="posts-feed-grid">
+              <!-- Dynamically populated by JS -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 5: MARKET POSITIONING & PEERS -->
+      <div class="tab-panel" id="tab-peers">
+        <div class="panel-card">
+          <div class="panel-header">
+            <div class="panel-title-group">
+              <svg class="icon"><use href="#icon-shield"></use></svg>
+              <h2>Peer Benchmark &amp; Similar Organizations</h2>
+            </div>
+            <span class="badge badge-neutral">Ecosystem Analysis</span>
+          </div>
+          <div class="panel-body">
+            <p class="section-intro" id="peers-intro-text">
+              The following organizations operate in adjacent industry verticals.
+            </p>
+
+            <div id="peers-container" class="peers-grid mt-4">
+              <!-- Populated by JS -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <div class="footer-inner">
+        <div class="footer-left">
+           <span class="footer-brand">Momentro BA Intelligence Platform</span>
+           <span class="footer-meta" id="footer-meta">Dossier \u2022 Confidential \u2022 Generated for Enterprise Analysis</span>
+         </div>
+        <div class="footer-right">
+          <span class="footer-timestamp" id="footer-timestamp">Scraped: Verified Live</span>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Post Detail Modal Dialog -->
+  <div class="modal-backdrop hidden" id="post-modal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-author-info">
+          <img id="modal-author-logo" class="modal-author-img" src="" alt="Author">
+          <div>
+            <h4 id="modal-author-name" class="modal-author-title"></h4>
+            <span id="modal-post-time" class="modal-post-time">2w ago</span>
+          </div>
+        </div>
+        <button type="button" class="btn-close" id="btn-close-modal" title="Close Modal">
+          <svg class="icon"><use href="#icon-x"></use></svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div id="modal-image-wrapper" class="modal-img-wrapper hidden">
+          <img id="modal-post-image" class="modal-img" src="" alt="Post Visual">
+        </div>
+        <div id="modal-post-text" class="modal-text"></div>
+      </div>
+      <div class="modal-footer">
+        <div class="modal-reactions-group" id="modal-reactions"></div>
+        <a href="#" target="_blank" id="modal-linkedin-btn" class="btn btn-primary btn-sm" rel="noopener noreferrer">
+          <span>Open on LinkedIn</span>
+          <svg class="icon-sm"><use href="#icon-external-link"></use></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Raw JSON Intelligence Modal -->
+  <div class="modal-backdrop hidden" id="raw-modal">
+    <div class="modal-card modal-large">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <svg class="icon"><use href="#icon-code"></use></svg>
+          <h3>Verified Raw Dossier Payload</h3>
+        </div>
+        <button type="button" class="btn-close" id="btn-close-raw-modal" title="Close">
+          <svg class="icon"><use href="#icon-x"></use></svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre class="raw-code-block" id="raw-json-code">Loading raw payload...</pre>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary btn-sm" id="btn-copy-raw">Copy JSON</button>
+        <button type="button" class="btn btn-outline btn-sm" id="btn-dismiss-raw">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/report.js"></script>
+</body>
+</html>

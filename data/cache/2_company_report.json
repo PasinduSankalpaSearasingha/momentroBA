@@ -1,0 +1,1733 @@
+{
+  "lead_id": 2,
+  "full_name": "Almas Marikkar",
+  "company_name": "Bogawantalawa Tea",
+  "company_linkedin_url": "https://www.linkedin.com/company/bogawantalawa-tea/",
+  "scraped_at": "2026-09-11T05:13:19.311584+00:00",
+  "company": {
+    "id": "2685373",
+    "universalName": "bogawantalawa-tea",
+    "linkedinUrl": "https://www.linkedin.com/company/bogawantalawa-tea/",
+    "name": "Bogawantalawa Tea",
+    "tagline": " World’s 1st Uncompensated Climate Positive Tea Company",
+    "website": "https://www.bogawantalawa.com/",
+    "phone": {
+      "number": "+94114789999",
+      "extension": null
+    },
+    "logo": "https://media.licdn.com/dms/image/v2/D560BAQF_4O5zMi2L0Q/company-logo_400_400/company-logo_400_400/0/1704039768691/bogawantalawa_tea_logo?e=1790812800&v=beta&t=qCj0tfmqSZIvDrBBlwltMIbnNVtttRJazv7W4_kj4CE",
+    "foundedOn": {
+      "month": null,
+      "year": 1869,
+      "day": null
+    },
+    "employeeCount": 118,
+    "employeeCountRange": {
+      "start": 51,
+      "end": 200
+    },
+    "followerCount": 11612,
+    "description": "Established in 1869, Bogawantalawa Teas has achieved a distinguished position as the world’s first tea growing, manufacturing, and marketing company to offer Climate Positive Teas, certified for 100% renewables. Nestled in the iconic Golden Valley of Ceylon Tea, renowned for producing the richest and finest quality tealeaf, our plantations span 16,000 hectares across 11 estates.\n\n \n\nOur diverse range of teas, available in flavoured, herbal, and bulk forms, provides customers with the unparalleled experience of 'Garden Fresh Pure Ceylon Tea'. As a leading name in the tea industry, BPL Teas (Pvt) Ltd. excels in marketing a wide variety of Black and Green Teas in packets and tea bags, as well as catering to premium and gift\n\nOur range of teas are available in flavoured, herbal, and bulk forms offering our customers the opportunity of experiencing 'Garden Fresh Pure Ceylon Tea'​. BPL Teas (Pvt) Ltd.  We are experienced in marketing a wide range of Black Tea and Green Tea in packets and Tea Bags, while catering to premium and gift tea requirements, in parallel.\n\nBogawantalawa is a trusted private label partner of choice for several prestigious global supermarket chains and re-distributors. They work with us because of our quality philosophy of offering the best teas manufactured under stringent hygienic conditions.\n\nOur estates, factories and processing plants bear testaments to this philosophy has received the following international certifications for quality assurance, quality control, origin traceability, and food hygiene systems.\n\n# HACCP Certifications.\n# BRC Food Certification.\n# ISO 9001:2008 System Certification.\n# ISO 22000:2005 System Certification.\n# Fairtrade Certification.\n\nBogawantalawa is one of the world's most awarded tea export companies and has secured numerous awards. (Best Iced Tea Award continuously since 2004 and during the year 2005 we were awarded the Best Chai Iced Tea and Best Flavoured Iced Tea Awards at the World tea Expo exhibition in USA).",
+    "companyType": "Public Company",
+    "locations": [
+      {
+        "country": "LK",
+        "city": "Ragama",
+        "geographicArea": "Western",
+        "line1": "24 Parakrama Road, Mathumagala,",
+        "line2": null,
+        "postalCode": "11010",
+        "headquarter": true,
+        "description": "Export Processing Centre",
+        "parsed": {
+          "text": "Sri Lanka",
+          "countryCode": "LK",
+          "regionCode": null,
+          "country": "Sri Lanka",
+          "countryFull": "Sri Lanka"
+        }
+      },
+      {
+        "country": "LK",
+        "city": "Colombo 05",
+        "geographicArea": "Western",
+        "line1": "153 Nawala Road, Narahenpita,",
+        "line2": null,
+        "postalCode": "00500",
+        "headquarter": false,
+        "description": "Head Office",
+        "parsed": {
+          "text": "Colombo, Sri Lanka",
+          "countryCode": "LK",
+          "regionCode": null,
+          "country": "Sri Lanka",
+          "countryFull": "Sri Lanka",
+          "state": "Western Province",
+          "city": "Colombo"
+        }
+      }
+    ],
+    "specialities": [
+      "Trusted private label partner for leading tea brands around the world.",
+      "Innovation and quality in line with customer's requirements.",
+      "Flexibility with growing, processing, packaging and shipping from one source.",
+      "Internationally recognized certificates."
+    ],
+    "industries": [
+      {
+        "id": "23",
+        "name": "Food and Beverage Manufacturing",
+        "urn": "urn:li:fsd_industryV2:23",
+        "title": "Food and Beverage Manufacturing",
+        "hierarchy": "Manufacturing > Food and Beverage Manufacturing"
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://media.licdn.com/dms/image/v2/D560BAQF_4O5zMi2L0Q/company-logo_400_400/company-logo_400_400/0/1704039768691/bogawantalawa_tea_logo?e=1790812800&v=beta&t=qCj0tfmqSZIvDrBBlwltMIbnNVtttRJazv7W4_kj4CE",
+        "width": 400,
+        "height": 400
+      },
+      {
+        "url": "https://media.licdn.com/dms/image/v2/D560BAQF_4O5zMi2L0Q/company-logo_200_200/company-logo_200_200/0/1704039768691/bogawantalawa_tea_logo?e=1790812800&v=beta&t=YiCmRoFRrhZxhdnYON2XQsv5bT7kHmLWaYlWjk2a6ZM",
+        "width": 200,
+        "height": 200
+      },
+      {
+        "url": "https://media.licdn.com/dms/image/v2/D560BAQF_4O5zMi2L0Q/company-logo_100_100/company-logo_100_100/0/1704039768691/bogawantalawa_tea_logo?e=1790812800&v=beta&t=xsc-FqTJ72eLPB8U_ogcP3O3J7Vfwwq2TNMlVYJ1vXI",
+        "width": 100,
+        "height": 100
+      }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQFuIRwNnwWe1w/company-background_10000/company-background_10000/0/1734351808583/bogawantalawa_tea_cover?e=1789711200&v=beta&t=JHDU5IPXD8aBlN8VZepn-zc3AlAVjlX-5PPDO7EcUfg",
+    "backgroundCovers": [
+      {
+        "url": "https://media.licdn.com/dms/image/v2/D561BAQFuIRwNnwWe1w/company-background_10000/company-background_10000/0/1734351808583/bogawantalawa_tea_cover?e=1789711200&v=beta&t=JHDU5IPXD8aBlN8VZepn-zc3AlAVjlX-5PPDO7EcUfg",
+        "width": 3543,
+        "height": 600
+      },
+      {
+        "url": "https://media.licdn.com/dms/image/v2/D561BAQFuIRwNnwWe1w/company-background_400/company-background_400/0/1734351808583/bogawantalawa_tea_cover?e=1789711200&v=beta&t=JfNIsgcR_qc8cxq3NKyt3_le6sSJU8hPEKpOLQKm1lc",
+        "width": 400,
+        "height": 67
+      },
+      {
+        "url": "https://media.licdn.com/dms/image/v2/D561BAQFuIRwNnwWe1w/company-background_200/company-background_200/0/1734351808583/bogawantalawa_tea_cover?e=1789711200&v=beta&t=rISMFPwGzHJURcL5jQiQDzMv_6Waq3465-zSjVuUy6Y",
+        "width": 200,
+        "height": 33
+      }
+    ],
+    "pageVerified": true,
+    "pageType": "COMPANY",
+    "showcase": false,
+    "paidCompany": false,
+    "autoGenerated": false,
+    "callToActionUrl": "https://connect.bogawantalawa.com/",
+    "similarOrganizations": [],
+    "affiliatedPages": [],
+    "peopleStats": [
+      {
+        "statTitle": "Locations",
+        "values": [
+          {
+            "title": "Sri Lanka",
+            "count": 113
+          },
+          {
+            "title": "Western Province, Sri Lanka",
+            "count": 62
+          },
+          {
+            "title": "Colombo",
+            "count": 38
+          },
+          {
+            "title": "Central Province, Sri Lanka",
+            "count": 7
+          },
+          {
+            "title": "Ragama",
+            "count": 6
+          },
+          {
+            "title": "Sabaragamuwa Province, Sri Lanka",
+            "count": 4
+          },
+          {
+            "title": "Negombo",
+            "count": 4
+          },
+          {
+            "title": "Stockholm",
+            "count": 3
+          },
+          {
+            "title": "Stockholm County, Sweden",
+            "count": 3
+          },
+          {
+            "title": "Sweden",
+            "count": 3
+          },
+          {
+            "title": "Greater Stockholm Metropolitan Area",
+            "count": 3
+          },
+          {
+            "title": "Southern Province, Sri Lanka",
+            "count": 2
+          },
+          {
+            "title": "Gampaha",
+            "count": 2
+          },
+          {
+            "title": "Tashkent",
+            "count": 1
+          },
+          {
+            "title": "kandy",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "statTitle": "School",
+        "values": [
+          {
+            "title": "University of Colombo",
+            "count": 12
+          },
+          {
+            "title": "Cardiff Metropolitan University",
+            "count": 6
+          },
+          {
+            "title": "Institute of Chartered Accountants of Sri Lanka",
+            "count": 6
+          },
+          {
+            "title": "National Institute of Business Management (NIBM - Sri Lanka)",
+            "count": 5
+          },
+          {
+            "title": "University of Kelaniya Sri Lanka",
+            "count": 5
+          },
+          {
+            "title": "Chartered Institute of Personnel Management (CIPM).",
+            "count": 5
+          },
+          {
+            "title": "University of Sri Jayewardenepura",
+            "count": 5
+          },
+          {
+            "title": "Sri Lanka Institute of Marketing-SLIM",
+            "count": 4
+          },
+          {
+            "title": "Trinity College Kandy",
+            "count": 3
+          },
+          {
+            "title": "Bandaranayake Center for International Studies",
+            "count": 3
+          },
+          {
+            "title": "AAT Sri Lanka",
+            "count": 3
+          },
+          {
+            "title": "CIMA",
+            "count": 3
+          },
+          {
+            "title": "Open University of Sri Lanka",
+            "count": 3
+          },
+          {
+            "title": "SLIIT",
+            "count": 3
+          },
+          {
+            "title": "London Metropolitan University",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "statTitle": "Current Function",
+        "values": [
+          {
+            "title": "Operations",
+            "count": 19
+          },
+          {
+            "title": "Business Development",
+            "count": 18
+          },
+          {
+            "title": "Sales",
+            "count": 15
+          },
+          {
+            "title": "Marketing",
+            "count": 12
+          },
+          {
+            "title": "Information Technology",
+            "count": 9
+          },
+          {
+            "title": "Human Resources",
+            "count": 7
+          },
+          {
+            "title": "Accounting",
+            "count": 6
+          },
+          {
+            "title": "Media and Communication",
+            "count": 6
+          },
+          {
+            "title": "Administrative",
+            "count": 6
+          },
+          {
+            "title": "Purchasing",
+            "count": 5
+          },
+          {
+            "title": "Customer Success and Support",
+            "count": 5
+          },
+          {
+            "title": "Quality Assurance",
+            "count": 4
+          },
+          {
+            "title": "Community and Social Services",
+            "count": 4
+          },
+          {
+            "title": "Finance",
+            "count": 3
+          },
+          {
+            "title": "Arts and Design",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "statTitle": "Skill Explicit",
+        "values": [
+          {
+            "title": "Leadership",
+            "count": 22
+          },
+          {
+            "title": "Communication",
+            "count": 21
+          },
+          {
+            "title": "Management",
+            "count": 21
+          },
+          {
+            "title": "Project Management",
+            "count": 21
+          },
+          {
+            "title": "Business Strategy",
+            "count": 20
+          },
+          {
+            "title": "Microsoft Office",
+            "count": 17
+          },
+          {
+            "title": "Business Analysis",
+            "count": 16
+          },
+          {
+            "title": "Marketing",
+            "count": 16
+          },
+          {
+            "title": "Strategic Planning",
+            "count": 16
+          },
+          {
+            "title": "Customer Service",
+            "count": 16
+          },
+          {
+            "title": "Teamwork",
+            "count": 15
+          },
+          {
+            "title": "Customer Relationship Management (CRM)",
+            "count": 13
+          },
+          {
+            "title": "Financial Analysis",
+            "count": 12
+          },
+          {
+            "title": "Accounting",
+            "count": 11
+          },
+          {
+            "title": "Business Planning",
+            "count": 9
+          }
+        ]
+      },
+      {
+        "statTitle": "Service categories",
+        "values": [
+          {
+            "title": "Operations",
+            "count": 3
+          },
+          {
+            "title": "Consulting",
+            "count": 2
+          },
+          {
+            "title": "Information Technology",
+            "count": 2
+          },
+          {
+            "title": "Computer Networking",
+            "count": 2
+          },
+          {
+            "title": "Technical Support",
+            "count": 2
+          },
+          {
+            "title": "Brand Consulting",
+            "count": 1
+          },
+          {
+            "title": "Computer Repair",
+            "count": 1
+          },
+          {
+            "title": "Project Management",
+            "count": 1
+          },
+          {
+            "title": "Marketing",
+            "count": 1
+          },
+          {
+            "title": "Information Management",
+            "count": 1
+          },
+          {
+            "title": "Android Development",
+            "count": 1
+          },
+          {
+            "title": "Marketing Strategy",
+            "count": 1
+          },
+          {
+            "title": "Design",
+            "count": 1
+          },
+          {
+            "title": "Database Development",
+            "count": 1
+          },
+          {
+            "title": "Brand Design",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "statTitle": "Field of Study",
+        "values": [
+          {
+            "title": "Business Administration and Management, General",
+            "count": 17
+          },
+          {
+            "title": "Business/Commerce, General",
+            "count": 7
+          },
+          {
+            "title": "Accounting and Related Services",
+            "count": 7
+          },
+          {
+            "title": "Information Technology",
+            "count": 6
+          },
+          {
+            "title": "Accounting",
+            "count": 5
+          },
+          {
+            "title": "Accounting and Finance",
+            "count": 5
+          },
+          {
+            "title": "Accounting and Business/Management",
+            "count": 5
+          },
+          {
+            "title": "Human Resources Management/Personnel Administration, General",
+            "count": 5
+          },
+          {
+            "title": "Marketing/Marketing Management, General",
+            "count": 5
+          },
+          {
+            "title": "Marketing",
+            "count": 4
+          },
+          {
+            "title": "Communication, General",
+            "count": 3
+          },
+          {
+            "title": "Economics",
+            "count": 3
+          },
+          {
+            "title": "International Relations and Affairs",
+            "count": 3
+          },
+          {
+            "title": "Human Resources Management and Services",
+            "count": 3
+          },
+          {
+            "title": "Food Science and Technology",
+            "count": 2
+          }
+        ]
+      }
+    ],
+    "originalQuery": {
+      "search": "https://www.linkedin.com/company/bogawantalawa-tea/",
+      "location": ""
+    },
+    "requestId": "5f9f97fd-da14-49f2-b257-5f0c1707c1c1"
+  },
+  "company_post_count": 10,
+  "company_posts": [
+    {
+      "type": "post",
+      "id": "7503414199419604992",
+      "linkedinUrl": "https://www.linkedin.com/posts/bogawantalawa-tea_we-are-looking-for-a-talented-and-dynamic-activity-7503414199419604992-qP3Z",
+      "content": "We are looking for a talented and dynamic marketing professional to join our team. \nApply now careers@bogawantalawa.com",
+      "contentAttributes": [],
+      "author": {
+        "id": "2685373",
+        "universalName": "bogawantalawa-tea",
+        "publicIdentifier": null,
+        "type": "company",
+        "name": "Bogawantalawa Tea",
+        "linkedinUrl": "https://www.linkedin.com/company/bogawantalawa-tea/posts",
+        "info": "11,612 followers",
+        "website": "https://connect.bogawantalawa.com/",
+        "websiteLabel": "Contact us",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D560BAQF_4O5zMi2L0Q/company-logo_400_400/company-logo_400_400/0/1704039768691/bogawantalawa_tea_logo?e=1790812800&v=beta&t=qCj0tfmqSZIvDrBBlwltMIbnNVtttRJazv7W4_kj4CE",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "2685373",
+        "companyId": "2685373"
+      },
+      "postedAt": {
+        "timestamp": 1788953351836,
+        "date": "2026-09-09T11:29:11.836Z",
+        "postedAgoShort": "1d",
+        "postedAgoText": "1 day ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGcHy9lJqNSLg/feedshare-shrink_1280/B56aCF7c.aJEAQ-/0/1788953350467?e=1790812800&v=beta&t=jdPUCILvSix5CyhKmstmLHfBl9BFgsd3tYV6Ti3BeFI",
+          "width": 1280,
+          "height": 1810
+        }
+      ],
+      "socialContent": {
+        "hideCommentsCount": false,
+        "hideReactionsCount": false,
+        "hideSocialActivityCounts": false,
+        "hideShareAction": true,
+        "hideSendAction": true,
+        "hideRepostsCount": false,
+        "hideViewsCount": false,
+        "trustInterventionBanner": null,
+        "hideReactAction": false,
+        "hideCommentAction": false,
+        "shareUrl": "https://www.linkedin.com/posts/bogawantalawa-tea_we-are-looking-for-a-talented-and-dynamic-activity-7503414199419604992-qP3Z?",
+        "showContributionExperience": false,
+        "showSocialDetail": true
+      },
+      "header": {
+        "text": null
+      },
+      "entityId": "7503414199419604992",
+      "shareUrn": "urn:li:share:7503414198517952512",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7503414198517952512",
+      "engagement": {
+        "id": "7503414199419604992",
+        "likes": 52,
+        "comments": 0,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 50
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          }
+        ]
+      },
+      "reactionIds": [],
+      "commentIds": [],
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/company/bogawantalawa-tea/",
+        "sessionId": "3842fe91-39f2-409e-9e4b-d38fd86912a7"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7496468656781025280",
+      "linkedinUrl": "https://www.linkedin.com/posts/bogawantalawa-tea_ceylonteagardens-carbonneutral-bogawantalawa-activity-7496468656781025280-GkoH",
+      "content": "There’s no better gift to unwrap this Christmas than a moment of warmth.\nMake every day of this festive season a little more special with the Ceylon Tea Gardens Christmas Advent Calendar. \n\nA collection of purest Ceylon teas and blends of comforting herbal infusions, brings a touch of joy to every cup.\n \nPerfect for gifting, sharing with the loved ones or adding something special to your own holiday traditions, it's a Christmas surprise that keeps on giving.\n \nLimited Stock available, Place your order before September 15th. \n\nClick & Place your order –\nhello@ceylontgardens.com\nhttps://lnkd.in/gkiSb2du\n\n#CeylonTeaGardens #CarbonNeutral #Bogawantalawa #Sustainability #premiumtea #TeaLovers #EthicalSourcing #CeylonTea #Christmas #Gifting",
+      "contentAttributes": [],
+      "author": {
+        "id": "2685373",
+        "universalName": "bogawantalawa-tea",
+        "publicIdentifier": null,
+        "type": "company",
+        "name": "Bogawantalawa Tea",
+        "linkedinUrl": "https://www.linkedin.com/company/bogawantalawa-tea/posts",
+        "info": "11,612 followers",
+        "website": "https://connect.bogawantalawa.com/",
+        "websiteLabel": "Contact us",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D560BAQF_4O5zMi2L0Q/company-logo_400_400/company-logo_400_400/0/1704039768691/bogawantalawa_tea_logo?e=1790812800&v=beta&t=qCj0tfmqSZIvDrBBlwltMIbnNVtttRJazv7W4_kj4CE",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "2685373",
+        "companyId": "2685373"
+      },
+      "postedAt": {
+        "timestamp": 1787297405429,
+        "date": "2026-08-21T07:30:05.429Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQGQCJtcwSWLiw/videocover-high/B56aAi68MFJMBM-/0/1787292272710?e=1789711200&v=beta&t=Bg4UjTbJbEjqF4zMuNVv2vYFEoUwXOouthZKZrtlFb4",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D5605AQGQCJtcwSWLiw/mp4-720p-30fp-crf28/B56aAi68MFJMB8-/0/1787292273753?e=1789711200&v=beta&t=zrq1b6yJ-fLm_4F6JNxRkNibmhG2ex0nEt1A3jqjTrw"
+      },
+      "socialContent": {
+        "hideCommentsCount": false,
+        "hideReactionsCount": false,
+        "hideSocialActivityCounts": false,
+        "hideShareAction": true,
+        "hideSendAction": true,
+        "hideRepostsCount": false,
+        "hideViewsCount": false,
+        "trustInterventionBanner": null,
+        "hideReactAction": false,
+        "hideCommentAction": false,
+        "shareUrl": "https://www.linkedin.com/posts/bogawantalawa-tea_ceylonteagardens-carbonneutral-bogawantalawa-activity-7496468656781025280-GkoH?",
+        "showContributionExperience": false,
+        "showSocialDetail": true
+      },
+      "header": {
+        "text": null
+      },
+      "entityId": "7496468656781025280",
+      "shareUrn": "urn:li:ugcPost:7496447117750702080",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7496447117750702080",
+      "engagement": {
+        "id": "7496447117750702080",
+        "likes": 16,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 16
+          }
+        ]
+      },
+      "reactionIds": [],
+      "commentIds": [],
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/company/bogawantalawa-tea/",
+        "sessionId": "3842fe91-39f2-409e-9e4b-d38fd86912a7"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7495815585340088320",
+      "linkedinUrl": "https://www.linkedin.com/posts/bogawantalawa-tea_ceylonteagardens-tamimimarkets-climatepositiveteas-activity-7495815585340088320-Bn53",
+      "content": "Your next Ceylon tea moment is just a click away.\n\nBring home the taste of Ceylon with Ceylon Tea Gardens, available exclusively at Tamimi Markets, in store and online. \n\nDiscover the freshness, richness, and character of Ceylon Tea Gardens through a range of Black Teas, Green Teas, Flavoured Teas, and Herbal Infusions. From classic brews to refreshing infusions, every cup reflects over three decades of tea expertise and a commitment to quality from source to shelf.\n\nShop Ceylon Tea Gardens online today https://lnkd.in/gNb38VuY\n\n‫لحظاتك المثالية مع الشاي تبدأ بنقرة واحدة‬\n‫استمتع في منزلك بمذاق سيلان الأصيل مع Ceylon Tea Gardens، المتوفر حصريًا لدى أسواق التميمي، في المتاجر وعبر الإنترنت.‬\n‫‬\n‫اكتشفوا انتعاش وغنى وتميّز حدائق شاي سيلان من خلال تشكيلة مختارة من الشاي الأسود، والشاي الأخضر، والشاي المنكّه، والمشروبات العشبية المنقوعة‬\n‫من النكهات الكلاسيكية إلى المشروبات المنعشة، يعكس كل كوب أكثر من ثلاثة عقود من الخبرة في عالم الشاي والالتزام بالجودة من المصدر حتى وصوله إلى الرفوف‬\n‫اضغط واطلب شاي سيلاني الخاص بك اليوم !\n\nhttps://lnkd.in/gNb38VuY\n\n#CeylonTeaGardens #TamimiMarkets #ClimatePositiveTeas #Sustainability #CeylonTea #Tea #SaudiArabia #KSA",
+      "contentAttributes": [],
+      "author": {
+        "id": "2685373",
+        "universalName": "bogawantalawa-tea",
+        "publicIdentifier": null,
+        "type": "company",
+        "name": "Bogawantalawa Tea",
+        "linkedinUrl": "https://www.linkedin.com/company/bogawantalawa-tea/posts",
+        "info": "11,612 followers",
+        "website": "https://connect.bogawantalawa.com/",
+        "websiteLabel": "Contact us",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D560BAQF_4O5zMi2L0Q/company-logo_400_400/company-logo_400_400/0/1704039768691/bogawantalawa_tea_logo?e=1790812800&v=beta&t=qCj0tfmqSZIvDrBBlwltMIbnNVtttRJazv7W4_kj4CE",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "2685373",
+        "companyId": "2685373"
+      },
+      "postedAt": {
+        "timestamp": 1787141701064,
+        "date": "2026-08-19T12:15:01.064Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFoR6_G9VCOUQ/feedshare-shrink_1280/B56aAZ3aTzHcAM-/0/1787140352066?e=1790812800&v=beta&t=wsPasMfLUSeMohKqrFP6Ykyyn3yTRi9x4ITFWUgL28c",
+          "width": 1280,
+          "height": 1600
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQE3OZ77h43WXQ/feedshare-shrink_1280/B56aAZ3afKGgAQ-/0/1787140352822?e=1790812800&v=beta&t=nQU7HJGI4Xe2Jttr7rR0uProAHVrcYtPHPFx1eYCEr4",
+          "width": 1280,
+          "height": 1600
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQEL8PIvL0PeVA/feedshare-shrink_1280/B56aAZ3ae0HMAM-/0/1787140352761?e=1790812800&v=beta&t=2zRFzMMxQVHCejUTHgHhmWQ3ifxDpcazbmMV3nk7URQ",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "socialContent": {
+        "hideCommentsCount": false,
+        "hideReactionsCount": false,
+        "hideSocialActivityCounts": false,
+        "hideShareAction": true,
+        "hideSendAction": true,
+        "hideRepostsCount": false,
+        "hideViewsCount": false,
+        "trustInterventionBanner": null,
+        "hideReactAction": false,
+        "hideCommentAction": false,
+        "shareUrl": "https://www.linkedin.com/posts/bogawantalawa-tea_ceylonteagardens-tamimimarkets-climatepositiveteas-activity-7495815585340088320-Bn53?",
+        "showContributionExperience": false,
+        "showSocialDetail": true
+      },
+      "header": {
+        "text": null
+      },
+      "entityId": "7495815585340088320",
+      "shareUrn": "urn:li:ugcPost:7495809934140272640",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7495809934140272640",
+      "engagement": {
+        "id": "7495809934140272640",
+        "likes": 40,
+        "comments": 0,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 34
+          },
+          {
+            "type": "EMPATHY",
+            "count": 4
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          }
+        ]
+      },
+      "reactionIds": [],
+      "commentIds": [],
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/company/bogawantalawa-tea/",
+        "sessionId": "3842fe91-39f2-409e-9e4b-d38fd86912a7"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7500871961435189250",
+      "linkedinUrl": "https://www.linkedin.com/posts/bogawantalawa-tea_bogawantalawateas-celebrations-ceylontea-activity-7500871961435189250-Q10W",
+      "content": "Happy National Day, Vietnam!\n \nMay this special day be filled with joy, togetherness and memorable moments shared over a good cup of tea. \n\nWarmest wishes to the people of Vietnam from Bogawantalawa Teas.\n\n#BogawantalawaTeas #Celebrations #CeylonTea #Vietnam #Tea #Sustainability #ClimatePositive",
+      "contentAttributes": [],
+      "author": {
+        "id": "2685373",
+        "universalName": "bogawantalawa-tea",
+        "publicIdentifier": null,
+        "type": "company",
+        "name": "Bogawantalawa Tea",
+        "linkedinUrl": "https://www.linkedin.com/company/bogawantalawa-tea/posts",
+        "info": "11,612 followers",
+        "website": "https://connect.bogawantalawa.com/",
+        "websiteLabel": "Contact us",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D560BAQF_4O5zMi2L0Q/company-logo_400_400/company-logo_400_400/0/1704039768691/bogawantalawa_tea_logo?e=1790812800&v=beta&t=qCj0tfmqSZIvDrBBlwltMIbnNVtttRJazv7W4_kj4CE",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "2685373",
+        "companyId": "2685373"
+      },
+      "postedAt": {
+        "timestamp": 1788347235068,
+        "date": "2026-09-02T11:07:15.068Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQElsiEH_-dtCA/feedshare-shrink_1280/B56aBhzTSzG0AQ-/0/1788347233859?e=1790812800&v=beta&t=xI0-FbNMxNmQhDCx76QqWq7sVCTaQGJ-YR9aYw1g9ds",
+          "width": 1200,
+          "height": 1500
+        }
+      ],
+      "socialContent": {
+        "hideCommentsCount": false,
+        "hideReactionsCount": false,
+        "hideSocialActivityCounts": false,
+        "hideShareAction": true,
+        "hideSendAction": true,
+        "hideRepostsCount": false,
+        "hideViewsCount": false,
+        "trustInterventionBanner": null,
+        "hideReactAction": false,
+        "hideCommentAction": false,
+        "shareUrl": "https://www.linkedin.com/posts/bogawantalawa-tea_bogawantalawateas-celebrations-ceylontea-activity-7500871961435189250-Q10W?",
+        "showContributionExperience": false,
+        "showSocialDetail": true
+      },
+      "header": {
+        "text": null
+      },
+      "entityId": "7500871961435189250",
+      "shareUrn": "urn:li:share:7500871960571199490",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7500871960571199490",
+      "engagement": {
+        "id": "7500871961435189250",
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1
+          }
+        ]
+      },
+      "reactionIds": [],
+      "commentIds": [],
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/company/bogawantalawa-tea/",
+        "sessionId": "3842fe91-39f2-409e-9e4b-d38fd86912a7"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487550073510309888",
+      "linkedinUrl": "https://www.linkedin.com/posts/bogawantalawa-tea_bogawantalawateas-sustainability-tea-activity-7487550073510309888-IUqh",
+      "content": "A journey through the Golden Valley of Ceylon.\n \nDuring his visits to Sri Lanka, Bogawantalawa's Brand Ambassador for the Europe region, Stijn Van Schoonlandt, spent time across our estates to experience the people, places and processes behind 150 years of tea making.\n \nHis journey took him to the estates of the Golden Valley of Ceylon including Bogawantalawa, Bogawana, Kotiyagalla, Norwood, Loinorn, Wanarajah and Fettresso, where he experienced the growing conditions, cultivation and harvesting methods, tea manufacturing process, specialty teas that unique to Bogawantalawa Teas and what make us stands out among others. \n \nWith a deeper understanding of Bogawantalawa Teas from source to cup, combined with his extensive tea knowledge, this marks the beginning of a long and meaningful partnership, creating new opportunities to share our heritage, craftsmanship and exceptional teas with tea enthusiasts throughout the region.\n \nRobin Winter MBA (UK)DIP(NIPM) General Manager - Bogawana Estate, Mr. Nalinda De Alwis General Manager – Kotiyagalla Estate, Mr. Lasitha De Silva General Manager – Norwood Estate, Mr. Manoj Ramdas Dept. General Manager – Campion Estate, Zaman Imthiaz  MBA(UK), LSSBB, PMP, DIP(PM), FIPM - Dept. General Manager – Wanarajah Estate, Supun Seneviratne - Manager – Bogawantalawa Estate and Shanilka Liyanage - Manager – Fettresso Estate, Mr. Madhura Gamage - Senior Manager - Loinorn Estate, Riccardo Guneratne - General Manager Marketing. Ruvini Senarathna - Manager Marketing and Brand Development \n\n#BogawantalawaTeas #Sustainability #Tea #CeylonTea #Europe #TeaIndustry #LeaftoCup #TeaEstate #GoldenValleyOfCeylon #Ambassador",
+      "contentAttributes": [
+        {
+          "start": 137,
+          "length": 21,
+          "type": "PROFILE_MENTION",
+          "hyperlink": null,
+          "textLink": null,
+          "profile": {
+            "id": "ACoAAABFKwYBluVor7ERt0r1X_TFQaiXRhZ3oDI",
+            "firstName": "Stijn",
+            "lastName": "Van Schoonlandt",
+            "linkedinUrl": "https://www.linkedin.com/in/stijnvanschoonlandt",
+            "publicIdentifier": "stijnvanschoonlandt"
+          }
+        },
+        {
+          "start": 938,
+          "length": 30,
+          "type": "PROFILE_MENTION",
+          "hyperlink": null,
+          "textLink": null,
+          "profile": {
+            "id": "ACoAAEDkoxoBxn5Q4QKFvhQfU43S1PeDDZIIOws",
+            "firstName": "Robin",
+            "lastName": "Winter MBA (UK)DIP(NIPM)",
+            "linkedinUrl": "https://www.linkedin.com/in/robin-winter-mba-uk-dip-nipm-78a741264",
+            "publicIdentifier": "robin-winter-mba-uk-dip-nipm-78a741264"
+          }
+        },
+        {
+          "start": 1175,
+          "length": 49,
+          "type": "PROFILE_MENTION",
+          "hyperlink": null,
+          "textLink": null,
+          "profile": {
+            "id": "ACoAAAstd0EB6ZWmlNRcG6fB0Y_sWaXitiiokoQ",
+            "firstName": "Zaman",
+            "lastName": "Imthiaz  MBA(UK), LSSBB, PMP, DIP(PM), FIPM",
+            "linkedinUrl": "https://www.linkedin.com/in/zaman-imthiaz",
+            "publicIdentifier": "zaman-imthiaz"
+          }
+        },
+        {
+          "start": 1269,
+          "length": 17,
+          "type": "PROFILE_MENTION",
+          "hyperlink": null,
+          "textLink": null,
+          "profile": {
+            "id": "ACoAAEi2rrsBnmDci57a8-BCpLi2yGVuHvTkNjc",
+            "firstName": "Supun",
+            "lastName": "Seneviratne",
+            "linkedinUrl": "https://www.linkedin.com/in/supun-seneviratne-0a36772a0",
+            "publicIdentifier": "supun-seneviratne-0a36772a0"
+          }
+        },
+        {
+          "start": 1324,
+          "length": 17,
+          "type": "PROFILE_MENTION",
+          "hyperlink": null,
+          "textLink": null,
+          "profile": {
+            "id": "ACoAAEYGePwB_nj-yhNNw5jIYzkEttTREXkcGN4",
+            "firstName": "Shanilka",
+            "lastName": "Liyanage",
+            "linkedinUrl": "https://www.linkedin.com/in/shanilka-liyanage-0a4546289",
+            "publicIdentifier": "shanilka-liyanage-0a4546289"
+          }
+        },
+        {
+          "start": 1426,
+          "length": 18,
+          "type": "PROFILE_MENTION",
+          "hyperlink": null,
+          "textLink": null,
+          "profile": {
+            "id": "ACoAAAxlT9AB-2DKO6LgiKH_iECWHMZPfQWmZGI",
+            "firstName": "Riccardo",
+            "lastName": "Guneratne",
+            "linkedinUrl": "https://www.linkedin.com/in/riccardo-guneratne-95479259",
+            "publicIdentifier": "riccardo-guneratne-95479259"
+          }
+        },
+        {
+          "start": 1474,
+          "length": 17,
+          "type": "PROFILE_MENTION",
+          "hyperlink": null,
+          "textLink": null,
+          "profile": {
+            "id": "ACoAAAaxi-YBIoXLYy3jr2RmKY_gH4sWOzMZqiM",
+            "firstName": "Ruvini",
+            "lastName": "Senarathna",
+            "linkedinUrl": "https://www.linkedin.com/in/ruvini-senarathna",
+            "publicIdentifier": "ruvini-senarathna"
+          }
+        }
+      ],
+      "author": {
+        "id": "2685373",
+        "universalName": "bogawantalawa-tea",
+        "publicIdentifier": null,
+        "type": "company",
+        "name": "Bogawantalawa Tea",
+        "linkedinUrl": "https://www.linkedin.com/company/bogawantalawa-tea/posts",
+        "info": "11,612 followers",
+        "website": "https://connect.bogawantalawa.com/",
+        "websiteLabel": "Contact us",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D560BAQF_4O5zMi2L0Q/company-logo_400_400/company-logo_400_400/0/1704039768691/bogawantalawa_tea_logo?e=1790812800&v=beta&t=qCj0tfmqSZIvDrBBlwltMIbnNVtttRJazv7W4_kj4CE",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "2685373",
+        "companyId": "2685373"
+      },
+      "postedAt": {
+        "timestamp": 1785171049478,
+        "date": "2026-07-27T16:50:49.478Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQETwLrYdTBHIg/feedshare-image-high-res/B56Z.ke_QCHcAU-/0/1785171015432?e=1790812800&v=beta&t=S6yssyx4uDYGAsomOHYWuV_VA-N5orzZBuxuifuFjkg",
+          "width": 2048,
+          "height": 1362
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQEXFgcAAYaftQ/feedshare-image-high-res/B56Z.ke_sFGUAU-/0/1785171017178?e=1790812800&v=beta&t=pq8PZSEqzsklmvM73qJxUlYk3G5TK-KuuTwMq1QbWKU",
+          "width": 2048,
+          "height": 1362
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQE1I1SY1zwm8w/feedshare-shrink_1280/B56Z.kfBaoIQAM-/0/1785171024213?e=1790812800&v=beta&t=aHmC-CdwuH8l_QIbX5WGrXoe2qGB21pTBaxAIkjVYyY",
+          "width": 1280,
+          "height": 1923
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGFD5K5LZicTw/feedshare-shrink_1280/B56Z.kfE1PHYAM-/0/1785171038156?e=1790812800&v=beta&t=ejTSH1ZAw1GsX3INo0q-rzNUUijKJ9ZaW1LkL5mcfoc",
+          "width": 1280,
+          "height": 1628
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHZc8q98jKHqA/feedshare-shrink_1280/B56Z.kfG82JEAM-/0/1785171047030?e=1790812800&v=beta&t=zia-hvClM6IPIYCWteIBO3xc9qQQjBhN7wmMqHb0qcc",
+          "width": 1280,
+          "height": 1706
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGXqXSsCSEFoQ/feedshare-shrink_1280/B56Z.kfGd6HcAU-/0/1785171044954?e=1790812800&v=beta&t=MAdv3YhCqERJk_qwp7kIhHJ9aGl5KKZ_5dHNpdSZI-Q",
+          "width": 1280,
+          "height": 1587
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQF_3SBHCjgF1Q/feedshare-shrink_1280/B56Z.kfEIlGsAM-/0/1785171035440?e=1790812800&v=beta&t=tfoo1GYyspA0zPXNvXOHuk6F6iwAESDoPdfofVyhblA",
+          "width": 1280,
+          "height": 1706
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGbd5JeR397aA/feedshare-image-high-res/B56Z.kfChkK4AU-/0/1785171028952?e=1790812800&v=beta&t=jWZtISEco0SQsADi2cEnnwQghGmO5Z3GY_IasZeNRiQ",
+          "width": 2048,
+          "height": 1362
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHbgGioKD3TSg/feedshare-image-high-res/B56Z.kfBzqKAAU-/0/1785171025791?e=1790812800&v=beta&t=vJJyKw56UOf6i4IvKAnsSzLtiHIBotpP3IgoIMpbZ1M",
+          "width": 2048,
+          "height": 1362
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQH9oWjokAn55Q/feedshare-image-high-res/B56Z.ke_B5HcAU-/0/1785171014616?e=1790812800&v=beta&t=bjJ0e27fgr-6DwU09i_oeSqu9h2jFiLi680atiq8lSA",
+          "width": 2048,
+          "height": 1362
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQEU3ohTEIv5mg/feedshare-image-high-res/B56Z.kfAhyKoAY-/0/1785171020683?e=1790812800&v=beta&t=YjtAn2XBcbuuY34WsXoSPch0eUBDEO6ZRvI4ddX-spw",
+          "width": 2048,
+          "height": 1362
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHTX-CcmuIKGA/feedshare-image-high-res/B56Z.kfAiJJEAU-/0/1785171020734?e=1790812800&v=beta&t=ZRPFDhoYWYIpQ4bRYzDdeoZ12ssaWNEouec8h2uWk3w",
+          "width": 2048,
+          "height": 1362
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQEK6-dLAV_Y1w/feedshare-image-high-res/B56Z.ke.2wKAAY-/0/1785171013791?e=1790812800&v=beta&t=OtVGkWypvX-NHeYHfgp_Py1_HqutAwbG64IcjFLM5f8",
+          "width": 2048,
+          "height": 1362
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFY7cIa9PlEFg/feedshare-image-high-res/B56Z.kfBz.IQAU-/0/1785171025874?e=1790812800&v=beta&t=yuW5gZw0tmnMQ_KnWWJZFdOwSd05MZBqufni4K0UDkY",
+          "width": 2048,
+          "height": 1362
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQG8SaM9WhWZBA/feedshare-image-high-res/B56Z.kfBnPKIAU-/0/1785171025148?e=1790812800&v=beta&t=sgulUcW-myoG37nPT3YnSi9UNx4s9b0y9W299QMOpfM",
+          "width": 2048,
+          "height": 1362
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQEGmtf--TKSZA/feedshare-image-high-res/B56Z.kfB59KoAU-/0/1785171026515?e=1790812800&v=beta&t=TkJKn42uD0CQoN6MuAtQIjviKGQhIboZEmety3rMyzc",
+          "width": 2048,
+          "height": 1362
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGc0TkfZH6OoQ/feedshare-image-high-res/B56Z.kfABLGUAU-/0/1785171018425?e=1790812800&v=beta&t=D9RtUDrk1UcXM9no4pbJdOSoxcI4C-LHeRBFBSUXVXI",
+          "width": 2048,
+          "height": 1362
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFBagZmOC6MjQ/feedshare-image-high-res/B56Z.kfBWWG8AU-/0/1785171024005?e=1790812800&v=beta&t=kex411mDRaDb0j9tUP4wIrPZovvhQGR73dXWq_FGTBM",
+          "width": 2048,
+          "height": 1362
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFULizk3Ttvsw/feedshare-image-high-res/B56Z.kfBSPHYAc-/0/1785171023721?e=1790812800&v=beta&t=JucOeH8UatRU3t0o3Xj57hOEUouA6WTUiZkKnz8lyn8",
+          "width": 2048,
+          "height": 1362
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFFWxM4e4Lvqw/feedshare-image-high-res/B56Z.kfAAGKoAU-/0/1785171018565?e=1790812800&v=beta&t=a32gNaZvoZX-OqBD-YvTZMO1Y-KTM40SfrwUXGJpugI",
+          "width": 2048,
+          "height": 1362
+        }
+      ],
+      "socialContent": {
+        "hideCommentsCount": false,
+        "hideReactionsCount": false,
+        "hideSocialActivityCounts": false,
+        "hideShareAction": true,
+        "hideSendAction": true,
+        "hideRepostsCount": false,
+        "hideViewsCount": false,
+        "trustInterventionBanner": null,
+        "hideReactAction": false,
+        "hideCommentAction": false,
+        "shareUrl": "https://www.linkedin.com/posts/bogawantalawa-tea_bogawantalawateas-sustainability-tea-activity-7487550073510309888-IUqh?",
+        "showContributionExperience": false,
+        "showSocialDetail": true
+      },
+      "header": {
+        "text": null
+      },
+      "entityId": "7487550073510309888",
+      "shareUrn": "urn:li:ugcPost:7487550071903895552",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7487550071903895552",
+      "engagement": {
+        "id": "7487550071903895552",
+        "likes": 198,
+        "comments": 1,
+        "shares": 6,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 184
+          },
+          {
+            "type": "EMPATHY",
+            "count": 11
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          }
+        ]
+      },
+      "reactionIds": [],
+      "commentIds": [],
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/company/bogawantalawa-tea/",
+        "sessionId": "3842fe91-39f2-409e-9e4b-d38fd86912a7"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7502684264744890368",
+      "linkedinUrl": "https://www.linkedin.com/posts/bogawantalawa-tea_usa-bogawantalawa-bogawantalawatea-activity-7502684264744890368-7tkJ",
+      "content": "To everyone across the United States celebrating Labor Day, we extend our warmest wishes.\n\nToday is a moment to recognise the people who work hard, keep things moving and help build stronger communities. \nAs you take a well earned pause this Labor Day, we invite you to slow down and enjoy a moment for yourself with a warm cup of tea.\n\nHappy Labor Day to all who celebrate! \n\n#usa #Bogawantalawa #BogawantalawaTea #Sustainability #teacup #ceylon #laborday",
+      "contentAttributes": [],
+      "author": {
+        "id": "2685373",
+        "universalName": "bogawantalawa-tea",
+        "publicIdentifier": null,
+        "type": "company",
+        "name": "Bogawantalawa Tea",
+        "linkedinUrl": "https://www.linkedin.com/company/bogawantalawa-tea/posts",
+        "info": "11,612 followers",
+        "website": "https://connect.bogawantalawa.com/",
+        "websiteLabel": "Contact us",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D560BAQF_4O5zMi2L0Q/company-logo_400_400/company-logo_400_400/0/1704039768691/bogawantalawa_tea_logo?e=1790812800&v=beta&t=qCj0tfmqSZIvDrBBlwltMIbnNVtttRJazv7W4_kj4CE",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "2685373",
+        "companyId": "2685373"
+      },
+      "postedAt": {
+        "timestamp": 1788779321848,
+        "date": "2026-09-07T11:08:41.848Z",
+        "postedAgoShort": "3d",
+        "postedAgoText": "3 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQEK2smnWQRwKA/feedshare-shrink_1280/B56aB7jlMNJIAM-/0/1788779320370?e=1790812800&v=beta&t=9wY3BwHTtAd7DqjO9aadzRtY5IvWianB8iuL4NkfAx8",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "socialContent": {
+        "hideCommentsCount": false,
+        "hideReactionsCount": false,
+        "hideSocialActivityCounts": false,
+        "hideShareAction": true,
+        "hideSendAction": true,
+        "hideRepostsCount": false,
+        "hideViewsCount": false,
+        "trustInterventionBanner": null,
+        "hideReactAction": false,
+        "hideCommentAction": false,
+        "shareUrl": "https://www.linkedin.com/posts/bogawantalawa-tea_usa-bogawantalawa-bogawantalawatea-activity-7502684264744890368-7tkJ?",
+        "showContributionExperience": false,
+        "showSocialDetail": true
+      },
+      "header": {
+        "text": null
+      },
+      "entityId": "7502684264744890368",
+      "shareUrn": "urn:li:share:7502684263553654784",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7502684263553654784",
+      "engagement": {
+        "id": "7502684264744890368",
+        "likes": 5,
+        "comments": 0,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 4
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "reactionIds": [],
+      "commentIds": [],
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/company/bogawantalawa-tea/",
+        "sessionId": "3842fe91-39f2-409e-9e4b-d38fd86912a7"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7491485854842933249",
+      "linkedinUrl": "https://www.linkedin.com/posts/bogawantalawa-tea_bogawantalawateas-specialtyteas-wanarajahteaestate-activity-7491485854842933249-1KLr",
+      "content": "During his visit to the Bogawantalawa Estates, the Brand Ambassador for the Europe region, Stijn Van Schoonlandt, was invited to do more than experience our specialty teas. He became part of the legacy, giving a name to a tea whose story had waited generations to be told.\n \nThis signature specialty tea comes from the Manickawatta Division. Originating from seedling tea bushes first planted in the late 1800s, this signature tea remained unnoticed for generations before being rediscovered and carefully brought back to life by the skilled hands of the Wanarajah Estate tea makers.\n \nInvited by Zaman Imthiaz  MBA(UK), LSSBB, PMP, DIP(PM), FIPM General Manager of Wanarajah Estate to name the tea, Mr. Stijn saw more than a cup of tea. With his passion for storytelling, he connected its journey, a rare tea, hidden by time, born in a land known for its precious gems.  \n \nAnd so, it found its name.\n\nLost Gem.\n \nA name that honours not only the tea itself, but also the history beneath the soil.\n \n#BogawantalawaTeas #SpecialtyTeas #WanarajahTeaEstate #Europe #Tea #CeylonTeas",
+      "contentAttributes": [
+        {
+          "start": 91,
+          "length": 21,
+          "type": "PROFILE_MENTION",
+          "hyperlink": null,
+          "textLink": null,
+          "profile": {
+            "id": "ACoAAABFKwYBluVor7ERt0r1X_TFQaiXRhZ3oDI",
+            "firstName": "Stijn",
+            "lastName": "Van Schoonlandt",
+            "linkedinUrl": "https://www.linkedin.com/in/stijnvanschoonlandt",
+            "publicIdentifier": "stijnvanschoonlandt"
+          }
+        },
+        {
+          "start": 597,
+          "length": 49,
+          "type": "PROFILE_MENTION",
+          "hyperlink": null,
+          "textLink": null,
+          "profile": {
+            "id": "ACoAAAstd0EB6ZWmlNRcG6fB0Y_sWaXitiiokoQ",
+            "firstName": "Zaman",
+            "lastName": "Imthiaz  MBA(UK), LSSBB, PMP, DIP(PM), FIPM",
+            "linkedinUrl": "https://www.linkedin.com/in/zaman-imthiaz",
+            "publicIdentifier": "zaman-imthiaz"
+          }
+        }
+      ],
+      "author": {
+        "id": "2685373",
+        "universalName": "bogawantalawa-tea",
+        "publicIdentifier": null,
+        "type": "company",
+        "name": "Bogawantalawa Tea",
+        "linkedinUrl": "https://www.linkedin.com/company/bogawantalawa-tea/posts",
+        "info": "11,612 followers",
+        "website": "https://connect.bogawantalawa.com/",
+        "websiteLabel": "Contact us",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D560BAQF_4O5zMi2L0Q/company-logo_400_400/company-logo_400_400/0/1704039768691/bogawantalawa_tea_logo?e=1790812800&v=beta&t=qCj0tfmqSZIvDrBBlwltMIbnNVtttRJazv7W4_kj4CE",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "2685373",
+        "companyId": "2685373"
+      },
+      "postedAt": {
+        "timestamp": 1786109412871,
+        "date": "2026-08-07T13:30:12.871Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQG3X7fFN1taXA/feedshare-shrink_1280/B56Z_casG1G0AM-/0/1786109412086?e=1790812800&v=beta&t=lIbPhpyKq7Jh7i15Ylh8eCQ1LN2R29knoGm6kKTEl8I",
+          "width": 1200,
+          "height": 1500
+        }
+      ],
+      "socialContent": {
+        "hideCommentsCount": false,
+        "hideReactionsCount": false,
+        "hideSocialActivityCounts": false,
+        "hideShareAction": true,
+        "hideSendAction": true,
+        "hideRepostsCount": false,
+        "hideViewsCount": false,
+        "trustInterventionBanner": null,
+        "hideReactAction": false,
+        "hideCommentAction": false,
+        "shareUrl": "https://www.linkedin.com/posts/bogawantalawa-tea_bogawantalawateas-specialtyteas-wanarajahteaestate-activity-7491485854842933249-1KLr?",
+        "showContributionExperience": false,
+        "showSocialDetail": true
+      },
+      "header": {
+        "text": null
+      },
+      "entityId": "7491485854842933249",
+      "shareUrn": "urn:li:share:7491485853802950656",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7491485853802950656",
+      "engagement": {
+        "id": "7491485854842933249",
+        "likes": 106,
+        "comments": 1,
+        "shares": 6,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 95
+          },
+          {
+            "type": "EMPATHY",
+            "count": 9
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          }
+        ]
+      },
+      "reactionIds": [],
+      "commentIds": [],
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/company/bogawantalawa-tea/",
+        "sessionId": "3842fe91-39f2-409e-9e4b-d38fd86912a7"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7499108001992192000",
+      "linkedinUrl": "https://www.linkedin.com/posts/bogawantalawa-tea_bogawantalawateas-climatepositiveteas-europe-activity-7499108001992192000-mArE",
+      "content": "Bogawantalawa Teas will be at SIAL Paris 2026. \n \nFrom the heart of Ceylon to Europe, Bogawantalawa is bringing 150 years of tea heritage to SIAL Paris taking place from 17–21 October 2026.\n \nWe come to Paris with much to offer, from the World’s First Climate Positive Single Origin Teas that tell the story of our terroir, Specialty teas, tea pairing experiences and distinctive private label solutions. As a sustainable total value chain partner, we bring plant to cup tea solutions with 100% traceability. \n \nWe look forward to meeting new partners, exploring new opportunities and building long-term partnerships connecting innovation, quality and sustainability.\n \nVisit us at SIAL Paris 2026 and let’s create something meaningful together.\n\n#Bogawantalawateas #ClimatePositiveTeas #Europe #Retail #CeylonTea #SIALParis #SIALParis2026 #Sustainability #SustainableSourcing #PrivateLabel #TeaIndustry  #Foodservice #SpecialtyTea #EthicalSourcing #hotbeverages",
+      "contentAttributes": [
+        {
+          "start": 141,
+          "length": 10,
+          "type": "PROFILE_MENTION",
+          "hyperlink": null,
+          "textLink": null,
+          "profile": {
+            "id": "ACoAAELHAL8BhAtcGJfWopWkmc2pWN-z2K0cf3k",
+            "firstName": "SIAL",
+            "lastName": "Paris",
+            "linkedinUrl": "https://www.linkedin.com/in/sial-paris-993247273",
+            "publicIdentifier": "sial-paris-993247273"
+          }
+        }
+      ],
+      "author": {
+        "id": "2685373",
+        "universalName": "bogawantalawa-tea",
+        "publicIdentifier": null,
+        "type": "company",
+        "name": "Bogawantalawa Tea",
+        "linkedinUrl": "https://www.linkedin.com/company/bogawantalawa-tea/posts",
+        "info": "11,612 followers",
+        "website": "https://connect.bogawantalawa.com/",
+        "websiteLabel": "Contact us",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D560BAQF_4O5zMi2L0Q/company-logo_400_400/company-logo_400_400/0/1704039768691/bogawantalawa_tea_logo?e=1790812800&v=beta&t=qCj0tfmqSZIvDrBBlwltMIbnNVtttRJazv7W4_kj4CE",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "2685373",
+        "companyId": "2685373"
+      },
+      "postedAt": {
+        "timestamp": 1787926674364,
+        "date": "2026-08-28T14:17:54.364Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGvVCJPQIFbYw/feedshare-shrink_1280/B56aBIu_eZGsAM-/0/1787926673600?e=1790812800&v=beta&t=D2caRk2vcZJIv7ETmwydE5W7E0XmDSKsebbZxSrpbAY",
+          "width": 1200,
+          "height": 1500
+        }
+      ],
+      "socialContent": {
+        "hideCommentsCount": false,
+        "hideReactionsCount": false,
+        "hideSocialActivityCounts": false,
+        "hideShareAction": true,
+        "hideSendAction": true,
+        "hideRepostsCount": false,
+        "hideViewsCount": false,
+        "trustInterventionBanner": null,
+        "hideReactAction": false,
+        "hideCommentAction": false,
+        "shareUrl": "https://www.linkedin.com/posts/bogawantalawa-tea_bogawantalawateas-climatepositiveteas-europe-activity-7499108001992192000-mArE?",
+        "showContributionExperience": false,
+        "showSocialDetail": true
+      },
+      "header": {
+        "text": null
+      },
+      "entityId": "7499108001992192000",
+      "shareUrn": "urn:li:share:7499108000666701825",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7499108000666701825",
+      "engagement": {
+        "id": "7499108001992192000",
+        "likes": 48,
+        "comments": 0,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 46
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "reactionIds": [],
+      "commentIds": [],
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/company/bogawantalawa-tea/",
+        "sessionId": "3842fe91-39f2-409e-9e4b-d38fd86912a7"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7481334635776405505",
+      "linkedinUrl": "https://www.linkedin.com/posts/bogawantalawa-tea_bogawantalawateas-ceylontea-saudiarabia-activity-7481334635776405505-eXJH",
+      "content": "On the invitation of His Excellency Omar Lebbe Ameer Ajwad, Ambassador of Sri Lanka to the Kingdom of Saudi Arabia, Bogawantalawa Teas paid a courtesy visit at the Embassy of Sri Lanka in Riyadh.\n\nRepresenting Bogawantalawa Tea Ceylon were Almas Marikkar, Director and Chief Executive Officer, Anne Ranasinghe, Manager - Customer and Market Development, Middle East Region and Kabeer Tharick, Assistant Manager – Product Innovation and Infusions.  \n\nThe meeting provided a valuable opportunity to discuss strengthening Sri Lanka, Saudi Arabia trade relations through the continued growth of Ceylon Tea exports, while exploring opportunities to enhance the presence of the world's first climate positive teas in the Kingdom of Saudi Arabia.  \n\nThe exchange also highlighted Bogawantalawa Teas continued expansion into organically cultivated herbs and spices, including vanilla, ginger, cinnamon and turmeric, reflecting Sri Lanka's growing capabilities in premium, origin based agricultural products.  \n\nWe extend our sincere appreciation to His Excellency for his warm hospitality and valuable insights and look forward to contributing to the continued growth of Sri Lankan tea exports to the Kingdom of Saudi Arabia.  \n\n#BogawantalawaTeas #CeylonTea #SaudiArabia #Tea #ClimatePositiveTeas #Sustainability",
+      "contentAttributes": [
+        {
+          "start": 36,
+          "length": 22,
+          "type": "PROFILE_MENTION",
+          "hyperlink": null,
+          "textLink": null,
+          "profile": {
+            "id": "ACoAAAVLwrMBJD8ANbyiWcFGD3BVuwMaaGnpBic",
+            "firstName": "Omar Lebbe",
+            "lastName": "Ameer Ajwad",
+            "linkedinUrl": "https://www.linkedin.com/in/omar-lebbe-ameer-ajwad-58390a25",
+            "publicIdentifier": "omar-lebbe-ameer-ajwad-58390a25"
+          }
+        },
+        {
+          "start": 240,
+          "length": 14,
+          "type": "PROFILE_MENTION",
+          "hyperlink": null,
+          "textLink": null,
+          "profile": {
+            "id": "ACoAAANnOB0B0EwpvLm6xKokSLx2L_euNQAgRQs",
+            "firstName": "Almas",
+            "lastName": "Marikkar",
+            "linkedinUrl": "https://www.linkedin.com/in/almas-marikkar",
+            "publicIdentifier": "almas-marikkar"
+          }
+        },
+        {
+          "start": 294,
+          "length": 15,
+          "type": "PROFILE_MENTION",
+          "hyperlink": null,
+          "textLink": null,
+          "profile": {
+            "id": "ACoAACWnuFkB_iVLf6kSQOahoD_8Nvhfs8ZBhSA",
+            "firstName": "Anne",
+            "lastName": "Ranasinghe",
+            "linkedinUrl": "https://www.linkedin.com/in/anneranasinghe",
+            "publicIdentifier": "anneranasinghe"
+          }
+        },
+        {
+          "start": 377,
+          "length": 14,
+          "type": "PROFILE_MENTION",
+          "hyperlink": null,
+          "textLink": null,
+          "profile": {
+            "id": "ACoAAFH86T8BdJzEvs-XslRaaO3S_HCbDsJXsts",
+            "firstName": "Kabeer ",
+            "lastName": "Tharick ",
+            "linkedinUrl": "https://www.linkedin.com/in/kabeer-tharick-a7b7b3324",
+            "publicIdentifier": "kabeer-tharick-a7b7b3324"
+          }
+        }
+      ],
+      "author": {
+        "id": "2685373",
+        "universalName": "bogawantalawa-tea",
+        "publicIdentifier": null,
+        "type": "company",
+        "name": "Bogawantalawa Tea",
+        "linkedinUrl": "https://www.linkedin.com/company/bogawantalawa-tea/posts",
+        "info": "11,612 followers",
+        "website": "https://connect.bogawantalawa.com/",
+        "websiteLabel": "Contact us",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D560BAQF_4O5zMi2L0Q/company-logo_400_400/company-logo_400_400/0/1704039768691/bogawantalawa_tea_logo?e=1790812800&v=beta&t=qCj0tfmqSZIvDrBBlwltMIbnNVtttRJazv7W4_kj4CE",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "2685373",
+        "companyId": "2685373"
+      },
+      "postedAt": {
+        "timestamp": 1783689173645,
+        "date": "2026-07-10T13:12:53.645Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQG52WKqOuD4rw/feedshare-shrink_1280/B56Z9MKNOCHcAM-/0/1783689172124?e=1790812800&v=beta&t=gxb-Rm_ws62mwxrrWaZrqTPCOqsduEN5GMzW3Vwn3yA",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "socialContent": {
+        "hideCommentsCount": false,
+        "hideReactionsCount": false,
+        "hideSocialActivityCounts": false,
+        "hideShareAction": true,
+        "hideSendAction": true,
+        "hideRepostsCount": false,
+        "hideViewsCount": false,
+        "trustInterventionBanner": null,
+        "hideReactAction": false,
+        "hideCommentAction": false,
+        "shareUrl": "https://www.linkedin.com/posts/bogawantalawa-tea_bogawantalawateas-ceylontea-saudiarabia-activity-7481334635776405505-eXJH?",
+        "showContributionExperience": false,
+        "showSocialDetail": true
+      },
+      "header": {
+        "text": null
+      },
+      "entityId": "7481334635776405505",
+      "shareUrn": "urn:li:share:7481334634262241280",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7481334634262241280",
+      "engagement": {
+        "id": "7481334635776405505",
+        "likes": 143,
+        "comments": 6,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 128
+          },
+          {
+            "type": "PRAISE",
+            "count": 8
+          },
+          {
+            "type": "EMPATHY",
+            "count": 5
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "reactionIds": [],
+      "commentIds": [],
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/company/bogawantalawa-tea/",
+        "sessionId": "3842fe91-39f2-409e-9e4b-d38fd86912a7"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485326996747538432",
+      "linkedinUrl": "https://www.linkedin.com/posts/bogawantalawa-tea_bogawantalawatea-climatepositive-worldsfirstclimatepositivetea-activity-7485326996747538432-5aZU",
+      "content": "Welcoming an Ambassador to Represent the World's First Climate Positive Teas Across Europe.\n\nToday marks an important milestone in the global journey of Bogawantalawa Tea Ceylon as we officially welcomed Stijn Van Schoonlandt as the Brand Ambassador for Bogawantalawa Teas in the European region, formalized through the signing of a partnership agreement.\n\nA Certified International Tea Master and Tea Blender, entrepreneur, educator, a member of the Board of Directors of the European Specialty Tea Association and Regional Director – Europe of the International Tea Masters Association, Mr. Stijn has earned recognition within the global tea industry for his work in tea education, sensory evaluation and market development.\n\nHis experience extends beyond education, having represented tea at international events, collaborated with embassies to promote tea origins and worked closely with tea producers to strengthen their presence in European markets. His ability to combine tea expertise, authentic storytelling, commercial insight and industry relationships makes him a valuable partner as Bogawantalawa continues to grow its footprint across the region.\n\nAs the Brand Ambassador in Europe, Mr. Stijn will represent Bogawantalawa Teas at international exhibitions, conduct tea tastings and masterclasses, strengthen relationships with trade partners and share the story behind our teas with consumers and industry professionals. His role will help bring the heritage, craftsmanship and sustainability that define Bogawantalawa Teas to a wider audience across Europe.\n\nThe agreement was signed at the Bogawantalawa Tea Processing Centre in the presence of  Almas Marikkar, Director & CEO, Abhishek Ambani, Director of Overseas Operations and Ruvini Senarathna, Manager – Marketing & Brand Development, reflecting our continued commitment to expanding the presence of the world's first climate positive teas across Europe.\n\nThe event concluded with an exclusive tea tasting session featuring selections from the Bogawantalawa Luxury Collection, Ceylon Tea Gardens and our Specialty Tea range, offering Mr. Stijn the opportunity to experience the distinct character and craftsmanship behind each collection.\n\nWe are delighted to welcome Mr. Stijn Van Schoonlandt to represent Bogawantalawa. His knowledge, passion and extensive network within the global tea community will be instrumental as we continue introducing the world's first climate positive teas from the Golden Valley of Ceylon to discerning consumers across Europe.\n\n#BogawantalawaTea #ClimatePositive #WorldsFirstClimatePositiveTea #CeylonTea #PureCeylonTea #TeaIndustry #TeaMaster #TeaEducation #SpecialtyTea #SustainableTea #EthicalTea #RegenerativeAgriculture #Sustainability #TeaInnovation #BrandAmbassador #Europe #EuropeanMarket #GlobalPartnership #TeaTasting #TeaBlending #LuxuryTea #PremiumTea #TeaCulture #TeaProfessionals #FromEstateToCup #GoldenValleyOfCeylon #Fairtrade #OrganicTea #SriLanka #Bogawantalawa",
+      "contentAttributes": [
+        {
+          "start": 204,
+          "length": 21,
+          "type": "PROFILE_MENTION",
+          "hyperlink": null,
+          "textLink": null,
+          "profile": {
+            "id": "ACoAAABFKwYBluVor7ERt0r1X_TFQaiXRhZ3oDI",
+            "firstName": "Stijn",
+            "lastName": "Van Schoonlandt",
+            "linkedinUrl": "https://www.linkedin.com/in/stijnvanschoonlandt",
+            "publicIdentifier": "stijnvanschoonlandt"
+          }
+        },
+        {
+          "start": 1662,
+          "length": 14,
+          "type": "PROFILE_MENTION",
+          "hyperlink": null,
+          "textLink": null,
+          "profile": {
+            "id": "ACoAAANnOB0B0EwpvLm6xKokSLx2L_euNQAgRQs",
+            "firstName": "Almas",
+            "lastName": "Marikkar",
+            "linkedinUrl": "https://www.linkedin.com/in/almas-marikkar",
+            "publicIdentifier": "almas-marikkar"
+          }
+        },
+        {
+          "start": 1747,
+          "length": 17,
+          "type": "PROFILE_MENTION",
+          "hyperlink": null,
+          "textLink": null,
+          "profile": {
+            "id": "ACoAAAaxi-YBIoXLYy3jr2RmKY_gH4sWOzMZqiM",
+            "firstName": "Ruvini",
+            "lastName": "Senarathna",
+            "linkedinUrl": "https://www.linkedin.com/in/ruvini-senarathna",
+            "publicIdentifier": "ruvini-senarathna"
+          }
+        }
+      ],
+      "author": {
+        "id": "2685373",
+        "universalName": "bogawantalawa-tea",
+        "publicIdentifier": null,
+        "type": "company",
+        "name": "Bogawantalawa Tea",
+        "linkedinUrl": "https://www.linkedin.com/company/bogawantalawa-tea/posts",
+        "info": "11,612 followers",
+        "website": "https://connect.bogawantalawa.com/",
+        "websiteLabel": "Contact us",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D560BAQF_4O5zMi2L0Q/company-logo_400_400/company-logo_400_400/0/1704039768691/bogawantalawa_tea_logo?e=1790812800&v=beta&t=qCj0tfmqSZIvDrBBlwltMIbnNVtttRJazv7W4_kj4CE",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "2685373",
+        "companyId": "2685373"
+      },
+      "postedAt": {
+        "timestamp": 1784641026675,
+        "date": "2026-07-21T13:37:06.675Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGkYRZohUaS_w/feedshare-shrink_1280/B56Z.E5PDcIgAM-/0/1784641024600?e=1790812800&v=beta&t=H5wUD5CZ54jnjNXI3900DTYoWrf7RKq1USX_yj_JEvE",
+          "width": 1280,
+          "height": 1705
+        }
+      ],
+      "socialContent": {
+        "hideCommentsCount": false,
+        "hideReactionsCount": false,
+        "hideSocialActivityCounts": false,
+        "hideShareAction": true,
+        "hideSendAction": true,
+        "hideRepostsCount": false,
+        "hideViewsCount": false,
+        "trustInterventionBanner": null,
+        "hideReactAction": false,
+        "hideCommentAction": false,
+        "shareUrl": "https://www.linkedin.com/posts/bogawantalawa-tea_bogawantalawatea-climatepositive-worldsfirstclimatepositivetea-activity-7485326996747538432-5aZU?",
+        "showContributionExperience": false,
+        "showSocialDetail": true
+      },
+      "header": {
+        "text": null
+      },
+      "entityId": "7485326996747538432",
+      "shareUrn": "urn:li:share:7485326993454964736",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485326993454964736",
+      "engagement": {
+        "id": "7485326996747538432",
+        "likes": 73,
+        "comments": 5,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 63
+          },
+          {
+            "type": "PRAISE",
+            "count": 6
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "reactionIds": [],
+      "commentIds": [],
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/company/bogawantalawa-tea/",
+        "sessionId": "3842fe91-39f2-409e-9e4b-d38fd86912a7"
+      }
+    }
+  ]
+}

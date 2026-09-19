@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Details & Location Retriever | Smart Web Scraper</title>
+  <meta name="description" content="Extract verified emails, phone numbers, physical addresses, and social media from any website using Scrapy with Playwright fallback and OpenAI enrichment.">
+  
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient background glow elements -->
+  <div class="glow-orb glow-top"></div>
+  <div class="glow-orb glow-bottom"></div>
+
+  <div class="app-container">
+    <!-- Header -->
+    <header class="navbar">
+      <div class="brand">
+        <div class="brand-icon">
+          <i class="fa-solid fa-compass-drafting"></i>
+        </div>
+        <div>
+          <h1 class="brand-title">Contact & Location Retriever</h1>
+          <p class="brand-subtitle">Dual-Engine Scraper: Scrapy + Playwright Fallback + OpenAI</p>
+        </div>
+      </div>
+      
+      <div class="engine-pills">
+        <div class="pill pill-active" id="pill-scrapy" title="Fast crawler engine">
+          <span class="pill-dot"></span>
+          <i class="fa-solid fa-bolt"></i> Scrapy
+        </div>
+        <div class="pill pill-standby" id="pill-playwright" title="Headless browser fallback">
+          <span class="pill-dot"></span>
+          <i class="fa-solid fa-window-maximize"></i> Playwright Fallback
+        </div>
+        <div class="pill pill-ai" id="pill-ai" title="OpenAI entity enrichment">
+          <span class="pill-dot"></span>
+          <i class="fa-solid fa-brain"></i> OpenAI GPT
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Input Card -->
+    <section class="search-section">
+      <div class="search-card">
+        <form id="extract-form" class="search-form">
+          <div class="input-wrapper">
+            <i class="fa-solid fa-globe input-icon"></i>
+            <input 
+              type="text" 
+              id="url-input" 
+              placeholder="Enter website URL (e.g. https://example.com or stripe.com)" 
+              required
+              autocomplete="off"
+            />
+            <button type="submit" id="btn-submit" class="btn-primary">
+              <span class="btn-text"><i class="fa-solid fa-wand-magic-sparkles"></i> Retrieve Details</span>
+              <span class="btn-loader" style="display: none;"><i class="fa-solid fa-spinner fa-spin"></i> Crawling...</span>
+            </button>
+          </div>
+
+          <div class="search-options">
+            <div class="quick-examples">
+              <span class="quick-label">Try example:</span>
+              <button type="button" class="quick-chip" data-url="https://openai.com">OpenAI</button>
+              <button type="button" class="quick-chip" data-url="https://stripe.com">Stripe</button>
+              <button type="button" class="quick-chip" data-url="https://github.com">GitHub</button>
+            </div>
+
+            <label class="toggle-container" title="Force dynamic browser rendering using Playwright directly">
+              <input type="checkbox" id="force-playwright-toggle">
+              <span class="toggle-slider"></span>
+              <span class="toggle-label"><i class="fa-solid fa-browser"></i> Force Playwright</span>
+            </label>
+          </div>
+        </form>
+
+        <!-- Dynamic Live Stepper Tracker -->
+        <div id="pipeline-status" class="pipeline-status" style="display: none;">
+          <div class="pipeline-header">
+            <span class="pipeline-title"><i class="fa-solid fa-circle-nodes"></i> Extraction Pipeline</span>
+            <span id="pipeline-current-log" class="pipeline-log">Initializing spider...</span>
+          </div>
+          <div class="pipeline-steps">
+            <div class="step step-active" id="step-connect">
+              <div class="step-num"><i class="fa-solid fa-network-wired"></i></div>
+              <span>Connecting</span>
+            </div>
+            <div class="step-line" id="line-1"></div>
+            <div class="step" id="step-crawl">
+              <div class="step-num"><i class="fa-solid fa-spider"></i></div>
+              <span id="step-crawl-label">Scrapy Crawl</span>
+            </div>
+            <div class="step-line" id="line-2"></div>
+            <div class="step" id="step-parse">
+              <div class="step-num"><i class="fa-solid fa-filter"></i></div>
+              <span>Parsing Microdata</span>
+            </div>
+            <div class="step-line" id="line-3"></div>
+            <div class="step" id="step-ai">
+              <div class="step-num"><i class="fa-solid fa-microchip"></i></div>
+              <span>OpenAI Synthesis</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Error Alert Box -->
+    <div id="error-banner" class="error-banner" style="display: none;">
+      <i class="fa-solid fa-triangle-exclamation"></i>
+      <div class="error-content">
+        <strong id="error-title">Retrieval Failed</strong>
+        <p id="error-desc"></p>
+      </div>
+      <button class="error-close" id="btn-error-close"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+
+    <!-- Results Section -->
+    <main id="results-container" class="results-container" style="display: none;">
+      <!-- Results Top Bar / Audit Trail -->
+      <div class="results-header-card">
+        <div class="company-profile">
+          <div class="company-badge" id="res-company-badge"><i class="fa-solid fa-building"></i></div>
+          <div>
+            <div class="company-heading">
+              <h2 id="res-company-name" class="company-title">Company Name</h2>
+              <a href="#" target="_blank" id="res-website-link" class="company-url">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> <span id="res-website-text"></span>
+              </a>
+            </div>
+            <p id="res-company-desc" class="company-desc"></p>
+          </div>
+        </div>
+
+        <div class="audit-metrics">
+          <div class="metric-item">
+            <span class="metric-label">Scraper Used</span>
+            <span class="metric-value badge-method" id="res-method">Scrapy</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-label">Execution Time</span>
+            <span class="metric-value" id="res-time">0.0s</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-label">Pages Crawled</span>
+            <span class="metric-value" id="res-pages-count">0</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-label">AI Refined</span>
+            <span class="metric-value badge-ai" id="res-ai-status">Yes</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fallback Notice (visible only if Playwright fallback was triggered) -->
+      <div id="fallback-notice" class="fallback-notice" style="display: none;">
+        <i class="fa-solid fa-shield-halved"></i>
+        <span><strong>Playwright Fallback Activated:</strong> <span id="fallback-reason-text"></span></span>
+      </div>
+
+      <!-- Verified Contact Topics (Two-Stage AI Extraction) -->
+      <div id="topics-notice" class="topics-notice" style="display: none;">
+        <i class="fa-solid fa-bullseye"></i>
+        <div class="topics-notice-content">
+          <strong>OpenAI Verified Contact Section(s):</strong>
+          <span id="verified-topics-tags" class="topics-tags-container"></span>
+        </div>
+      </div>
+
+      <!-- Result Cards Grid -->
+      <div class="results-grid">
+        
+        <!-- Locations & Offices Card -->
+        <div class="grid-card location-card">
+          <div class="card-header">
+            <div class="card-title">
+              <i class="fa-solid fa-location-dot"></i>
+              <h3>Locations & Physical Addresses</h3>
+            </div>
+            <span class="counter-badge" id="count-locations">0</span>
+          </div>
+          <div class="card-body" id="locations-list">
+            <!-- Locations will be injected here -->
+          </div>
+        </div>
+
+        <!-- Contact Methods Card (Emails & Phones) -->
+        <div class="grid-card contact-card">
+          <div class="card-header">
+            <div class="card-title">
+              <i class="fa-solid fa-address-book"></i>
+              <h3>Direct Contacts</h3>
+            </div>
+          </div>
+          <div class="card-body">
+            <!-- Emails -->
+            <div class="sub-section">
+              <div class="sub-header">
+                <span class="sub-title"><i class="fa-solid fa-envelope"></i> Email Addresses</span>
+                <span class="counter-badge" id="count-emails">0</span>
+              </div>
+              <div class="chips-container" id="emails-list"></div>
+            </div>
+
+            <!-- Phone Numbers -->
+            <div class="sub-section">
+              <div class="sub-header">
+                <span class="sub-title"><i class="fa-solid fa-phone"></i> Phone Numbers</span>
+                <span class="counter-badge" id="count-phones">0</span>
+              </div>
+              <div class="chips-container" id="phones-list"></div>
+            </div>
+
+            <!-- Operating Hours -->
+            <div class="sub-section" id="hours-container" style="display: none;">
+              <div class="sub-header">
+                <span class="sub-title"><i class="fa-solid fa-clock"></i> Operating Hours</span>
+              </div>
+              <p class="hours-text" id="res-hours"></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Social Channels & Web Presence -->
+        <div class="grid-card social-card">
+          <div class="card-header">
+            <div class="card-title">
+              <i class="fa-solid fa-share-nodes"></i>
+              <h3>Social Networks & Profiles</h3>
+            </div>
+            <span class="counter-badge" id="count-socials">0</span>
+          </div>
+          <div class="card-body">
+            <div class="socials-list" id="socials-list"></div>
+          </div>
+        </div>
+
+        <!-- Pages Crawled & Discovered Links -->
+        <div class="grid-card pages-card">
+          <div class="card-header">
+            <div class="card-title">
+              <i class="fa-solid fa-link"></i>
+              <h3>Discovered Contact Subpages</h3>
+            </div>
+            <span class="counter-badge" id="count-pages">0</span>
+          </div>
+          <div class="card-body">
+            <ul class="crawled-links-list" id="pages-list"></ul>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Action Toolbar (Export / Copy) -->
+      <div class="action-toolbar">
+        <div class="toolbar-left">
+          <button id="btn-copy-all" class="btn-action">
+            <i class="fa-solid fa-copy"></i> Copy Summary
+          </button>
+        </div>
+        <div class="toolbar-right">
+          <button id="btn-export-json" class="btn-action">
+            <i class="fa-solid fa-file-code"></i> Export JSON
+          </button>
+          <button id="btn-export-csv" class="btn-action">
+            <i class="fa-solid fa-file-csv"></i> Export CSV
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <!-- Session History Section -->
+    <section class="history-section" id="history-section">
+      <div class="section-title-wrap">
+        <h3 class="section-title"><i class="fa-solid fa-clock-rotate-left"></i> Recent Retrievals</h3>
+      </div>
+      <div class="history-grid" id="history-grid">
+        <p class="empty-text">No previous searches in this session yet.</p>
+      </div>
+    </section>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">
+      <i class="fa-solid fa-check"></i>
+      <span id="toast-text">Copied to clipboard!</span>
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

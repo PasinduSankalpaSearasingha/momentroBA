@@ -1,0 +1,1916 @@
+{
+  "lead_id": 1,
+  "full_name": "Rajive Silva (FCMA (UK), CGMA)",
+  "company_name": "Azend Technologies",
+  "company_linkedin_url": "https://www.linkedin.com/company/azend-technologies/",
+  "scraped_at": "2026-09-07T09:11:54.238718+00:00",
+  "company": {
+    "id": "73851854",
+    "universalName": "azend-technologies",
+    "linkedinUrl": "https://www.linkedin.com/company/azend-technologies/",
+    "name": "Azend Technologies",
+    "tagline": "Venture Product Builder",
+    "website": "https://azendtech.com/",
+    "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQESyqsMsPFm9A/company-logo_400_400/company-logo_400_400/0/1653872977261?e=1790208000&v=beta&t=JtLEIwekQtiDkBNiuVRpn0mxYbCBSwsXCEvmwUz_NiQ",
+    "foundedOn": {
+      "month": null,
+      "year": 2021,
+      "day": null
+    },
+    "employeeCount": 63,
+    "employeeCountRange": {
+      "start": 11,
+      "end": 50
+    },
+    "followerCount": 20431,
+    "description": "Azend Technologies is a venture product builder specializing in transforming bold ideas into scalable, enterprise-grade digital products. Founded in 2021, we partner with organizations across the world to design, develop, and scale innovative solutions in education, franchise technology, fintech, banking, and professional services. \n\nOur team of technology professionals brings deep expertise from leading global organizations, combining strategic product thinking with technical excellence to build ventures that make an impact. \n\nFrom concept to launch and beyond, we don't just write code, we empower our partners and clients to turn ambitious visions into market-ready products that drive real transformation.",
+    "companyType": "Privately Held",
+    "locations": [
+      {
+        "country": "US",
+        "city": "Wyoming",
+        "geographicArea": null,
+        "line1": null,
+        "line2": null,
+        "postalCode": null,
+        "headquarter": true,
+        "description": "Sales Office",
+        "parsed": {
+          "text": "WY, United States",
+          "countryCode": "US",
+          "regionCode": null,
+          "country": "United States",
+          "countryFull": "United States of America",
+          "state": "Wyoming"
+        }
+      },
+      {
+        "country": "LK",
+        "city": "Colombo",
+        "geographicArea": "Western",
+        "line1": null,
+        "line2": null,
+        "postalCode": "10100",
+        "headquarter": false,
+        "description": "Development Office",
+        "parsed": {
+          "text": "Colombo, Sri Lanka",
+          "countryCode": "LK",
+          "regionCode": null,
+          "country": "Sri Lanka",
+          "countryFull": "Sri Lanka",
+          "state": "Western Province",
+          "city": "Colombo"
+        }
+      }
+    ],
+    "specialities": [
+      "MVP Development",
+      "Software Engineering",
+      "IT Consultancy",
+      "Digital Products",
+      "Edtech",
+      "Franchising",
+      "Fintech"
+    ],
+    "industries": [
+      {
+        "id": "96",
+        "name": "IT Services and IT Consulting",
+        "urn": "urn:li:fsd_industryV2:96",
+        "title": "IT Services and IT Consulting",
+        "hierarchy": "Professional Services > IT Services and IT Consulting"
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://media.licdn.com/dms/image/v2/C4D0BAQESyqsMsPFm9A/company-logo_400_400/company-logo_400_400/0/1653872977261?e=1790208000&v=beta&t=JtLEIwekQtiDkBNiuVRpn0mxYbCBSwsXCEvmwUz_NiQ",
+        "width": 400,
+        "height": 400
+      },
+      {
+        "url": "https://media.licdn.com/dms/image/v2/C4D0BAQESyqsMsPFm9A/company-logo_200_200/company-logo_200_200/0/1653872977261?e=1790208000&v=beta&t=sT1vkcqafGgsf-5VsadH8iJFze4Aqwh9qqnT_FfDBVs",
+        "width": 200,
+        "height": 200
+      },
+      {
+        "url": "https://media.licdn.com/dms/image/v2/C4D0BAQESyqsMsPFm9A/company-logo_100_100/company-logo_100_100/0/1653872977261?e=1790208000&v=beta&t=5bUjBFwhbAY60PxGi2Wu81qb7DxoOdPnITJ0UGvk42Q",
+        "width": 100,
+        "height": 100
+      }
+    ],
+    "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQHAHgs6koonhQ/company-background_10000/company-background_10000/0/1736390541417/azend_technologies_cover?e=1789380000&v=beta&t=UAf-4tR6uEvQHmxAF2x_wmTE9jVjW1bxT4e9JUH4MsA",
+    "backgroundCovers": [
+      {
+        "url": "https://media.licdn.com/dms/image/v2/D561BAQHAHgs6koonhQ/company-background_10000/company-background_10000/0/1736390541417/azend_technologies_cover?e=1789380000&v=beta&t=UAf-4tR6uEvQHmxAF2x_wmTE9jVjW1bxT4e9JUH4MsA",
+        "width": 1128,
+        "height": 191
+      },
+      {
+        "url": "https://media.licdn.com/dms/image/v2/D561BAQHAHgs6koonhQ/company-background_400/company-background_400/0/1736390541417/azend_technologies_cover?e=1789380000&v=beta&t=l9JpxuUL9miC932QB64K3V-Dz2b5RJRk7P7Ny9eNWi8",
+        "width": 400,
+        "height": 67
+      },
+      {
+        "url": "https://media.licdn.com/dms/image/v2/D561BAQHAHgs6koonhQ/company-background_200/company-background_200/0/1736390541417/azend_technologies_cover?e=1789380000&v=beta&t=nW7JzbelavxjMUXNZo95HwWPk9KaRDVCM3SuqYDlfWA",
+        "width": 200,
+        "height": 33
+      }
+    ],
+    "active": true,
+    "jobSearchUrl": "https://www.linkedin.com/jobs/search?geoId=92000000&f_C=73851854",
+    "pageVerified": true,
+    "pageType": "COMPANY",
+    "showcase": false,
+    "paidCompany": false,
+    "autoGenerated": false,
+    "callToActionUrl": "https://azendtech.com",
+    "similarOrganizations": [
+      {
+        "id": "81900720",
+        "universalName": "courallc",
+        "linkedinUrl": "https://www.linkedin.com/company/courallc/",
+        "name": "Coura",
+        "website": null,
+        "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQFVYLJuVBa5SA/company-logo_400_400/company-logo_400_400/0/1726167419150/courallc_logo?e=1790208000&v=beta&t=gRobuvW3zsGmFP2Nd3QCF7GdHGiWea_jUZyyF6-zRuU",
+        "employeeCountRange": {
+          "start": 11,
+          "end": 50
+        },
+        "followerCount": 319,
+        "description": "Coura is a founder product strategy studio for first-time, non-technical software founders.\n\nWe help founders make clearer product, positioning, go-to-market, and fundraising decisions before they build, so they can move forward with more confidence, protect the integrity of their vision, and avoid costly early mistakes.\n\nOur clients are often domain experts, experienced operators, and underrepresented founders, translating deep expertise into a technology product for the first time. They understand the problem they're trying to solve, but what they need is strategic guidance on what to build first, what to leave out, how to position the product clearly, and how to align product, go-to-market, and fundraising decisions early.\n\nOur work helps founders define a focused MVP, sharpen the value proposition, evaluate roadmap trade-offs, assess traction after the MVP, and strengthen the narrative behind the business.\n\nCoura\u2019s work is advisory-led and discovery-first. In select cases, founders can continue working with us through a limited number of product-build partnerships.\n\nIf you are building your first software product and want to make smarter decisions before development begins, Coura was built for you.",
+        "industries": [
+          {
+            "id": "4",
+            "name": "Software Development",
+            "urn": "urn:li:fsd_industryV2:4",
+            "title": "Software Development",
+            "hierarchy": "Technology, Information and Media > Technology, Information and Internet > Software Development"
+          }
+        ],
+        "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQG5a32QNm0UHg/company-background_10000/B56Zz8xjqTIMAU-/0/1773767380910/courallc_cover?e=1789380000&v=beta&t=Jd0H5yyDKbxMAqwFLid9rMbxDoBN_ayhuWt3RngYBKM",
+        "callToActionUrl": null,
+        "affiliatedPages": []
+      },
+      {
+        "id": "82588875",
+        "universalName": "expernetic",
+        "linkedinUrl": "https://www.linkedin.com/company/expernetic/",
+        "name": "Expernetic",
+        "website": null,
+        "logo": "https://media.licdn.com/dms/image/v2/D560BAQGjzaDERi3jMA/company-logo_400_400/company-logo_400_400/0/1665971738521/expernetic_logo?e=1790208000&v=beta&t=Aagzj88DFyZb16K-_f34SP7nQIUCULIm2Nmpv_mAEMg",
+        "employeeCountRange": {
+          "start": 11,
+          "end": 50
+        },
+        "followerCount": 11341,
+        "description": "Expernetic is a software development and IT consulting company based in Colombo, Sri Lanka. We partner with businesses around the world to turn ideas into scalable digital products and reliable systems, from web and mobile applications to complex integrations.\n \nWe work across industries including manufacturing, SaaS, finance, IT services, and more, helping organizations streamline operations, improve performance, and achieve growth. By asking the right questions and making practical technical decisions, we focus on delivering solutions that drive real impact rather than just features.\n \nFrom concept to conversion, we build with purpose.",
+        "industries": [
+          {
+            "id": "96",
+            "name": "IT Services and IT Consulting",
+            "urn": "urn:li:fsd_industryV2:96",
+            "title": "IT Services and IT Consulting",
+            "hierarchy": "Professional Services > IT Services and IT Consulting"
+          }
+        ],
+        "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQFZ9bPMEm4luw/company-background_10000/company-background_10000/0/1712813599305/expernetic_cover?e=1789380000&v=beta&t=-l5SRFimUP93cJ6NyMVZ7u4VN_0wubh6xjV7eZzJVIw",
+        "callToActionUrl": null,
+        "affiliatedPages": []
+      },
+      {
+        "id": "106375552",
+        "universalName": "igt-i-lanka",
+        "linkedinUrl": "https://www.linkedin.com/company/igt-i-lanka/",
+        "name": "IGT1",
+        "website": null,
+        "logo": "https://media.licdn.com/dms/image/v2/D560BAQFZsifsgdxTkw/company-logo_400_400/B56ZqWkCXHH8AY-/0/1763462621252/igt_i_lanka_logo?e=1790208000&v=beta&t=bOZMcVqs_BrCAGFImcvHng5BvKGghIhGC-pxIviB8C8",
+        "employeeCountRange": {
+          "start": 501,
+          "end": 1000
+        },
+        "followerCount": 31578,
+        "description": "IGT1 Lanka is a Port City registered offshore company owned by three of the largest private equity companies in the world; EQT, Hg, and TA Associates, and a sister company of the largest Sri Lanka technology company, IFS. Incorporated under the laws of Sri Lanka together with offshore registration, and Authorized Person (AP) status granted by the Colombo Port City Economic Commission to operate in the Port City / under Port City regulations.\n \nWe are committed to reinventing company success via offshore growth, expansion, diversity, and an unwavering pursuit of quality. As a leading provider of technology and employee offshore services, we help organizations all over the world navigate the complexities of the modern business environment. Our goal is to provide our customers with an operating model that maximize efficiency, spur growth, allows them to develop and deliver world-class products and services, and create long-term value.\n \nAt IGT1 Lanka we believe that our people are the key to our collective success. We have developed a workplace culture that promotes diversity, teamwork, and ongoing education. As such, we are always on the lookout for talented individuals who share our passion for innovation and excellence, to drive change, push boundaries, and build a smarter, more connected world through our offshore operation.",
+        "industries": [
+          {
+            "id": "96",
+            "name": "IT Services and IT Consulting",
+            "urn": "urn:li:fsd_industryV2:96",
+            "title": "IT Services and IT Consulting",
+            "hierarchy": "Professional Services > IT Services and IT Consulting"
+          }
+        ],
+        "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQGWc-MUwXcBrw/company-background_10000/B56ZqWjlRdIsAU-/0/1763462506365/igt_i_lanka_cover?e=1789380000&v=beta&t=QUiNsG1MBbET8tIqhsoIVe6EdCCcjYh_DG6RGavOoyE",
+        "callToActionUrl": null,
+        "affiliatedPages": []
+      },
+      {
+        "id": "89911221",
+        "universalName": "decryptogen",
+        "linkedinUrl": "https://www.linkedin.com/company/decryptogen/",
+        "name": "Decryptogen",
+        "website": null,
+        "logo": "https://media.licdn.com/dms/image/v2/C560BAQHDsBwmkCttdw/company-logo_400_400/company-logo_400_400/0/1671379639537?e=1790208000&v=beta&t=rCRg3oA43gaNV7gRL-pRi91oMJHG0GwbzpRWW71Ary0",
+        "employeeCountRange": {
+          "start": 11,
+          "end": 50
+        },
+        "followerCount": 4124,
+        "description": "Welcome to Decryptogen, your comprehensive ally for IT solutions, championing innovation across both domestic and international landscapes.\n\nIn an era marked by critical digital advancements, Decryptogen emerges as your trusted global partner for digital transformation, specializing in Artificial Intelligence (AI), Data, Cloud, DevOps, and Software Engineering Services. Our team of seasoned consultants excels in delivering tailored digital solutions that align precisely with your unique needs, transcending geographical limitations. We uphold international standards of excellence, providing unparalleled guidance and support throughout every phase of your project's lifecycle.\n\nCount on Decryptogen as your strategic ally in navigating the intricacies of the digital realm, ensuring your business not only keeps pace but sets the pace in the ever-evolving technological landscape.\n\nGet in touch with us at sales.smith@decryptogen.com. Whether your operations are local or extend across continents, we\u2019re eager to demonstrate how our cutting-edge solutions can propel your business forward.",
+        "industries": [
+          {
+            "id": "96",
+            "name": "IT Services and IT Consulting",
+            "urn": "urn:li:fsd_industryV2:96",
+            "title": "IT Services and IT Consulting",
+            "hierarchy": "Professional Services > IT Services and IT Consulting"
+          }
+        ],
+        "backgroundCover": "https://media.licdn.com/dms/image/v2/D4D1BAQEXJlDTBD2Klw/company-background_10000/company-background_10000/0/1714410340926/decryptogen_cover?e=1789380000&v=beta&t=f7ttiZg4JxSfOBza7MMaYOco88JyQ7-i9FtpdaqyU8E",
+        "callToActionUrl": null,
+        "affiliatedPages": []
+      },
+      {
+        "id": "138464286",
+        "universalName": "logicnestssss",
+        "linkedinUrl": "https://www.linkedin.com/company/logicnestssss/",
+        "name": "LogicNest",
+        "website": null,
+        "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQF8jVP_qhwNxQ/company-logo_400_400/B4DZ_qaJtPGkAU-/0/1786344152359/uattestingg_logo?e=1790208000&v=beta&t=t4fLyxWx_IubCwFqAIyJnpw6cf4NLm54AxpBpp6s-6Q",
+        "employeeCountRange": {
+          "start": 0,
+          "end": 1
+        },
+        "followerCount": 994,
+        "description": null,
+        "industries": [
+          {
+            "id": "84",
+            "name": "Information Services",
+            "urn": "urn:li:fsd_industryV2:84",
+            "title": "Information Services",
+            "hierarchy": "Technology, Information and Media > Technology, Information and Internet > Information Services"
+          }
+        ],
+        "callToActionUrl": null,
+        "affiliatedPages": []
+      },
+      {
+        "id": "3615929",
+        "universalName": "hsenid-business-solutions",
+        "linkedinUrl": "https://www.linkedin.com/company/hsenid-business-solutions/",
+        "name": "hSenid Business Solutions",
+        "website": null,
+        "logo": "https://media.licdn.com/dms/image/v2/C560BAQElxvS7oXkxrA/company-logo_400_400/company-logo_400_400/0/1641466564897?e=1790208000&v=beta&t=-1ZRgzVofFUJhTzE4TZYNbWHQNJF2Seg6QH87ahBQdk",
+        "employeeCountRange": {
+          "start": 201,
+          "end": 500
+        },
+        "followerCount": 31695,
+        "description": "With over 27 years of experience, hSenid Business Solutions strives to keep up as an indigenous multinational, taking care of over 1,000,000 users of 1600+ organizations across 20 industries in 40+ countries while operating from 6 countries. hSenid specializes not only in HRIS but also caters to a wide spectrum of HR needs with Human Resource Outsourcing and Employee Tracking Solutions & Access Control. With the constant expansion in business needs and challenging situations, hSenid understood that an HR solution has the potential to cater to multiple avenues and provide the opportunity for HR departments to focus on more strategic requirements.  \nHR requirements were beyond HR itself and entailed the need for a network where businesses worked together to provide value-added services to support customers to accelerate their journey. Understanding this business need, hSenid has worked towards building an HR ecosystem enriched with a business-to-business-to-consumer model (B2B2C). At hSenid Business Solutions, we are dedicated to empowering organizations with innovative HR solutions that drive strategic growth and excellence. ",
+        "industries": [
+          {
+            "id": "4",
+            "name": "Software Development",
+            "urn": "urn:li:fsd_industryV2:4",
+            "title": "Software Development",
+            "hierarchy": "Technology, Information and Media > Technology, Information and Internet > Software Development"
+          }
+        ],
+        "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQEQ8QeY0Uij2Q/company-background_10000/company-background_10000/0/1687848435481/hsenid_business_solutions_cover?e=1789380000&v=beta&t=Qy-DmkBfrafdw9n22pQeq_RWilHO4p5pdqlZfWDmszI",
+        "callToActionUrl": null,
+        "affiliatedPages": []
+      },
+      {
+        "id": "90688482",
+        "universalName": "verdentra",
+        "linkedinUrl": "https://www.linkedin.com/company/verdentra/",
+        "name": "Verdentra",
+        "website": null,
+        "logo": "https://media.licdn.com/dms/image/v2/D560BAQFfzBy0y9zzag/company-logo_400_400/company-logo_400_400/0/1693566361610/verdentra_logo?e=1790208000&v=beta&t=fUtmS_CUdXGtwoHEEAxYrAjEeycO5-Bg1CPFDOvixII",
+        "employeeCountRange": {
+          "start": 51,
+          "end": 200
+        },
+        "followerCount": 11532,
+        "description": "At Verdentra, we focus primarily on product engineering and high-end technology consulting services. Our experienced team applies leading-edge cloud technologies to develop reliable software solutions tailored to the unique requirements of each client. We maintain solid collaborations with top-tier Independent Software Vendors (ISVs) in the US, providing us with a strong foundation to address complex challenges and deliver business outcomes.",
+        "industries": [
+          {
+            "id": "96",
+            "name": "IT Services and IT Consulting",
+            "urn": "urn:li:fsd_industryV2:96",
+            "title": "IT Services and IT Consulting",
+            "hierarchy": "Professional Services > IT Services and IT Consulting"
+          }
+        ],
+        "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQGxRh1kN5URCQ/company-background_10000/company-background_10000/0/1700731668813/verdentra_cover?e=1789380000&v=beta&t=aD2fElP7ObvxW9dyaag92NbI7NguSffRypuMadg_AJ0",
+        "callToActionUrl": null,
+        "affiliatedPages": []
+      },
+      {
+        "id": "103280259",
+        "universalName": "softvil-singapore",
+        "linkedinUrl": "https://www.linkedin.com/company/softvil-singapore/",
+        "name": "Softvil Technologies Pte. Ltd.",
+        "website": null,
+        "logo": "https://media.licdn.com/dms/image/v2/D560BAQETgrBSyEwaXQ/company-logo_400_400/company-logo_400_400/0/1718432455206/softvil_singapore_logo?e=1790208000&v=beta&t=lxCWr4u4BqVs-_TICLdPN095jWf_IE2bRLy4foqVldU",
+        "employeeCountRange": {
+          "start": 11,
+          "end": 50
+        },
+        "followerCount": 7692,
+        "description": "Based in Singapore, Softvil Technologies is more than just a software development company; we are your trusted partners in achieving outstanding results. Driven by a passion for technology and a commitment to excellence, we are transforming how businesses approach software development, resource augmentation, and quality assurance.\n\nOur mission is clear and impactful: to empower businesses with the premier talent, resources, and quality assurance needed to bring their software visions to life. We recognize the challenges of building and scaling a top-tier development team. That's where we come in. We bridge the gap between your project's requirements and the necessary expertise, ensuring you receive the support you need, precisely when you need it.\n",
+        "industries": [
+          {
+            "id": "4",
+            "name": "Software Development",
+            "urn": "urn:li:fsd_industryV2:4",
+            "title": "Software Development",
+            "hierarchy": "Technology, Information and Media > Technology, Information and Internet > Software Development"
+          }
+        ],
+        "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQGN-vnPoLdA7Q/company-background_10000/B56Z4pf5qFG0AI-/0/1778812691021/softvil_singapore_cover?e=1789380000&v=beta&t=K3WTOxOMPzXd-dWMwIcF06FTnVf6eyKmFCQzjavmDQ4",
+        "callToActionUrl": null,
+        "affiliatedPages": []
+      },
+      {
+        "id": "18956892",
+        "universalName": "fcodelabs",
+        "linkedinUrl": "https://www.linkedin.com/company/fcodelabs/",
+        "name": "Fcode Labs",
+        "website": null,
+        "logo": "https://media.licdn.com/dms/image/v2/C560BAQH46ojKZeulVg/company-logo_400_400/company-logo_400_400/0/1648560328398/fcodelabs_logo?e=1790208000&v=beta&t=nNxVH3G_Ku6l2zTsLGHpGUjjf0N9qJCwRASy6yZxM8c",
+        "employeeCountRange": {
+          "start": 51,
+          "end": 200
+        },
+        "followerCount": 34004,
+        "description": "At Fcode Labs, we build the tech behind your next big idea. Specializing in AI, machine learning, web, mobile, and cloud development, we create scalable, future-ready solutions for industries like healthcare, transport, security, manufacturing, and more. \n\nOur expertise spans: \n\n- \ud835\udc00\ud835\udc08 & \ud835\udc0c\ud835\udc1a\ud835\udc1c\ud835\udc21\ud835\udc22\ud835\udc27\ud835\udc1e \ud835\udc0b\ud835\udc1e\ud835\udc1a\ud835\udc2b\ud835\udc27\ud835\udc22\ud835\udc27\ud835\udc20: Crafting intelligent, forward-thinking products.  \n- \ud835\udc16\ud835\udc1e\ud835\udc1b, \ud835\udc0c\ud835\udc28\ud835\udc1b\ud835\udc22\ud835\udc25\ud835\udc1e & \ud835\udc02\ud835\udc25\ud835\udc28\ud835\udc2e\ud835\udc1d \ud835\udc03\ud835\udc1e\ud835\udc2f: Delivering scalable, industry-tailored solutions. \n- \ud835\udc10\ud835\udc2e\ud835\udc1a\ud835\udc25\ud835\udc22\ud835\udc2d\ud835\udc32 \ud835\udc00\ud835\udc2c\ud835\udc2c\ud835\udc2e\ud835\udc2b\ud835\udc1a\ud835\udc27\ud835\udc1c\ud835\udc1e: Ensuring secure, compliant software. \n- \ud835\udc14\ud835\udc08/\ud835\udc14\ud835\udc17 \ud835\udc03\ud835\udc1e\ud835\udc2c\ud835\udc22\ud835\udc20\ud835\udc27: Designing intuitive, user-centric experiences. \n\nWith a proven track record across Europe and Asia, we combine creativity and technical expertise to assist with your product roadmap, unlock efficiencies, and transform your business.\n\nEstablished in 2018,  Fcode Labs is based in Sri Lanka and Singapore and services clients across industries and continents, including the Ministry of Health, Singapore; University of Auckland; MAS; Brandix, Sri Lanka\u2019s largest apparel exporters; David Pieris Group, one of the largest diversified conglomerates in Sri Lanka; and Social Motion Inc, Canada. \n\nFounded by three prodigious young graduates of the eminent Faculty of Engineering at the University of Moratuwa, we have established, in a short span of time, a reputation for outstanding design, expert consulting, exceptional engineering, and delivering above and beyond customer expectations. At Fcode Labs, we share a passion for building a world-class brand and a vision to serve humanity with cutting-edge solutions using ever-evolving technology.\n",
+        "industries": [
+          {
+            "id": "4",
+            "name": "Software Development",
+            "urn": "urn:li:fsd_industryV2:4",
+            "title": "Software Development",
+            "hierarchy": "Technology, Information and Media > Technology, Information and Internet > Software Development"
+          }
+        ],
+        "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQHrQkndIUtXsA/company-background_10000/company-background_10000/0/1738074824881/fcodelabs_cover?e=1789380000&v=beta&t=oGeDnVlMEnZgSuzEWSIC1ChBn6nNQDwGC4cWMGac2i8",
+        "callToActionUrl": null,
+        "affiliatedPages": []
+      },
+      {
+        "id": "31541686",
+        "universalName": "codimite",
+        "linkedinUrl": "https://www.linkedin.com/company/codimite/",
+        "name": "Codimite",
+        "website": null,
+        "logo": "https://media.licdn.com/dms/image/v2/D560BAQG96jFnP7_ubA/company-logo_400_400/B56Zt1N8vQGsAY-/0/1767198150107/codimite_logo?e=1790208000&v=beta&t=n3rqsyaI20ixZ1c1b5WNuaxrCQphHwt2xRPj4uaIDMY",
+        "employeeCountRange": {
+          "start": 51,
+          "end": 200
+        },
+        "followerCount": 41148,
+        "description": "At Codimite, we engineer Agentic AI systems, advanced automations, and scalable cloud ecosystems that help enterprises work smarter, drive innovation, and eliminate operational friction.\n\nWe lead the transition from legacy IT to modern, AI-augmented infrastructure. By combining smart autonomous agents with secure cloud architecture, we turn everyday bottlenecks into measurable ROI.\n\nOur core expertise spans sophisticated n8n workflow automation, Agentic AI, and secure Google Cloud migrations. We also deliver comprehensive ChromeOS Services for full implementation and support, seamless transitions via Chrome Enterprise Premium Migration, and complete Zoom Customer Solutions. From Zoom Professional Services to Zoom Migration Services, we ensure a smooth migration to the Zoom platform for your enterprise.\n\nHeadquartered in Singapore, with a strategic US presence and a high-velocity engineering hub in Sri Lanka, we operate as a global tech powerhouse.\n\nWe move with startup agility while maintaining rigorous enterprise security, backed by SOC 2, HIPAA, and GDPR-aligned standards.\n\nWe are proud to build at the bleeding edge of technology as an official n8n Expert Partner, Google Cloud Partner, Chrome Service Partner, and Zoom Integrator.\n\nWe don't wait for the future of technology. We create it.",
+        "industries": [
+          {
+            "id": "96",
+            "name": "IT Services and IT Consulting",
+            "urn": "urn:li:fsd_industryV2:96",
+            "title": "IT Services and IT Consulting",
+            "hierarchy": "Professional Services > IT Services and IT Consulting"
+          }
+        ],
+        "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQFHez6f_-JEWg/company-background_10000/B56ZwIM1uoH0AU-/0/1769664120495/codimite_cover?e=1789380000&v=beta&t=8k_nkoTNCuY-XOq51Uo6xbt1H5p-EAfI3-HlQg9oJrY",
+        "callToActionUrl": null,
+        "affiliatedPages": []
+      },
+      {
+        "id": "12688",
+        "universalName": "creativesoftware",
+        "linkedinUrl": "https://www.linkedin.com/company/creativesoftware/",
+        "name": "Creative Software",
+        "website": null,
+        "logo": "https://media.licdn.com/dms/image/v2/D560BAQE6diZwj0bz9w/company-logo_400_400/company-logo_400_400/0/1682655230732/creativesoftware_logo?e=1790208000&v=beta&t=ppwCQwP93gBZEl2-W8R3CbI-krCJiIH54rhJlVKPn4k",
+        "employeeCountRange": {
+          "start": 201,
+          "end": 500
+        },
+        "followerCount": 81720,
+        "description": "Creative Software partners with enterprises across Scandinavia and Europe to build and scale their digital products through dedicated engineering teams and global delivery.\nWe specialise in custom software development, digital engineering, web solutions, and IFS consulting services, combining deep technical expertise with an evolving capability in data and AI-driven solutions to help organisations stay ahead in a rapidly changing technology landscape.",
+        "industries": [
+          {
+            "id": "4",
+            "name": "Software Development",
+            "urn": "urn:li:fsd_industryV2:4",
+            "title": "Software Development",
+            "hierarchy": "Technology, Information and Media > Technology, Information and Internet > Software Development"
+          }
+        ],
+        "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQGUE37XqnLodw/company-background_10000/company-background_10000/0/1710498906471/creativesoftware_cover?e=1789380000&v=beta&t=EfCBaIz2gmipKv0gQQoaj7p5-ilOd0zuKoDssUf-11Y",
+        "callToActionUrl": null,
+        "affiliatedPages": []
+      },
+      {
+        "id": "98793413",
+        "universalName": "softsora",
+        "linkedinUrl": "https://www.linkedin.com/company/softsora/",
+        "name": "SoftSora",
+        "website": null,
+        "logo": "https://media.licdn.com/dms/image/v2/D560BAQGbRrvA8wi-BQ/company-logo_400_400/company-logo_400_400/0/1727015094920/softsora_logo?e=1790208000&v=beta&t=HkA7bGBgXmeOBfr9OKyakRJd22PbxVvaSTNLNB9eHMw",
+        "employeeCountRange": {
+          "start": 11,
+          "end": 50
+        },
+        "followerCount": 5219,
+        "description": "Leading Japanese and US-based software company specialising in providing innovative solutions to meet your business needs. With a team of highly skilled professionals and a commitment to excellence, we offer a wide range of services to help your business thrive.\n\nYour partner in Business Excellence.",
+        "industries": [
+          {
+            "id": "4",
+            "name": "Software Development",
+            "urn": "urn:li:fsd_industryV2:4",
+            "title": "Software Development",
+            "hierarchy": "Technology, Information and Media > Technology, Information and Internet > Software Development"
+          }
+        ],
+        "backgroundCover": "https://media.licdn.com/dms/image/v2/D561BAQEDoXW8CKcgYw/company-background_10000/B56Zn5RQUQJ8AU-/0/1760823675413/softsora_cover?e=1789380000&v=beta&t=z85m4w66NGb-Jqh-F6aj1bwFqt0FCvTIx-5xWNHiC8E",
+        "callToActionUrl": null,
+        "affiliatedPages": []
+      }
+    ],
+    "affiliatedPages": [
+      {
+        "id": "131364074",
+        "universalName": "life-at-azend",
+        "linkedinUrl": "https://www.linkedin.com/showcase/life-at-azend/",
+        "name": "Life at Azend",
+        "website": null,
+        "logo": "https://media.licdn.com/dms/image/v2/D560BAQEJ2taXqvU_aA/company-logo_400_400/B56Z6v6hEqIAAY-/0/1781067813432?e=1790208000&v=beta&t=Cc9PFWGSLqvM-bs3rFCSulud8e4zz_tjjcZKQbyTa10",
+        "followerCount": 20431,
+        "description": "Azend Technologies isn't just building products. We're building the future of education and financial systems, one bold idea at a time.\n\nFrom learning platforms deployed across hundreds of locations in the US to compliance automation built in partnership with one of the world's leading professional services firms, our work sits at the intersection of real-world impact and technology. We operate across the US and Sri Lanka, blending multinational leadership with the speed and hunger of a startup.\nWhether it's digital learning ecosystems, edtech platforms, or financial transformation, we don't do incremental. We build things that matter, at scale, for markets that are ready to leap.\n\nRecognized and partnered with global trade promotion bodies, we bring international credibility to every challenge we take on.\nIf you're the kind of person who sees a complex, underserved problem and thinks \"I want to be the one to solve that\", you'll feel right at home here.\n\nWe're growing. Come build with us.",
+        "industries": [
+          {
+            "id": "96",
+            "name": "IT Services and IT Consulting",
+            "urn": "urn:li:fs_industry:96",
+            "title": "IT Services and IT Consulting",
+            "hierarchy": "Professional Services > IT Services and IT Consulting"
+          }
+        ],
+        "logos": [
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQEJ2taXqvU_aA/company-logo_400_400/B56Z6v6hEqIAAY-/0/1781067813432?e=1790208000&v=beta&t=Cc9PFWGSLqvM-bs3rFCSulud8e4zz_tjjcZKQbyTa10",
+            "width": 400,
+            "height": 400
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQEJ2taXqvU_aA/company-logo_200_200/B56Z6v6hEqIAAI-/0/1781067813432?e=1790208000&v=beta&t=ESVIkWfFtPQEaQ9mrOGFDit54RTbjIUIcqx95BKI-98",
+            "width": 200,
+            "height": 200
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQEJ2taXqvU_aA/company-logo_100_100/B56Z6v6hEqIAAM-/0/1781067813433?e=1790208000&v=beta&t=BtF6PQFE1r5IP7red4YbF49bqZFcVI3LArtE9oFE08c",
+            "width": 100,
+            "height": 100
+          }
+        ],
+        "showcase": true,
+        "paidCompany": false
+      }
+    ],
+    "peopleStats": [
+      {
+        "statTitle": "Locations",
+        "values": [
+          {
+            "title": "Sri Lanka",
+            "count": 53
+          },
+          {
+            "title": "Western Province, Sri Lanka",
+            "count": 42
+          },
+          {
+            "title": "Colombo",
+            "count": 29
+          },
+          {
+            "title": "United States",
+            "count": 5
+          },
+          {
+            "title": "Southern Province, Sri Lanka",
+            "count": 3
+          },
+          {
+            "title": "North Western Province, Sri Lanka",
+            "count": 3
+          },
+          {
+            "title": "New Jersey, United States",
+            "count": 2
+          },
+          {
+            "title": "Kurunegala M.C. Limit",
+            "count": 2
+          },
+          {
+            "title": "New York City Metropolitan Area",
+            "count": 2
+          },
+          {
+            "title": "Toronto, ON",
+            "count": 1
+          },
+          {
+            "title": "Rockville, MD",
+            "count": 1
+          },
+          {
+            "title": "Maryland, United States",
+            "count": 1
+          },
+          {
+            "title": "Melbourne, VIC",
+            "count": 1
+          },
+          {
+            "title": "Wennappuwa",
+            "count": 1
+          },
+          {
+            "title": "Canada",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "statTitle": "School",
+        "values": [
+          {
+            "title": "SLIIT",
+            "count": 13
+          },
+          {
+            "title": "Cardiff Metropolitan University",
+            "count": 6
+          },
+          {
+            "title": "University of Colombo School of Computing",
+            "count": 6
+          },
+          {
+            "title": "University of Westminster",
+            "count": 5
+          },
+          {
+            "title": "National Institute of Business Management (NIBM - Sri Lanka)",
+            "count": 3
+          },
+          {
+            "title": "St. Peter's College",
+            "count": 3
+          },
+          {
+            "title": "Coventry University",
+            "count": 3
+          },
+          {
+            "title": "ESOFT Metro Campus",
+            "count": 3
+          },
+          {
+            "title": "SLTC",
+            "count": 2
+          },
+          {
+            "title": "Java Institute for Advanced Technology",
+            "count": 2
+          },
+          {
+            "title": "ICBT Campus",
+            "count": 2
+          },
+          {
+            "title": "Aquinas College of Higher Studies",
+            "count": 2
+          },
+          {
+            "title": "St.Joseph's College, Colombo 10",
+            "count": 2
+          },
+          {
+            "title": "Sri Lanka Institute of Marketing-SLIM",
+            "count": 2
+          },
+          {
+            "title": "University of Kelaniya Sri Lanka",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "statTitle": "Current Function",
+        "values": [
+          {
+            "title": "Engineering",
+            "count": 27
+          },
+          {
+            "title": "Business Development",
+            "count": 8
+          },
+          {
+            "title": "Information Technology",
+            "count": 7
+          },
+          {
+            "title": "Research",
+            "count": 6
+          },
+          {
+            "title": "Human Resources",
+            "count": 5
+          },
+          {
+            "title": "Quality Assurance",
+            "count": 5
+          },
+          {
+            "title": "Arts and Design",
+            "count": 4
+          },
+          {
+            "title": "Operations",
+            "count": 3
+          },
+          {
+            "title": "Program and Project Management",
+            "count": 3
+          },
+          {
+            "title": "Sales",
+            "count": 3
+          },
+          {
+            "title": "Education",
+            "count": 3
+          },
+          {
+            "title": "Marketing",
+            "count": 2
+          },
+          {
+            "title": "Finance",
+            "count": 1
+          },
+          {
+            "title": "Media and Communication",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "statTitle": "Skill Explicit",
+        "values": [
+          {
+            "title": "Communication",
+            "count": 20
+          },
+          {
+            "title": "MySQL",
+            "count": 20
+          },
+          {
+            "title": "JavaScript",
+            "count": 19
+          },
+          {
+            "title": "HTML",
+            "count": 17
+          },
+          {
+            "title": "Python (Programming Language)",
+            "count": 16
+          },
+          {
+            "title": "Project Management",
+            "count": 16
+          },
+          {
+            "title": "Cascading Style Sheets (CSS)",
+            "count": 16
+          },
+          {
+            "title": "Microsoft Office",
+            "count": 13
+          },
+          {
+            "title": "Software Development",
+            "count": 13
+          },
+          {
+            "title": "Teamwork",
+            "count": 13
+          },
+          {
+            "title": "React.js",
+            "count": 12
+          },
+          {
+            "title": ".NET Framework",
+            "count": 10
+          },
+          {
+            "title": "Web Development",
+            "count": 10
+          },
+          {
+            "title": "HTML5",
+            "count": 10
+          },
+          {
+            "title": "English",
+            "count": 9
+          }
+        ]
+      },
+      {
+        "statTitle": "Service categories",
+        "values": [
+          {
+            "title": "Lead Generation",
+            "count": 1
+          },
+          {
+            "title": "Email Marketing",
+            "count": 1
+          },
+          {
+            "title": "Event Marketing",
+            "count": 1
+          },
+          {
+            "title": "Social Media Marketing",
+            "count": 1
+          },
+          {
+            "title": "Consulting",
+            "count": 1
+          },
+          {
+            "title": "Marketing",
+            "count": 1
+          },
+          {
+            "title": "Negotiation",
+            "count": 1
+          },
+          {
+            "title": "Demand Generation",
+            "count": 1
+          },
+          {
+            "title": "Design",
+            "count": 1
+          },
+          {
+            "title": "UX Research",
+            "count": 1
+          },
+          {
+            "title": "Technical Writing",
+            "count": 1
+          },
+          {
+            "title": "Brand Marketing",
+            "count": 1
+          },
+          {
+            "title": "Coaching & Mentoring",
+            "count": 1
+          },
+          {
+            "title": "Growth Marketing",
+            "count": 1
+          },
+          {
+            "title": "Finance",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "statTitle": "Field of Study",
+        "values": [
+          {
+            "title": "Information Technology",
+            "count": 18
+          },
+          {
+            "title": "Computer Software Engineering",
+            "count": 11
+          },
+          {
+            "title": "Computer Science",
+            "count": 7
+          },
+          {
+            "title": "Business/Commerce, General",
+            "count": 7
+          },
+          {
+            "title": "Computational Science",
+            "count": 5
+          },
+          {
+            "title": "Mathematics",
+            "count": 4
+          },
+          {
+            "title": "Physical Sciences",
+            "count": 4
+          },
+          {
+            "title": "Computer and Information Sciences and Support Services",
+            "count": 3
+          },
+          {
+            "title": "Information Science/Studies",
+            "count": 3
+          },
+          {
+            "title": "Mechatronics, Robotics, and Automation Engineering",
+            "count": 3
+          },
+          {
+            "title": "Accounting and Business/Management",
+            "count": 3
+          },
+          {
+            "title": "Communication, General",
+            "count": 2
+          },
+          {
+            "title": "Electrical, Electronics and Communications Engineering",
+            "count": 2
+          },
+          {
+            "title": "English Language and Literature/Letters",
+            "count": 2
+          },
+          {
+            "title": "Business, Management, Marketing, and Related Support Services",
+            "count": 2
+          }
+        ]
+      }
+    ],
+    "originalQuery": {
+      "search": "https://www.linkedin.com/company/azend-technologies/",
+      "location": ""
+    },
+    "requestId": "95ff0265-6911-4a18-954e-3e357a04b3b2"
+  },
+  "company_post_count": 10,
+  "company_posts": [
+    {
+      "type": "post",
+      "id": "7501479233811316737",
+      "linkedinUrl": "https://www.linkedin.com/posts/azend-technologies_azendtech-charterschools-useducation-activity-7501479233811316737-Jzso",
+      "content": "The academic calendar doesn't move for anyone, and a new campus that isn't ready by the first day of school isn't a delay, it's a crisis in front of your authorizer, your families, and your board. Any partner you bring in has to understand that your timeline isn't a preference. It's fixed the moment the charter is approved. \n\nAzend builds every rollout plan around your opening day, not the other way around.\n\nPlan your next rollout with us.\nVisit education.azendtech.com to learn more\n#AzendTech #Charterschools #USEducation #EdTech #rollout",
+      "contentAttributes": [],
+      "author": {
+        "id": "73851854",
+        "universalName": "azend-technologies",
+        "publicIdentifier": null,
+        "type": "company",
+        "name": "Azend Technologies",
+        "linkedinUrl": "https://www.linkedin.com/company/azend-technologies/posts",
+        "info": "20,431 followers",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D0BAQESyqsMsPFm9A/company-logo_400_400/company-logo_400_400/0/1653872977261?e=1790208000&v=beta&t=JtLEIwekQtiDkBNiuVRpn0mxYbCBSwsXCEvmwUz_NiQ",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "73851854",
+        "companyId": "73851854"
+      },
+      "postedAt": {
+        "timestamp": 1788492020085,
+        "date": "2026-09-04T03:20:20.085Z",
+        "postedAgoShort": "3d",
+        "postedAgoText": "3 days ago \u2022 Edited \u2022 Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQE6VPs8pTSDgQ/feedshare-image-high-res/B4EaBqbnV0IUAU-/0/1788492019377?e=1790208000&v=beta&t=3ruyTle9IwS_BzEq_QEntJIOxLLsvTVVekzZk6-wk54",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "socialContent": {
+        "hideCommentsCount": false,
+        "hideReactionsCount": false,
+        "hideSocialActivityCounts": false,
+        "hideShareAction": true,
+        "hideSendAction": true,
+        "hideRepostsCount": false,
+        "hideViewsCount": false,
+        "trustInterventionBanner": null,
+        "hideReactAction": false,
+        "hideCommentAction": false,
+        "shareUrl": "https://www.linkedin.com/posts/azend-technologies_azendtech-charterschools-useducation-activity-7501479233811316737-Jzso?",
+        "showContributionExperience": false,
+        "showSocialDetail": true
+      },
+      "header": {
+        "text": null
+      },
+      "entityId": "7501479233811316737",
+      "shareUrn": "urn:li:share:7501479232703815680",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7501479232703815680",
+      "engagement": {
+        "id": "7501479233811316737",
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 3
+          }
+        ]
+      },
+      "reactionIds": [],
+      "commentIds": [],
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/company/azend-technologies/",
+        "sessionId": "3cebb63a-506f-4ddf-b225-0cb1252f6079"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7496415584776175616",
+      "linkedinUrl": "https://www.linkedin.com/posts/azend-technologies_azendtechnologies-flasia2026-singapore-activity-7496415584776175616-NRr3",
+      "content": "A great few days in Singapore, filled with meaningful conversations, new connections, and valuable perspectives from across the franchising ecosystem.\n\nOur SVP \u2013 Business Operations, Janith Wimaladasa, had the opportunity to connect with industry leaders and peers during the visit, including at FLAsia 2026, exchanging ideas on building franchises that grow consistently and exploring opportunities for collaboration.\n\nThank you to everyone who made the conversations worthwhile. We look forward to turning these connections into meaningful partnerships and what\u2019s next. \ud83d\ude80\n\n#AzendTechnologies #FLAsia2026 #Singapore #Franchising #FranchiseTech",
+      "contentAttributes": [
+        {
+          "start": 183,
+          "length": 17,
+          "type": "PROFILE_MENTION",
+          "hyperlink": null,
+          "textLink": null,
+          "profile": {
+            "id": "ACoAAA_cR8sBGIg8Z3X5eMvCqYxLWFjXAfHT9rc",
+            "firstName": "Janith",
+            "lastName": "Wimaladasa",
+            "linkedinUrl": "https://www.linkedin.com/in/ajwimaladasa",
+            "publicIdentifier": "ajwimaladasa"
+          }
+        }
+      ],
+      "author": {
+        "id": "73851854",
+        "universalName": "azend-technologies",
+        "publicIdentifier": null,
+        "type": "company",
+        "name": "Azend Technologies",
+        "linkedinUrl": "https://www.linkedin.com/company/azend-technologies/posts",
+        "info": "20,431 followers",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D0BAQESyqsMsPFm9A/company-logo_400_400/company-logo_400_400/0/1653872977261?e=1790208000&v=beta&t=JtLEIwekQtiDkBNiuVRpn0mxYbCBSwsXCEvmwUz_NiQ",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "73851854",
+        "companyId": "73851854"
+      },
+      "postedAt": {
+        "timestamp": 1787284752077,
+        "date": "2026-08-21T03:59:12.077Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago \u2022 Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGlWWVBzFe1jQ/feedshare-shrink_1280/B56aAieO0bGgAM-/0/1787284745997?e=1790208000&v=beta&t=lADNfmOrMUU-mDZ-vt9HeY46cOwupBHGBKVB3Ibiqfw",
+          "width": 1280,
+          "height": 1600
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQErfUAAS6Ve0g/feedshare-shrink_1280/B56aAieL7wG0AM-/0/1787284734168?e=1790208000&v=beta&t=FfXArcRVYUYEXPyMUSiIHfJ0N9OX_T0cB85FkB9p4aA",
+          "width": 1280,
+          "height": 1600
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQE36KR62RZPxw/feedshare-shrink_1280/B56aAiePo.KYAM-/0/1787284749374?e=1790208000&v=beta&t=UcBrg4ODyQKaGM8lrWO16BfceIE7U9YiR6vNf8VPyGs",
+          "width": 1280,
+          "height": 1600
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQH76BF0LsffRQ/feedshare-shrink_1280/B56aAieOfJGsAM-/0/1787284744627?e=1790208000&v=beta&t=VcUr6PVa15bWt4237LtHRJJ-JCkwEwhE9vpod5Oe72I",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "socialContent": {
+        "hideCommentsCount": false,
+        "hideReactionsCount": false,
+        "hideSocialActivityCounts": false,
+        "hideShareAction": true,
+        "hideSendAction": true,
+        "hideRepostsCount": false,
+        "hideViewsCount": false,
+        "trustInterventionBanner": null,
+        "hideReactAction": false,
+        "hideCommentAction": false,
+        "shareUrl": "https://www.linkedin.com/posts/azend-technologies_azendtechnologies-flasia2026-singapore-activity-7496415584776175616-NRr3?",
+        "showContributionExperience": false,
+        "showSocialDetail": true
+      },
+      "header": {
+        "text": null
+      },
+      "entityId": "7496415584776175616",
+      "shareUrn": "urn:li:ugcPost:7496415581903155200",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7496415581903155200",
+      "engagement": {
+        "id": "7496415581903155200",
+        "likes": 20,
+        "comments": 0,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 20
+          }
+        ]
+      },
+      "reactionIds": [],
+      "commentIds": [],
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/company/azend-technologies/",
+        "sessionId": "3cebb63a-506f-4ddf-b225-0cb1252f6079"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7493139223978446848",
+      "linkedinUrl": "https://www.linkedin.com/posts/azend-technologies_before-buying-another-ai-tool-activity-7493139223978446848-rHbC",
+      "content": "Before investing in another AI solution, ask a few simple questions. Can your systems support it? Can your franchise data be trusted? Can different centres work from the same information? Can finance and operations work together seamlessly? AI is only as valuable as the operational foundation beneath it.\n\u00a0\nWe'll be at FLAsia and in Singapore this week from 12th to 15th August. We would be happy to discuss what that foundation looks like.\n\n#ArtificialIntelligence #EducationFranchise #DataStrategy #DigitalTransformation #FLAsia",
+      "contentAttributes": [],
+      "author": {
+        "id": "73851854",
+        "universalName": "azend-technologies",
+        "publicIdentifier": null,
+        "type": "company",
+        "name": "Azend Technologies",
+        "linkedinUrl": "https://www.linkedin.com/company/azend-technologies/posts",
+        "info": "20,431 followers",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D0BAQESyqsMsPFm9A/company-logo_400_400/company-logo_400_400/0/1653872977261?e=1790208000&v=beta&t=JtLEIwekQtiDkBNiuVRpn0mxYbCBSwsXCEvmwUz_NiQ",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "73851854",
+        "companyId": "73851854"
+      },
+      "postedAt": {
+        "timestamp": 1786503606791,
+        "date": "2026-08-12T03:00:06.791Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago \u2022 Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://dms.licdn.com/playlist/vid/v2/D5605AQGZF518KVb2mg/thumbnail-shrink_720_1280/B56Z_yGtmMGUAg-/0/1786473275446?e=1789380000&v=beta&t=ncQ5iiJQJgIPkkR7LqsWl8gnwQ-S31mJQgojj7sCJfQ",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D5605AQGZF518KVb2mg/mp4-720p-30fp-crf28/B56Z_yGtmMGUCM-/0/1786473283528?e=1789380000&v=beta&t=Viq9dsABeq0OIRfBbE1owQEt7yuj4CkRKUnwZN3eMAQ"
+      },
+      "socialContent": {
+        "hideCommentsCount": false,
+        "hideReactionsCount": false,
+        "hideSocialActivityCounts": false,
+        "hideShareAction": true,
+        "hideSendAction": true,
+        "hideRepostsCount": false,
+        "hideViewsCount": false,
+        "trustInterventionBanner": null,
+        "hideReactAction": false,
+        "hideCommentAction": false,
+        "shareUrl": "https://www.linkedin.com/posts/azend-technologies_before-buying-another-ai-tool-activity-7493139223978446848-rHbC?",
+        "showContributionExperience": false,
+        "showSocialDetail": true
+      },
+      "header": {
+        "text": null
+      },
+      "entityId": "7493139223978446848",
+      "shareUrn": "urn:li:ugcPost:7493011744789778433",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7493011744789778433",
+      "engagement": {
+        "id": "7493011744789778433",
+        "likes": 5,
+        "comments": 0,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 5
+          }
+        ]
+      },
+      "reactionIds": [],
+      "commentIds": [],
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/company/azend-technologies/",
+        "sessionId": "3cebb63a-506f-4ddf-b225-0cb1252f6079"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7491319711591215104",
+      "linkedinUrl": "https://www.linkedin.com/posts/azend-technologies_azendtechnologies-flasia2026-singapore-activity-7491319711591215104-5mGX",
+      "content": "We're heading to Singapore! \u2708\ufe0f \n\nOur SVP \u2013 Business Operations, Janith Wimaladasa, will be in Singapore from 12th to 15th August and will also be attending FLAsia 2026. If you're interested in discussing how to create franchises that grow consistently, this is a great opportunity to connect.\n\nIf you're in Singapore, let's connect, whether at FLAsia 2026 or over a kopi to explore ideas, partnerships, and what's next.\n\nLooking forward to meaningful conversations in Singapore!\n\n#AzendTechnologies #FLAsia2026 #Singapore #Franchising #FranchiseTech",
+      "contentAttributes": [
+        {
+          "start": 64,
+          "length": 17,
+          "type": "PROFILE_MENTION",
+          "hyperlink": null,
+          "textLink": null,
+          "profile": {
+            "id": "ACoAAA_cR8sBGIg8Z3X5eMvCqYxLWFjXAfHT9rc",
+            "firstName": "Janith",
+            "lastName": "Wimaladasa",
+            "linkedinUrl": "https://www.linkedin.com/in/ajwimaladasa",
+            "publicIdentifier": "ajwimaladasa"
+          }
+        }
+      ],
+      "author": {
+        "id": "73851854",
+        "universalName": "azend-technologies",
+        "publicIdentifier": null,
+        "type": "company",
+        "name": "Azend Technologies",
+        "linkedinUrl": "https://www.linkedin.com/company/azend-technologies/posts",
+        "info": "20,431 followers",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D0BAQESyqsMsPFm9A/company-logo_400_400/company-logo_400_400/0/1653872977261?e=1790208000&v=beta&t=JtLEIwekQtiDkBNiuVRpn0mxYbCBSwsXCEvmwUz_NiQ",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "73851854",
+        "companyId": "73851854"
+      },
+      "postedAt": {
+        "timestamp": 1786069801233,
+        "date": "2026-08-07T02:30:01.233Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago \u2022 Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQG5pAzNX49Vrw/feedshare-shrink_1280/B56Z_YacmWK8AM-/0/1786042240095?e=1790208000&v=beta&t=9KJVOhhzAheQDS-uGU3WJpp0pCfG2qQzr-PA7diYDAk",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "socialContent": {
+        "hideCommentsCount": false,
+        "hideReactionsCount": false,
+        "hideSocialActivityCounts": false,
+        "hideShareAction": true,
+        "hideSendAction": true,
+        "hideRepostsCount": false,
+        "hideViewsCount": false,
+        "trustInterventionBanner": null,
+        "hideReactAction": false,
+        "hideCommentAction": false,
+        "shareUrl": "https://www.linkedin.com/posts/azend-technologies_azendtechnologies-flasia2026-singapore-activity-7491319711591215104-5mGX?",
+        "showContributionExperience": false,
+        "showSocialDetail": true
+      },
+      "header": {
+        "text": null
+      },
+      "entityId": "7491319711591215104",
+      "shareUrn": "urn:li:share:7491204114840924161",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7491204114840924161",
+      "engagement": {
+        "id": "7491319711591215104",
+        "likes": 34,
+        "comments": 0,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 28
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          }
+        ]
+      },
+      "reactionIds": [],
+      "commentIds": [],
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/company/azend-technologies/",
+        "sessionId": "3cebb63a-506f-4ddf-b225-0cb1252f6079"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7488797804073472000",
+      "linkedinUrl": "https://www.linkedin.com/posts/life-at-azend_stanfordseed-growth-transformation-ugcPost-7488797464217481216-2tAT",
+      "content": "Building the future through continuous learning and strategic thinking.\n\nOur leadership team, together with several senior team members, recently participated in a Business Transformation Workshop as part of the Stanford Seed Transformation Program.\n\u00a0\nFacilitated by Aditya Khurana, Business Transformation Advisor at Stanford Seed, the workshop provided an inspiring platform to exchange ideas, challenge perspectives, and explore practical approaches to business transformation.\n\u00a0\nFrom strengthening strategic thinking to discovering new ways to drive sustainable growth, the experience was filled with valuable insights and meaningful discussions. We're excited to put these learnings into action as we continue our journey of innovation and transformation.\n\n#StanfordSeed #Growth #Transformation #StrategicThinking #AzendTechnologies",
+      "contentAttributes": [
+        {
+          "start": 267,
+          "length": 14,
+          "type": "PROFILE_MENTION",
+          "hyperlink": null,
+          "textLink": null,
+          "profile": {
+            "id": "ACoAAADUvPYBsLjjHVm6aw6uy5OFbO4kOnoz-6Q",
+            "firstName": "Aditya",
+            "lastName": "Khurana",
+            "linkedinUrl": "https://www.linkedin.com/in/aditya-khurana-stanford-mumbai",
+            "publicIdentifier": "aditya-khurana-stanford-mumbai"
+          }
+        }
+      ],
+      "author": {
+        "id": "131364074",
+        "universalName": "life-at-azend",
+        "publicIdentifier": null,
+        "type": "company",
+        "name": "Life at Azend",
+        "linkedinUrl": "https://www.linkedin.com/showcase/life-at-azend/posts",
+        "info": "145 followers",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D560BAQEJ2taXqvU_aA/company-logo_400_400/B56Z6v6hEqIAAY-/0/1781067813432?e=1790208000&v=beta&t=Cc9PFWGSLqvM-bs3rFCSulud8e4zz_tjjcZKQbyTa10",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "131364074",
+        "companyId": "131364074"
+      },
+      "postedAt": {
+        "timestamp": 1785468531626,
+        "date": "2026-07-31T03:28:51.626Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago \u2022 Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQG-MroVM8fttA/feedshare-image-high-res/B56Z.2NlywIMAY-/0/1785468444720?e=1790208000&v=beta&t=rMZ-B6kH0SCLp0KAQPVuJmGo_Nxr71-7XYkfJvwPjP0",
+          "width": 2048,
+          "height": 1365
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQG6q5w8518wRw/feedshare-image-high-res/B56Z.2NmmBJoAU-/0/1785468447974?e=1790208000&v=beta&t=2gij7jo4MKGA_j89kT3edvz_12a1MRtc97mJ0yuVsBs",
+          "width": 2048,
+          "height": 1365
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGRjB1vfWT1KA/feedshare-image-high-res/B56Z.2NmuuLAAU-/0/1785468448517?e=1790208000&v=beta&t=S54zb77FUUqcCYd_5dxPJT_eVu_sCuTEprAM0zk2gSc",
+          "width": 2048,
+          "height": 1365
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGew3GarXahLw/feedshare-image-high-res/B56Z.2NmEfKoAU-/0/1785468446284?e=1790208000&v=beta&t=vMh_lqsDioSx4NAO6hkdjytTaSF3IzfUFLGuNbxPD3Q",
+          "width": 2048,
+          "height": 1365
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFr2zL9c3u62Q/feedshare-image-high-res/B56Z.2NlJhG4AY-/0/1785468441995?e=1790208000&v=beta&t=-9DjLUPrqoBGTHlyvUGVfiADEQruMcRlYlkh1NH5LBQ",
+          "width": 2048,
+          "height": 1365
+        }
+      ],
+      "repostedBy": {
+        "name": "Azend Technologies",
+        "publicIdentifier": null,
+        "universalName": "azend-technologies",
+        "linkedinUrl": "https://www.linkedin.com/company/azend-technologies/?miniCompanyUrn=urn%3Ali%3Afsd_company%3A73851854"
+      },
+      "repostedAt": {
+        "timestamp": 1785468531626,
+        "date": "2026-07-31T03:28:51.626Z"
+      },
+      "socialContent": {
+        "hideCommentsCount": false,
+        "hideReactionsCount": false,
+        "hideSocialActivityCounts": false,
+        "hideShareAction": true,
+        "hideSendAction": true,
+        "hideRepostsCount": false,
+        "hideViewsCount": false,
+        "trustInterventionBanner": null,
+        "hideReactAction": false,
+        "hideCommentAction": false,
+        "shareUrl": "https://www.linkedin.com/posts/life-at-azend_stanfordseed-growth-transformation-ugcPost-7488797464217481216-2tAT?",
+        "showContributionExperience": false,
+        "showSocialDetail": true
+      },
+      "header": {
+        "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7488797804073472000?updateEntityUrn=urn%3Ali%3Afsd_update%3A%28urn%3Ali%3Aactivity%3A7488797804073472000%2CCOMPANY_FEED%2CDEBUG_REASON%2CDEFAULT%2Cfalse%29&originTrackingId=Oh2W0YpV1hcLPoq%2FzY%2B%2FXA%3D%3D",
+        "imageLink": "https://www.linkedin.com/company/azend-technologies/?miniCompanyUrn=urn%3Ali%3Afsd_company%3A73851854",
+        "text": "Azend Technologies reposted this"
+      },
+      "entityId": "7488797804073472000",
+      "shareUrn": "urn:li:ugcPost:7488797464217481216",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7488797464217481216",
+      "engagement": {
+        "id": "7488797464217481216",
+        "likes": 28,
+        "comments": 0,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 24
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "reactionIds": [],
+      "commentIds": [],
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/company/azend-technologies/",
+        "sessionId": "3cebb63a-506f-4ddf-b225-0cb1252f6079"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7490254611501547520",
+      "linkedinUrl": "https://www.linkedin.com/posts/azend-technologies_azendtechnologies-educationfranchise-enterprisesoftware-activity-7490254611501547520-DMhF",
+      "content": "For many growing education franchises across Southeast Asia, the biggest scaling challenges aren't in the classroom. They're in expense approvals, reimbursements, marketing compliance, assessment reporting, and audit trails. These aren't the features that make headlines, but they're often the systems that determine whether a franchise can grow without multiplying operational headaches. \n\nIf you're rethinking how your franchise scales, we'd love to exchange ideas.\n\n#AzendTechnologies #EducationFranchise #EnterpriseSoftware #AIinEducation #SoutheastAsia",
+      "contentAttributes": [],
+      "author": {
+        "id": "73851854",
+        "universalName": "azend-technologies",
+        "publicIdentifier": null,
+        "type": "company",
+        "name": "Azend Technologies",
+        "linkedinUrl": "https://www.linkedin.com/company/azend-technologies/posts",
+        "info": "20,431 followers",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D0BAQESyqsMsPFm9A/company-logo_400_400/company-logo_400_400/0/1653872977261?e=1790208000&v=beta&t=JtLEIwekQtiDkBNiuVRpn0mxYbCBSwsXCEvmwUz_NiQ",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "73851854",
+        "companyId": "73851854"
+      },
+      "postedAt": {
+        "timestamp": 1785815861583,
+        "date": "2026-08-04T03:57:41.583Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago \u2022 Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQF5LrLhPeL_Kw/feedshare-shrink_1280/B4EZ_K64JuJUAI-/0/1785815860578?e=1790208000&v=beta&t=WfJwYKld1l-2KCs2iCViFYL39NjnowbgxAJRWf2rrLw",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "socialContent": {
+        "hideCommentsCount": false,
+        "hideReactionsCount": false,
+        "hideSocialActivityCounts": false,
+        "hideShareAction": true,
+        "hideSendAction": true,
+        "hideRepostsCount": false,
+        "hideViewsCount": false,
+        "trustInterventionBanner": null,
+        "hideReactAction": false,
+        "hideCommentAction": false,
+        "shareUrl": "https://www.linkedin.com/posts/azend-technologies_azendtechnologies-educationfranchise-enterprisesoftware-activity-7490254611501547520-DMhF?",
+        "showContributionExperience": false,
+        "showSocialDetail": true
+      },
+      "header": {
+        "text": null
+      },
+      "entityId": "7490254611501547520",
+      "shareUrn": "urn:li:share:7490254610440359936",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7490254610440359936",
+      "engagement": {
+        "id": "7490254611501547520",
+        "likes": 2,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 2
+          }
+        ]
+      },
+      "reactionIds": [],
+      "commentIds": [],
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/company/azend-technologies/",
+        "sessionId": "3cebb63a-506f-4ddf-b225-0cb1252f6079"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7490957344198270976",
+      "linkedinUrl": "https://www.linkedin.com/posts/azend-technologies_azendtechnologies-education-franchising-activity-7490957344198270976-nhzX",
+      "content": "Every growing education franchise reaches a point where adding another platform creates more complexity than value.\n\nCRM. Marketing. HR. Finance. Assessments. Analytics. The challenge isn't having more tools, It's having systems that work together.\n\nAs more education franchises across South East Asia embrace digital transformation, scalable, connected technology makes growth simpler. So expanding to new locations feels like the next step, not the next hurdle.\n\nIf you're looking to simplify operations while scaling your franchise, we'd love to exchange ideas.\n\n#AzendTechnologies #Education #Franchising #Singapore #ASEAN",
+      "contentAttributes": [],
+      "author": {
+        "id": "73851854",
+        "universalName": "azend-technologies",
+        "publicIdentifier": null,
+        "type": "company",
+        "name": "Azend Technologies",
+        "linkedinUrl": "https://www.linkedin.com/company/azend-technologies/posts",
+        "info": "20,431 followers",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D0BAQESyqsMsPFm9A/company-logo_400_400/company-logo_400_400/0/1653872977261?e=1790208000&v=beta&t=JtLEIwekQtiDkBNiuVRpn0mxYbCBSwsXCEvmwUz_NiQ",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "73851854",
+        "companyId": "73851854"
+      },
+      "postedAt": {
+        "timestamp": 1785983406114,
+        "date": "2026-08-06T02:30:06.114Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago \u2022 Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQEgosOz5tE3zA/feedshare-image-high-res/B56Z_TWA_bGsAU-/0/1785957228261?e=1790208000&v=beta&t=qUeSRm_ztcsh6LDOIhGsuAL1nKDnli5ELPzi2rVnQgE",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "socialContent": {
+        "hideCommentsCount": false,
+        "hideReactionsCount": false,
+        "hideSocialActivityCounts": false,
+        "hideShareAction": true,
+        "hideSendAction": true,
+        "hideRepostsCount": false,
+        "hideViewsCount": false,
+        "trustInterventionBanner": null,
+        "hideReactAction": false,
+        "hideCommentAction": false,
+        "shareUrl": "https://www.linkedin.com/posts/azend-technologies_azendtechnologies-education-franchising-activity-7490957344198270976-nhzX?",
+        "showContributionExperience": false,
+        "showSocialDetail": true
+      },
+      "header": {
+        "text": null
+      },
+      "entityId": "7490957344198270976",
+      "shareUrn": "urn:li:share:7490847700855398400",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7490847700855398400",
+      "engagement": {
+        "id": "7490957344198270976",
+        "likes": 9,
+        "comments": 0,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 9
+          }
+        ]
+      },
+      "reactionIds": [],
+      "commentIds": [],
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/company/azend-technologies/",
+        "sessionId": "3cebb63a-506f-4ddf-b225-0cb1252f6079"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7500387018410078209",
+      "linkedinUrl": "https://www.linkedin.com/posts/azend-technologies_ai-is-changing-education-but-whos-protecting-activity-7500387018410078209-UUyI",
+      "content": "AI is changing education, but who\u2019s protecting the data behind it?\n\nAt FLAsia 2026 in Singapore, one message stood out: as education franchisors increasingly adopt generative AI, data protection can no longer be an afterthought. With student, parent, franchisee, and financial data moving across locations and jurisdictions, organizations need to understand where their data goes and who remains responsible for it. Our latest blog explores the evolving data protection landscape and how education businesses can adopt AI while keeping sensitive data secure and under control.\n\nRead the full blog: https://lnkd.in/ggZ4DUMc",
+      "contentAttributes": [],
+      "author": {
+        "id": "73851854",
+        "universalName": "azend-technologies",
+        "publicIdentifier": null,
+        "type": "company",
+        "name": "Azend Technologies",
+        "linkedinUrl": "https://www.linkedin.com/company/azend-technologies/posts",
+        "info": "20,431 followers",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D0BAQESyqsMsPFm9A/company-logo_400_400/company-logo_400_400/0/1653872977261?e=1790208000&v=beta&t=JtLEIwekQtiDkBNiuVRpn0mxYbCBSwsXCEvmwUz_NiQ",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "73851854",
+        "companyId": "73851854"
+      },
+      "postedAt": {
+        "timestamp": 1788231615641,
+        "date": "2026-09-01T03:00:15.641Z",
+        "postedAgoShort": "6d",
+        "postedAgoText": "6 days ago \u2022 Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHV83dChQkBJw/feedshare-shrink_1280/B56aBYQsDsJQAU-/0/1788187165414?e=1790208000&v=beta&t=5K2tdOraMdHeDsndOg324lMvM4aV7CIyD_TYJCFYpTY",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "socialContent": {
+        "hideCommentsCount": false,
+        "hideReactionsCount": false,
+        "hideSocialActivityCounts": false,
+        "hideShareAction": true,
+        "hideSendAction": true,
+        "hideRepostsCount": false,
+        "hideViewsCount": false,
+        "trustInterventionBanner": null,
+        "hideReactAction": false,
+        "hideCommentAction": false,
+        "shareUrl": "https://www.linkedin.com/posts/azend-technologies_ai-is-changing-education-but-whos-protecting-activity-7500387018410078209-UUyI?",
+        "showContributionExperience": false,
+        "showSocialDetail": true
+      },
+      "header": {
+        "text": null
+      },
+      "entityId": "7500387018410078209",
+      "shareUrn": "urn:li:share:7500200586995191808",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7500200586995191808",
+      "engagement": {
+        "id": "7500387018410078209",
+        "likes": 5,
+        "comments": 0,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 5
+          }
+        ]
+      },
+      "reactionIds": [],
+      "commentIds": [],
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/company/azend-technologies/",
+        "sessionId": "3cebb63a-506f-4ddf-b225-0cb1252f6079"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7495675962190102528",
+      "linkedinUrl": "https://www.linkedin.com/posts/azend-technologies_azendtechnologies-5years-growth-activity-7495675962190102528-aTFu",
+      "content": "Five years of innovation, growth, collaboration, and impact. A journey that has shaped who we are today. As we celebrate this milestone, we look back with pride and look ahead with an even greater ambition to build world-class enterprise technology and create lasting impact.\n\nRead the full story of our journey: https://lnkd.in/gyX8RJ6J",
+      "contentAttributes": [],
+      "author": {
+        "id": "73851854",
+        "universalName": "azend-technologies",
+        "publicIdentifier": null,
+        "type": "company",
+        "name": "Azend Technologies",
+        "linkedinUrl": "https://www.linkedin.com/company/azend-technologies/posts",
+        "info": "20,431 followers",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D0BAQESyqsMsPFm9A/company-logo_400_400/company-logo_400_400/0/1653872977261?e=1790208000&v=beta&t=JtLEIwekQtiDkBNiuVRpn0mxYbCBSwsXCEvmwUz_NiQ",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "73851854",
+        "companyId": "73851854"
+      },
+      "postedAt": {
+        "timestamp": 1787108412311,
+        "date": "2026-08-19T03:00:12.311Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago \u2022 Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "repostId": "7494971622504812544",
+      "socialContent": {
+        "hideCommentsCount": false,
+        "hideReactionsCount": false,
+        "hideSocialActivityCounts": false,
+        "hideShareAction": true,
+        "hideSendAction": true,
+        "hideRepostsCount": false,
+        "hideViewsCount": false,
+        "trustInterventionBanner": null,
+        "hideReactAction": false,
+        "hideCommentAction": false,
+        "shareUrl": "https://www.linkedin.com/posts/azend-technologies_azendtechnologies-5years-growth-activity-7495675962190102528-aTFu?",
+        "showContributionExperience": false,
+        "showSocialDetail": true
+      },
+      "header": {
+        "text": null
+      },
+      "entityId": "7495675962190102528",
+      "shareUrn": "urn:li:ugcPost:7495525551760289793",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7495525551760289793",
+      "repost": {
+        "id": "7494971622504812544",
+        "linkedinUrl": "https://www.linkedin.com/posts/life-at-azend_azendtechnologies-5years-growth-activity-7494971622504812544-ehiL",
+        "content": "Five years ago, Azend Technologies began with a vision and the determination to see it through.\n\nAs we recently marked five years, we took a moment to look back at the journey so far. What stands out isn\u2019t just the milestones we\u2019ve reached, but the relationships we\u2019ve built, the challenges that shaped us, and the trust we\u2019ve earned along the way.\n\nFive years is one chapter in a much longer journey, and we\u2019re proud of how far we\u2019ve come.\n\nThank you to everyone who has been part of the journey so far. Here\u2019s to everything still to come.\n\n#AzendTechnologies #5Years #Growth #Innovation #LifeAtAzend",
+        "contentAttributes": [
+          {
+            "start": 16,
+            "length": 18,
+            "type": "COMPANY_NAME",
+            "hyperlink": null,
+            "textLink": null,
+            "company": {
+              "id": "73851854",
+              "name": "Azend Technologies",
+              "linkedinUrl": "https://www.linkedin.com/company/azend-technologies/"
+            }
+          }
+        ],
+        "author": {
+          "id": "131364074",
+          "universalName": "life-at-azend",
+          "publicIdentifier": null,
+          "type": "company",
+          "name": "Life at Azend",
+          "linkedinUrl": "https://www.linkedin.com/showcase/life-at-azend/posts",
+          "info": "145 followers",
+          "website": null,
+          "websiteLabel": null,
+          "avatar": {
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQEJ2taXqvU_aA/company-logo_400_400/B56Z6v6hEqIAAY-/0/1781067813432?e=1790208000&v=beta&t=Cc9PFWGSLqvM-bs3rFCSulud8e4zz_tjjcZKQbyTa10",
+            "width": 400,
+            "height": 400
+          },
+          "urn": "131364074",
+          "companyId": "131364074"
+        },
+        "postedAt": {
+          "timestamp": 1786940484644,
+          "date": "2026-08-17T04:21:24.644Z",
+          "postedAgoShort": "3w",
+          "postedAgoText": "3 weeks ago \u2022 Visible to anyone on or off LinkedIn"
+        },
+        "postImages": [
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQF2W45tfqNNVQ/feedshare-image-high-res/B56aAN8.FQHsAU-/0/1786940482948?e=1790208000&v=beta&t=X9Mbsh2nceKJGM7UlzVY_mSasw4Hllb4CK2t5Pu_KKg",
+            "width": 2048,
+            "height": 1443
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQF0skz5scD9jA/feedshare-image-high-res/B56aAN85s2GUAU-/0/1786940464691?e=1790208000&v=beta&t=rU0Op5N17pQxcaoPy2GH5laYjQ5B-D3brDlKTpxXCqk",
+            "width": 2048,
+            "height": 1443
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQFBaWwE5josyQ/feedshare-image-high-res/B56aAN86dUGcAU-/0/1786940467809?e=1790208000&v=beta&t=tWDHbQDc8ucou7OWBdoO4LzIYYli6lP-8avyIQaN1mE",
+            "width": 2048,
+            "height": 1443
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQEp8k_-KFELlQ/feedshare-image-high-res/B56aAN8y45HoAU-/0/1786940437020?e=1790208000&v=beta&t=BqUhNBycWuo_k-zqydmZ7TBtqIt-7cnnG23MIyIkg80",
+            "width": 2048,
+            "height": 1443
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQHZ6SNqCZJ6yA/feedshare-image-high-res/B56aAN84uFIYAU-/0/1786940460650?e=1790208000&v=beta&t=0GN5AxS-JvR_3xYwwOVWSFUm5TFnxvoGnQH6j7kx-vY",
+            "width": 2048,
+            "height": 1443
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQHLzQmuoURc_w/feedshare-image-high-res/B56aAN86gOG4AU-/0/1786940468104?e=1790208000&v=beta&t=65yEIt9sUfYYjTP_tb4M1RWC-vJZhrdyddGbviNP1t0",
+            "width": 2048,
+            "height": 1443
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQFT-anlyCXIxw/feedshare-image-high-res/B56aAN8zGSJMAY-/0/1786940437722?e=1790208000&v=beta&t=ysNcBDzBOuac8mQPeCe3n0hHTMmneGUYc3mc_3WWhUU",
+            "width": 2048,
+            "height": 1443
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQEAVw94LV_iQw/feedshare-image-high-res/B56aAN83lXHsAU-/0/1786940456079?e=1790208000&v=beta&t=k-oK95zQQwoCV9sGuJzbqoD6TjzGm-Xc24H8sHovfsA",
+            "width": 2048,
+            "height": 1443
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQFcN5lBTg2ClA/feedshare-image-high-res/B56aAN84CqIEAU-/0/1786940457882?e=1790208000&v=beta&t=bx7fRBV0tP55uXrcEKA9orMcNmHwThAU0c4628Ey4SI",
+            "width": 2048,
+            "height": 1443
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQF56WA90US0AQ/feedshare-image-high-res/B56aAN868bHMAY-/0/1786940469883?e=1790208000&v=beta&t=8mgbeYaGaIUgCXDO5kSbcZOrm1p9cfVmQqMrsZC_zrE",
+            "width": 2048,
+            "height": 1443
+          }
+        ],
+        "socialContent": {
+          "hideCommentsCount": false,
+          "hideReactionsCount": false,
+          "hideSocialActivityCounts": false,
+          "hideShareAction": true,
+          "hideSendAction": true,
+          "hideRepostsCount": false,
+          "hideViewsCount": false,
+          "trustInterventionBanner": null,
+          "hideReactAction": false,
+          "hideCommentAction": false,
+          "shareUrl": "https://www.linkedin.com/posts/life-at-azend_azendtechnologies-5years-growth-activity-7494971622504812544-ehiL?",
+          "showContributionExperience": false,
+          "showSocialDetail": true
+        },
+        "comments": [],
+        "header": {
+          "text": null
+        },
+        "entityId": "7494971622504812544",
+        "shareUrn": "urn:li:ugcPost:7494971621133152256",
+        "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7494971621133152256",
+        "engagement": {
+          "id": "7494971621133152256",
+          "likes": 136,
+          "comments": 16,
+          "shares": 12,
+          "reactions": [
+            {
+              "type": "LIKE",
+              "count": 88
+            },
+            {
+              "type": "PRAISE",
+              "count": 30
+            },
+            {
+              "type": "EMPATHY",
+              "count": 18
+            }
+          ]
+        }
+      },
+      "engagement": {
+        "id": "7495525551760289793",
+        "likes": 14,
+        "comments": 1,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 9
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          }
+        ]
+      },
+      "reactionIds": [],
+      "commentIds": [],
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/company/azend-technologies/",
+        "sessionId": "3cebb63a-506f-4ddf-b225-0cb1252f6079"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7498937414066016256",
+      "linkedinUrl": "https://www.linkedin.com/posts/azend-technologies_edtech-is-moving-fast-but-keeping-up-with-activity-7498937414066016256-8H-M",
+      "content": "EdTech is moving fast. But keeping up with what\u2019s changing shouldn\u2019t feel like a full-time job.\n\nIntroducing The Rollout, Azend Technologies\u2019 EdTech newsletter bringing you a pulse on what\u2019s moving in education.\n\nBuilt for education leaders, EdTech professionals, innovators, and anyone shaping the future of learning, The Rollout helps you stay informed, spot what matters, and make sense of where education is heading.\n\nVisit education.azendtech.com to learn more.",
+      "contentAttributes": [],
+      "author": {
+        "id": "73851854",
+        "universalName": "azend-technologies",
+        "publicIdentifier": null,
+        "type": "company",
+        "name": "Azend Technologies",
+        "linkedinUrl": "https://www.linkedin.com/company/azend-technologies/posts",
+        "info": "20,431 followers",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D0BAQESyqsMsPFm9A/company-logo_400_400/company-logo_400_400/0/1653872977261?e=1790208000&v=beta&t=JtLEIwekQtiDkBNiuVRpn0mxYbCBSwsXCEvmwUz_NiQ",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "73851854",
+        "companyId": "73851854"
+      },
+      "postedAt": {
+        "timestamp": 1787886003033,
+        "date": "2026-08-28T03:00:03.033Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago \u2022 Edited \u2022 Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQE9ulaR2amOyw/videocover-low/B56aBEcc9qKkBI-/0/1787854708086?e=1789380000&v=beta&t=mQ1KA8DKEvyfm6IqEOiMB-pyQdy-6KiRQqbp6SruFrc",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D5605AQE9ulaR2amOyw/mp4-720p-30fp-crf28/B56aBEcc9qKkB8-/0/1787854711196?e=1789380000&v=beta&t=yrzFgN7W0EUID019VKBkSKIgdkuP9e1J-CgrfXLK_ZM"
+      },
+      "socialContent": {
+        "hideCommentsCount": false,
+        "hideReactionsCount": false,
+        "hideSocialActivityCounts": false,
+        "hideShareAction": true,
+        "hideSendAction": true,
+        "hideRepostsCount": false,
+        "hideViewsCount": false,
+        "trustInterventionBanner": null,
+        "hideReactAction": false,
+        "hideCommentAction": false,
+        "shareUrl": "https://www.linkedin.com/posts/azend-technologies_edtech-is-moving-fast-but-keeping-up-with-activity-7498937414066016256-8H-M?",
+        "showContributionExperience": false,
+        "showSocialDetail": true
+      },
+      "header": {
+        "text": null
+      },
+      "entityId": "7498937414066016256",
+      "shareUrn": "urn:li:ugcPost:7498804189653946368",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7498804189653946368",
+      "engagement": {
+        "id": "7498804189653946368",
+        "likes": 10,
+        "comments": 0,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 10
+          }
+        ]
+      },
+      "reactionIds": [],
+      "commentIds": [],
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/company/azend-technologies/",
+        "sessionId": "3cebb63a-506f-4ddf-b225-0cb1252f6079"
+      }
+    }
+  ]
+}

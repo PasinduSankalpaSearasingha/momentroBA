@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Momentro BA | Lead Intelligence & Automated Message Generation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="/static/images/momentro-logo.png" />
+  <link rel="stylesheet" href="/static/css/style.css?v=3.2" />
+  <style>
+    /* Clean Monochrome Modern Styling (matching user's reference) */
+    .icon-svg {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 16px;
+      height: 16px;
+      stroke-width: 2px;
+      stroke: currentColor;
+      fill: none;
+      flex-shrink: 0;
+      vertical-align: -2px;
+    }
+    .icon-svg.icon-sm {
+      width: 14px;
+      height: 14px;
+      stroke-width: 2px;
+    }
+    .icon-svg.icon-md {
+      width: 18px;
+      height: 18px;
+      stroke-width: 1.8px;
+    }
+    .icon-svg.icon-lg {
+      width: 22px;
+      height: 22px;
+      stroke-width: 1.8px;
+    }
+    .topbar-branding {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .topbar-branding .brand-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .topbar-branding .brand-sub {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+    .contact-badge-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: #f8fafc;
+      color: #1e293b;
+      border: 1px solid #e2e8f0;
+      padding: 0.25rem 0.65rem;
+      border-radius: var(--radius-full);
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: var(--transition);
+    }
+    .contact-badge-item:hover {
+      background: #f1f5f9;
+      border-color: #cbd5e1;
+      color: #0f172a;
+    }
+    .contact-badge-item.phone {
+      background: #f8fafc;
+      color: #1e293b;
+      border: 1px solid #e2e8f0;
+    }
+    .contact-badge-item.phone:hover {
+      background: #f1f5f9;
+      color: #0f172a;
+    }
+    .avatar-modern {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: #f8fafc;
+      border: 1.5px solid #e2e8f0;
+      color: #0f172a;
+      flex-shrink: 0;
+      user-select: none;
+    }
+    .avatar-modern.avatar-sm, .avatar-sm {
+      width: 36px;
+      height: 36px;
+      min-width: 36px;
+      min-height: 36px;
+    }
+    .avatar-modern.avatar-md, .avatar-md {
+      width: 52px;
+      height: 52px;
+      min-width: 52px;
+      min-height: 52px;
+    }
+    /* Fit to Screen & Zero Overflow Layout Overrides */
+    html, body {
+      max-width: 100vw;
+      overflow-x: hidden;
+    }
+    .app-layout {
+      display: flex;
+      min-height: 100vh;
+      max-width: 100vw;
+      width: 100%;
+      overflow-x: hidden;
+      box-sizing: border-box;
+    }
+    .sidebar {
+      width: 230px !important;
+      min-width: 230px !important;
+      flex-shrink: 0 !important;
+      padding: 1.25rem 0.85rem !important;
+      box-sizing: border-box !important;
+    }
+    .main-wrapper {
+      flex: 1 1 0% !important;
+      min-width: 0 !important;
+      width: calc(100% - 230px) !important;
+      max-width: calc(100vw - 230px) !important;
+      overflow-x: hidden !important;
+      box-sizing: border-box !important;
+    }
+    .topbar {
+      height: auto !important;
+      min-height: 60px !important;
+      padding: 0.6rem 1.25rem !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+      flex-wrap: wrap !important;
+      gap: 0.5rem !important;
+    }
+    .topbar-right {
+      gap: 0.4rem !important;
+      flex-wrap: wrap !important;
+    }
+    .topbar-right .btn {
+      padding: 0.38rem 0.75rem !important;
+      font-size: 0.8rem !important;
+    }
+    .content-area {
+      flex: 1 1 auto !important;
+      min-width: 0 !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      padding: 1.25rem 1.5rem !important;
+      box-sizing: border-box !important;
+      overflow-x: hidden !important;
+    }
+    .view-panel {
+      min-width: 0 !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+    }
+    .view-header {
+      display: flex !important;
+      flex-wrap: wrap !important;
+      align-items: center !important;
+      justify-content: space-between !important;
+      gap: 0.75rem !important;
+      margin-bottom: 1.25rem !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+    }
+    .view-title {
+      font-size: 1.25rem !important;
+      font-weight: 800 !important;
+      letter-spacing: -0.01em !important;
+    }
+    .view-subtitle {
+      font-size: 0.8rem !important;
+      color: var(--text-secondary) !important;
+      margin-top: 0.15rem !important;
+    }
+    .header-actions {
+      display: flex !important;
+      align-items: center !important;
+      gap: 0.4rem !important;
+      flex-wrap: wrap !important;
+    }
+    .header-actions .btn {
+      padding: 0.38rem 0.7rem !important;
+      font-size: 0.8rem !important;
+      border-radius: 6px !important;
+    }
+
+    /* Studio Side-by-Side Grid */
+    .studio-grid {
+      display: grid !important;
+      grid-template-columns: 310px minmax(0, 1fr) !important;
+      gap: 1rem !important;
+      align-items: start !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+    }
+    .studio-context-panel {
+      min-width: 0 !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+      padding: 1.25rem !important;
+      overflow: hidden !important;
+    }
+    .studio-draft-panel {
+      min-width: 0 !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+      padding: 1.25rem !important;
+      overflow: hidden !important;
+    }
+
+    /* Modern Segmented & Pill Button Styling (Matching Blue, No Harsh Black) */
+    .variant-tabs {
+      display: flex !important;
+      align-items: center !important;
+      gap: 0.35rem !important;
+      border-bottom: 1px solid var(--border-color) !important;
+      padding-bottom: 0.5rem !important;
+      flex-wrap: wrap !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+      overflow: visible !important;
+    }
+    .variant-tab {
+      display: inline-flex !important;
+      align-items: center !important;
+      gap: 0.35rem !important;
+      padding: 0.35rem 0.65rem !important;
+      font-size: 0.775rem !important;
+      font-weight: 600 !important;
+      color: #64748b !important;
+      background: #f8fafc !important;
+      border: 1px solid #e2e8f0 !important;
+      border-radius: 6px !important;
+      cursor: pointer !important;
+      transition: all 0.18s cubic-bezier(0.4, 0, 0.2, 1) !important;
+      white-space: nowrap !important;
+      box-sizing: border-box !important;
+    }
+    .variant-tab:hover {
+      background: #eff6ff !important;
+      color: #1d4ed8 !important;
+      border-color: #bfdbfe !important;
+    }
+    .variant-tab.active {
+      background: #2563eb !important;
+      color: #ffffff !important;
+      border-color: #1d4ed8 !important;
+      box-shadow: 0 1px 3px rgba(37, 99, 235, 0.25) !important;
+    }
+    .variant-tab.active svg {
+      stroke: #ffffff !important;
+    }
+
+    /* Studio Toolbar & Message Editor */
+    .draft-toolbar {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: space-between !important;
+      flex-wrap: wrap !important;
+      gap: 0.5rem !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+      padding: 0.4rem 0 !important;
+    }
+    .tone-controls {
+      display: flex !important;
+      align-items: center !important;
+      gap: 0.4rem !important;
+      flex-wrap: wrap !important;
+    }
+    .editor-container {
+      position: relative !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+      overflow: hidden !important;
+    }
+    .message-textarea {
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+      border: 1px solid var(--border-color) !important;
+      border-radius: var(--radius-md) !important;
+      padding: 0.85rem 1rem !important;
+      font-family: 'Inter', sans-serif !important;
+      font-size: 0.875rem !important;
+      line-height: 1.6 !important;
+      color: var(--text-primary) !important;
+      background: #ffffff !important;
+      outline: none !important;
+      transition: var(--transition) !important;
+      resize: vertical !important;
+      min-height: 200px !important;
+    }
+    .editor-footer {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: space-between !important;
+      flex-wrap: wrap !important;
+      gap: 0.5rem !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+      margin-top: 0.5rem !important;
+    }
+    .editor-actions {
+      display: flex !important;
+      align-items: center !important;
+      gap: 0.4rem !important;
+      flex-shrink: 0 !important;
+    }
+    .editor-actions .btn {
+      padding: 0.32rem 0.65rem !important;
+      font-size: 0.775rem !important;
+      border-radius: 6px !important;
+    }
+
+    @media (max-width: 1120px) {
+      .studio-grid {
+        grid-template-columns: 1fr !important;
+      }
+    }
+    @media (max-width: 860px) {
+      .app-layout {
+        flex-direction: column !important;
+      }
+      .sidebar {
+        width: 100% !important;
+        min-width: 100% !important;
+        height: auto !important;
+        position: relative !important;
+      }
+      .main-wrapper {
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+    }
+    .filter-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 1.25rem;
+      flex-wrap: wrap;
+    }
+    .search-input-wrap {
+      position: relative;
+      flex: 1;
+      max-width: 440px;
+      min-width: 280px;
+    }
+    .search-input-wrap .search-icon {
+      position: absolute;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #94a3b8;
+      pointer-events: none;
+    }
+    .search-input-wrap .form-input {
+      width: 100%;
+      height: 38px;
+      padding: 0 12px 0 36px;
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      color: #0f172a;
+      outline: none;
+      transition: all 0.2s ease;
+    }
+    .search-input-wrap .form-input:focus {
+      border-color: #2563eb;
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+    }
+    .filter-segmented-control {
+      display: inline-flex;
+      align-items: center;
+      background: #f1f5f9;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 3px;
+      gap: 3px;
+    }
+    .filter-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      padding: 0 0.95rem;
+      height: 32px;
+      font-size: 0.8125rem;
+      font-weight: 600;
+      color: #64748b;
+      background: transparent;
+      border: 1px solid transparent;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.18s cubic-bezier(0.4, 0, 0.2, 1);
+      white-space: nowrap;
+      user-select: none;
+    }
+    .filter-pill:hover {
+      color: #1d4ed8;
+      background: rgba(255, 255, 255, 0.7);
+    }
+    .filter-pill.active {
+      background: #2563eb;
+      color: #ffffff;
+      border-color: #1d4ed8;
+      box-shadow: 0 1px 3px rgba(37, 99, 235, 0.3), 0 1px 2px rgba(37, 99, 235, 0.2);
+    }
+    .filter-pill.active svg {
+      stroke: #ffffff;
+    }
+    .action-btn-group {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      background: #eff6ff;
+      color: #1d4ed8;
+      border: 1px solid #bfdbfe;
+      font-weight: 600;
+      font-size: 0.75rem;
+      padding: 3px 8px;
+      border-radius: 6px;
+      white-space: nowrap;
+    }
+    .metric-icon-box {
+      width: 44px;
+      height: 44px;
+      border-radius: var(--radius-md);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f8fafc !important;
+      border: 1px solid #e2e8f0 !important;
+      color: #0f172a !important;
+    }
+    .toast-container {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      background: #0f172a;
+      color: #ffffff;
+      padding: 0.75rem 1.25rem;
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-lg);
+      font-size: 0.875rem;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      z-index: 9999;
+      transform: translateY(150%);
+      opacity: 0;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .toast-container.show {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    .score-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      background: #f8fafc;
+      border: 1px solid var(--border-color);
+      padding: 0.25rem 0.55rem;
+      border-radius: var(--radius-sm);
+      font-weight: 700;
+      color: #0f172a;
+    }
+  </style>
+</head>
+<body class="light-theme">
+  <div class="app-layout">
+    
+    <!-- Modern Monochrome Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header" style="padding-bottom:1.15rem; border-bottom:1px solid var(--border-color); margin-bottom:1rem;">
+        <div class="brand-logo" style="display:flex; flex-direction:column; align-items:flex-start; gap:0.5rem;">
+          <img src="/static/images/momentro-logo.png" alt="Momentro" class="momentro-brand-img" style="height:48px; width:auto; max-width:100%; object-fit:contain; display:block;" />
+          <span class="brand-badge" style="font-size:0.68rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:#475569; background:#f1f5f9; padding:2px 8px; border-radius:4px; border:1px solid #e2e8f0; margin-left:2px;">BA Intelligence Engine</span>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <div class="nav-section-title">INTELLIGENCE WORKSPACE</div>
+        <button class="nav-item active" data-view="bi" id="nav-bi">
+          <span class="nav-icon" style="color:#2563eb;">
+            <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          </span>
+          <span class="nav-label" style="font-weight:700;">⚡ BI Command Center</span>
+          <span class="badge" style="background:#2563eb;color:#fff;font-size:0.65rem;margin-left:auto;">AUTO</span>
+        </button>
+        <button class="nav-item" data-view="dashboard" id="nav-dashboard">
+          <span class="nav-icon">
+            <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+          </span>
+          <span class="nav-label">Leads &amp; Contacts</span>
+          <span class="badge count-badge" id="leads-count-badge">1</span>
+        </button>
+        <button class="nav-item" data-view="studio" id="nav-studio">
+          <span class="nav-icon">
+            <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          </span>
+          <span class="nav-label">Message Studio</span>
+          <span class="badge" style="background:#f1f5f9; color:#0f172a; border:1px solid #e2e8f0; font-size:0.7rem;">5 Formats</span>
+        </button>
+        <button class="nav-item" data-view="competitors" id="nav-competitors">
+          <span class="nav-icon">
+            <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="6" r="2"/></svg>
+          </span>
+          <span class="nav-label">Competitor &amp; AEO/GEO</span>
+          <span class="badge" style="background:#eff6ff; color:#1d4ed8; border:1px solid #bfdbfe; font-size:0.7rem;">Matrix</span>
+        </button>
+        <button class="nav-item" data-view="company-dossier" id="nav-company-dossier">
+          <span class="nav-icon">
+            <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          </span>
+          <span class="nav-label">Company Dossier</span>
+          <span class="badge" style="background:#eff6ff; color:#1d4ed8; border:1px solid #bfdbfe; font-size:0.7rem;">Details</span>
+        </button>
+        <button class="nav-item" data-view="analytics" id="nav-analytics">
+          <span class="nav-icon">
+            <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          </span>
+          <span class="nav-label">Executive Dossier</span>
+        </button>
+      </nav>
+
+      <!-- Sidebar Footer Status -->
+      <div class="sidebar-footer">
+        <div class="account-health-card" style="background:#f8fafc; border:1px solid var(--border-color); padding:0.75rem; border-radius:var(--radius-md);">
+          <div class="health-header" style="display:flex; align-items:center; gap:0.5rem; font-size:0.8rem; font-weight:700; color:#1e293b;">
+            <svg class="icon-svg icon-sm" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>Autonomous Engine</span>
+          </div>
+          <p class="health-sub" style="font-size:0.75rem; color:#64748b; margin-top:0.25rem;">
+            9 Pipeline Agents Active &amp; Ready
+          </p>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Workspace -->
+    <div class="main-wrapper">
+      
+      <!-- Topbar -->
+      <header class="topbar">
+        <div class="topbar-left">
+          <div class="topbar-branding">
+            <div class="brand-title">
+              <span>Lead Intelligence &amp; Autonomous BI Studio</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="topbar-right">
+          <input type="file" id="json-file-input" accept=".json" style="display:none;" />
+          <button class="btn btn-outline" id="btn-sync-scraper" style="display:flex; align-items:center; gap:0.5rem;" title="Sync new leads from External Scraper API">
+            <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 2v6h-6"/><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M3 22v-6h6"/><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/></svg>
+            <span>Sync Scraper API</span>
+          </button>
+          <button class="btn btn-outline" id="btn-upload-json-modal" style="display:flex; align-items:center; gap:0.5rem;" title="Drop file or paste JSON payload">
+            <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+            <span>Upload JSON</span>
+          </button>
+          <button class="btn btn-primary" id="btn-run-agent" style="display:flex; align-items:center; gap:0.5rem;" title="Execute 9-Agent Pipeline">
+            <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            <span>Run Pipeline</span>
+          </button>
+          <a href="/leads" class="btn btn-outline" style="display:flex; align-items:center; gap:0.4rem; text-decoration:none; color:inherit;" target="_blank">
+            <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+            <span>Leads Hub ↗</span>
+          </a>
+          <a href="/company-report?lead_id=1" class="btn btn-outline" style="display:flex; align-items:center; gap:0.4rem; text-decoration:none; color:inherit;" target="_blank">
+            <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+            <span>Company Dossier ↗</span>
+          </a>
+        </div>
+      </header>
+
+      <!-- Content Area -->
+      <main class="content-area">
+
+        <!-- VIEW 0: AUTONOMOUS BI COMMAND CENTER & AUTO-PILOT -->
+        <section class="view-panel active" id="view-bi">
+          
+          <!-- Auto-Pilot Command Hero -->
+          <div class="autopilot-hero">
+            <div class="autopilot-left">
+              <h2>
+                <svg class="icon-svg icon-lg" viewBox="0 0 24 24" fill="none" stroke="#60a5fa" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                <span>Autonomous BI Command Center</span>
+                <span style="font-size:0.7rem; padding:2px 8px; border-radius:9999px; background:rgba(16,185,129,0.2); border:1px solid rgba(16,185,129,0.4); color:#34d399; font-weight:700;">LIVE ORCHESTRATOR</span>
+              </h2>
+              <p>End-to-end multi-agent orchestration running 9 specialized autonomous agents across noise stripping, strategic narrative modeling, competitor discovery, website AEO/GEO readiness, and automated outreach generation.</p>
+            </div>
+            <div class="autopilot-controls">
+              <div class="autopilot-toggle-box">
+                <div style="display:flex; flex-direction:column;">
+                  <span style="font-size:0.725rem; font-weight:700; text-transform:uppercase; letter-spacing:0.05em;">Auto-Pilot</span>
+                  <span id="autopilot-status-lbl" style="font-size:0.68rem; color:#94a3b8;">Autonomous Polling</span>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="autopilot-toggle" checked />
+                  <span class="slider"></span>
+                </label>
+              </div>
+              <button class="btn btn-primary" id="btn-run-autopilot-hero" style="display:flex; align-items:center; gap:0.5rem; background:linear-gradient(135deg, #2563eb, #06b6d4); border:none; box-shadow:0 0 15px rgba(37,99,235,0.4);">
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                <span>Run Auto-Pilot Pipeline (1-Click)</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Section Header: 9 Autonomous Agents -->
+          <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:0.75rem;">
+            <div>
+              <h3 style="font-size:1.05rem; font-weight:800; display:flex; align-items:center; gap:0.4rem;">
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                <span>9 Autonomous Multi-Agent Pipeline</span>
+              </h3>
+              <p style="font-size:0.78rem; color:var(--text-secondary);">Real-time telemetry and execution state across all autonomous pipeline agents.</p>
+            </div>
+            <span class="status-badge" style="background:#f0fdf4; color:#16a34a; border-color:#bbf7d0;">
+              <span class="status-dot" style="width:7px; height:7px; background:#16a34a; border-radius:50%; display:inline-block;"></span>
+              <span>All 9 Agents Operational</span>
+            </span>
+          </div>
+
+          <!-- 9 Agent Stepper Track -->
+          <div class="agent-pipeline-track" id="agent-stepper-track">
+            <!-- Populated via JavaScript -->
+          </div>
+
+          <!-- Grid: Live Execution Console & Conversion Funnel -->
+          <div style="display:grid; grid-template-columns:minmax(0, 1.4fr) minmax(0, 1fr); gap:1.25rem; margin-bottom:1.5rem;">
+            
+            <!-- Live Execution Terminal -->
+            <div class="telemetry-terminal">
+              <div class="terminal-header">
+                <span style="display:flex; align-items:center; gap:0.4rem; font-weight:700;">
+                  <span style="width:8px; height:8px; background:#10b981; border-radius:50%; display:inline-block;"></span>
+                  <span>LIVE AGENT TELEMETRY CONSOLE</span>
+                </span>
+                <span id="telemetry-timer" style="color:#64748b; font-size:0.7rem;">Live</span>
+              </div>
+              <div class="terminal-body" id="telemetry-body">
+                <div class="log-entry">
+                  <span class="log-time">[00:00:00]</span>
+                  <span class="log-agent">System:</span>
+                  <span class="log-msg">Multi-Agent BI Command Center initialized &amp; connected to SQLite.</span>
+                </div>
+                <div class="log-entry">
+                  <span class="log-time">[00:00:01]</span>
+                  <span class="log-agent">DataCleanerAgent:</span>
+                  <span class="log-msg">Noise stripping active. 15 LinkedIn posts synchronized.</span>
+                  <span class="log-status-done">[DONE]</span>
+                </div>
+                <div class="log-entry">
+                  <span class="log-time">[00:00:02]</span>
+                  <span class="log-agent">WebsiteScorerAgent:</span>
+                  <span class="log-msg">AEO/GEO evaluation benchmarked (Overall: 75.2/100).</span>
+                  <span class="log-status-done">[DONE]</span>
+                </div>
+                <div class="log-entry">
+                  <span class="log-time">[00:00:03]</span>
+                  <span class="log-agent">BIMessageCreatorAgent:</span>
+                  <span class="log-msg">5-Tier personalized outreach drafts generated and ready.</span>
+                  <span class="log-status-done">[READY]</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Conversion & Intelligence Funnel -->
+            <div class="card" style="padding:1.25rem;">
+              <h4 style="font-size:0.9rem; font-weight:700; margin-bottom:0.75rem; display:flex; align-items:center; gap:0.4rem;">
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+                <span>Pipeline Funnel &amp; Conversion Rates</span>
+              </h4>
+              <div class="funnel-list" id="funnel-container">
+                <!-- Injected via JavaScript -->
+              </div>
+            </div>
+
+          </div>
+
+        </section>
+
+        <!-- VIEW 1: LEADS & CONTACT INTELLIGENCE -->
+        <section class="view-panel" id="view-dashboard">
+          
+          <!-- View Header -->
+          <div class="view-header">
+            <div>
+              <h1 class="view-title">Lead Intelligence & Verified Contacts</h1>
+              <p class="view-subtitle">Executive leads synthesized with website scraping, verified contact intelligence, and AEO/GEO footprint scores.</p>
+            </div>
+            <div class="header-actions">
+              <button class="btn btn-primary" id="btn-quick-studio" style="display:flex; align-items:center; gap:0.5rem;">
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+                <span>Open in Studio</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Quick Metrics Bar -->
+          <div class="metrics-grid">
+            <div class="metric-card">
+              <div class="metric-icon-box">
+                <svg class="icon-svg icon-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <div>
+                <div class="metric-val" id="metric-total-leads">1</div>
+                <div class="metric-label">Verified Leads</div>
+              </div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-icon-box">
+                <svg class="icon-svg icon-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+              </div>
+              <div>
+                <div class="metric-val" id="metric-avg-icp">96.0%</div>
+                <div class="metric-label">Avg ICP Fit</div>
+              </div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-icon-box">
+                <svg class="icon-svg icon-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              </div>
+              <div>
+                <div class="metric-val" id="metric-contacts-scraped">Active</div>
+                <div class="metric-label">Scraped Channels</div>
+              </div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-icon-box">
+                <svg class="icon-svg icon-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              </div>
+              <div>
+                <div class="metric-val" id="metric-avg-aeo">75.2/100</div>
+                <div class="metric-label">AEO/GEO Readiness</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Filter & Search Bar (Modern Segmented Layout) -->
+          <div class="filter-bar">
+            <div class="search-input-wrap">
+              <svg class="search-icon icon-svg icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              <input type="text" id="global-search" class="form-input" placeholder="Search by name, company, role, or website..." />
+            </div>
+            <div class="filter-segmented-control">
+              <button class="filter-pill active" data-status="All">
+                <svg class="icon-svg icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                <span>All Leads</span>
+              </button>
+              <button class="filter-pill" data-status="Draft Generated">
+                <svg class="icon-svg icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Draft Generated</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Leads Table -->
+          <div class="card table-card">
+            <div class="table-responsive">
+              <table class="leads-table">
+                <thead>
+                  <tr>
+                    <th width="40"><input type="checkbox" id="select-all-leads" /></th>
+                    <th>Executive</th>
+                    <th>Company & Website</th>
+                    <th>Role</th>
+                    <th>ICP Fit</th>
+                    <th>AEO/GEO</th>
+                    <th>Status</th>
+                    <th class="text-right">Actions</th>
+                  </tr>
+                </thead>
+                <tbody id="leads-tbody">
+                  <!-- Injected via JavaScript -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <!-- VIEW 2: MESSAGE STUDIO -->
+        <section class="view-panel" id="view-studio">
+          <div class="view-header">
+            <div>
+              <h1 class="view-title">Side-by-Side Message Generation Studio</h1>
+              <p class="view-subtitle">Review synthesized lead context on the left and copy ready-to-use tailored outreach copy on the right.</p>
+            </div>
+            <div class="header-actions">
+              <button class="btn btn-outline" id="studio-prev-lead" style="display:inline-flex; align-items:center; gap:0.35rem;">
+                <svg class="icon-svg icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+                <span>Prev</span>
+              </button>
+              <span id="studio-lead-counter" style="font-size:0.825rem; font-weight:600; color:#475569; padding:0 0.4rem; white-space:nowrap;">Lead 1 of 1</span>
+              <button class="btn btn-outline" id="studio-next-lead" style="display:inline-flex; align-items:center; gap:0.35rem;">
+                <span>Next</span>
+                <svg class="icon-svg icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+              </button>
+              <button class="btn btn-primary" id="btn-studio-copy-all" style="display:flex; align-items:center; gap:0.4rem;">
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                <span>Copy Active Message</span>
+              </button>
+              <button class="btn btn-outline" id="btn-studio-export-json" style="display:flex; align-items:center; gap:0.4rem;">
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                <span>Export Messages (.json)</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="studio-grid">
+            <!-- Left Panel: Verified Lead Context & Scraped Contacts -->
+            <div class="studio-context-panel card">
+              <div class="context-header">
+                <div id="studio-avatar" class="avatar-modern avatar-md">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                </div>
+                <div>
+                  <h3 id="studio-name" class="context-title">Rajive Silva (FCMA (UK), CGMA)</h3>
+                  <div class="context-meta">
+                    <span id="studio-title">Founder / CEO</span> • <span id="studio-company">Azend Technologies</span>
+                  </div>
+                  <div class="context-location" id="studio-location">Colombo, Sri Lanka</div>
+                </div>
+              </div>
+
+              <!-- Verified Scraped Contact Box -->
+              <div class="card" style="background:#f8fafc; border:1px solid var(--border-color); padding:0.85rem; margin-bottom:1rem;">
+                <div style="font-size:0.75rem; font-weight:700; color:#475569; text-transform:uppercase; margin-bottom:0.5rem; letter-spacing:0.05em; display:flex; align-items:center; gap:0.4rem;">
+                  <svg class="icon-svg icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"/><line x1="9" y1="22" x2="9" y2="22.01"/><line x1="15" y1="22" x2="15" y2="22.01"/></svg>
+                  <span>SCRAPED CONTACT & DIGITAL FOOTPRINT</span>
+                </div>
+                <div id="studio-contact-box" style="display:flex; flex-direction:column; gap:0.4rem; font-size:0.825rem;">
+                  <!-- Injected via JavaScript -->
+                </div>
+              </div>
+
+              <!-- Key Verified Signals -->
+              <div class="insights-section">
+                <h4 class="section-subtitle">STRATEGIC SIGNALS & THEMES</h4>
+                
+                <div class="insight-badge-card" style="cursor:default;">
+                  <div class="insight-tag" style="color:#0f172a;">OPERATIONAL PHILOSOPHY</div>
+                  <p class="insight-text" id="studio-insight-philosophy">"AI is only as valuable as the operational foundation beneath it. Systems must work together seamlessly before scaling."</p>
+                </div>
+
+                <div class="insight-badge-card" style="cursor:default;">
+                  <div class="insight-tag" style="color:#0f172a;">STRATEGIC PATH</div>
+                  <p class="insight-text" id="studio-insight-paths">Franchise system simplification across ASEAN and Singapore.</p>
+                </div>
+              </div>
+
+              <!-- Collapsible Raw Intelligence Data -->
+              <details class="raw-data-collapsible" style="margin-top:1rem;">
+                <summary class="collapsible-summary">View Scraped Signals & Metadata</summary>
+                <div class="raw-data-content" id="studio-raw-posts">
+                  <!-- Injected via JavaScript -->
+                </div>
+              </details>
+            </div>
+
+            <!-- Right Panel: Live AI Message Draft & Formats (like user's screenshot) -->
+            <div class="studio-draft-panel card">
+              <div class="draft-header">
+                <div class="variant-tabs">
+                  <button class="variant-tab active" data-variant="note">
+                    <svg class="icon-svg icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    <span>LinkedIn Note (Personal)</span>
+                  </button>
+                  <button class="variant-tab" data-variant="inmail">
+                    <svg class="icon-svg icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    <span>Primary InMail (Company)</span>
+                  </button>
+                  <button class="variant-tab" data-variant="pitch">
+                    <svg class="icon-svg icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                    <span>Venture Pitch (Company)</span>
+                  </button>
+                  <button class="variant-tab" data-variant="teaser">
+                    <svg class="icon-svg icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                    <span>Quick Teaser (Company)</span>
+                  </button>
+                  <button class="variant-tab" data-variant="followup">
+                    <svg class="icon-svg icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                    <span>Follow-Up (Company)</span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Controls Toolbar -->
+              <div class="draft-toolbar" style="padding:0.75rem 0; border-bottom:1px solid var(--border-color); margin-bottom:0.75rem;">
+                <div class="tone-controls" style="display:flex; align-items:center; gap:0.5rem; flex-wrap:wrap;">
+                  <label class="control-label" style="font-size:0.8rem; font-weight:600; color:#64748b;">Tone:</label>
+                  <select id="studio-tone-select" class="form-select-sm">
+                    <option value="consultative">Consultative Peer (Senior BA)</option>
+                    <option value="direct">Direct C-Level (High Urgency)</option>
+                    <option value="conversational">Warm Conversational</option>
+                    <option value="short">Short & Punchy (&lt;100 words)</option>
+                  </select>
+                  <button class="btn btn-sm btn-secondary" id="btn-studio-regenerate" style="display:flex; align-items:center; gap:0.35rem;">
+                    <svg class="icon-svg icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+                    <span>Regenerate</span>
+                  </button>
+                </div>
+
+                <button class="btn btn-sm btn-primary" id="btn-copy-draft-inline" style="display:flex; align-items:center; gap:0.35rem;">
+                  <svg class="icon-svg icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                  <span>Copy Message</span>
+                </button>
+              </div>
+
+              <!-- Editable Draft Area -->
+              <div class="editor-container" style="width:100%; max-width:100%; box-sizing:border-box;">
+                <textarea id="studio-message-editor" class="message-textarea" rows="12" style="font-family:'Inter', sans-serif; font-size:0.9rem; line-height:1.6; width:100%; max-width:100%; box-sizing:border-box;"></textarea>
+                
+                <div class="editor-footer" style="margin-top:0.75rem;">
+                  <div class="char-count-box">
+                    <span id="char-counter">0</span> / <span id="char-limit">300</span> characters
+                    <span class="limit-status-pill safe" id="char-limit-badge">Under Limit</span>
+                  </div>
+                  <div class="editor-actions" style="display:flex; gap:0.5rem;">
+                    <button class="btn btn-sm btn-outline" id="btn-copy-draft" style="display:flex; align-items:center; gap:0.35rem;">
+                      <svg class="icon-svg icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                      <span>Copy</span>
+                    </button>
+                    <button class="btn btn-sm btn-primary" id="btn-save-draft" style="display:flex; align-items:center; gap:0.35rem;">
+                      <svg class="icon-svg icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                      <span>Save Edits</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Personalization Strategy Box -->
+              <div class="rationale-box" style="margin-top:1rem;">
+                <div class="rationale-header" style="font-size:0.8rem; font-weight:700; color:#1e293b; margin-bottom:0.25rem; display:flex; align-items:center; gap:0.35rem;">
+                  <svg class="icon-svg icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14"/></svg>
+                  <span>Strategic Personalization Rationale</span>
+                </div>
+                <p id="studio-rationale-text" class="rationale-text" style="font-size:0.8rem; color:#475569; line-height:1.5;">
+                  Directly quotes his operational philosophy and leverages his management accounting background (FCMA) to position Momentro as growth infrastructure.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- VIEW 4: COMPETITOR BENCHMARKING & AEO/GEO READINESS -->
+        <section class="view-panel" id="view-competitors">
+          <div class="view-header">
+            <div>
+              <h1 class="view-title">Competitor Benchmarking &amp; AEO/GEO Analytics</h1>
+              <p class="view-subtitle">Search-based competitor positioning, threat matrices, and website Answer Engine Optimization readiness.</p>
+            </div>
+            <div class="header-actions">
+              <a href="/company-report?lead_id=1" class="btn btn-primary" style="display:flex; align-items:center; gap:0.4rem; text-decoration:none;" target="_blank">
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                <span>Open Full Company Dossier ↗</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Top Grid: Competitors Table & AEO Breakdown -->
+          <div style="display:grid; grid-template-columns:minmax(0, 1.4fr) minmax(0, 1fr); gap:1.25rem; margin-bottom:1.5rem;">
+            
+            <!-- Competitors Matrix -->
+            <div class="card" style="padding:1.25rem;">
+              <h3 style="font-size:1rem; font-weight:800; margin-bottom:0.85rem; display:flex; align-items:center; gap:0.4rem;">
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="6" r="2"/></svg>
+                <span>Search-Based Competitor Intelligence Matrix</span>
+              </h3>
+              <div class="table-responsive">
+                <table class="comp-table">
+                  <thead>
+                    <tr>
+                      <th>Competitor Domain</th>
+                      <th>Market Positioning</th>
+                      <th>Threat Level</th>
+                      <th>Counter Angle</th>
+                    </tr>
+                  </thead>
+                  <tbody id="competitors-tbody">
+                    <!-- Injected via JavaScript -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- AEO / GEO Breakdown -->
+            <div class="card" style="padding:1.25rem;">
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
+                <h3 style="font-size:1rem; font-weight:800; display:flex; align-items:center; gap:0.4rem;">
+                  <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                  <span>Website AEO &amp; GEO Readiness</span>
+                </h3>
+                <span class="score-chip" id="aeo-overall-chip" style="font-size:0.85rem; background:#eff6ff; color:#1d4ed8; border-color:#bfdbfe;">
+                  75.2 / 100
+                </span>
+              </div>
+              <div id="aeo-breakdown-container">
+                <!-- Injected via JavaScript -->
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Account Health Card -->
+          <div class="card" style="padding:1.25rem;">
+            <h3 style="font-size:1rem; font-weight:800; margin-bottom:0.75rem; display:flex; align-items:center; gap:0.4rem;">
+              <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Outreach Campaign Health &amp; Delivery Velocity</span>
+            </h3>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:1rem;">
+              <div style="background:#f8fafc; padding:0.85rem; border-radius:var(--radius-sm); border:1px solid #e2e8f0;">
+                <div style="font-size:0.75rem; color:#64748b; font-weight:600;">LinkedIn Account Safety</div>
+                <div style="font-size:1.35rem; font-weight:800; color:#15803d; margin-top:0.2rem;">98% Safe</div>
+                <div style="font-size:0.7rem; color:#94a3b8;">Optimal sender reputation</div>
+              </div>
+              <div style="background:#f8fafc; padding:0.85rem; border-radius:var(--radius-sm); border:1px solid #e2e8f0;">
+                <div style="font-size:0.75rem; color:#64748b; font-weight:600;">Daily Connection Limit</div>
+                <div style="font-size:1.35rem; font-weight:800; color:#0f172a; margin-top:0.2rem;">25 / day</div>
+                <div style="font-size:0.7rem; color:#94a3b8;">0 sent today (under limit)</div>
+              </div>
+              <div style="background:#f8fafc; padding:0.85rem; border-radius:var(--radius-sm); border:1px solid #e2e8f0;">
+                <div style="font-size:0.75rem; color:#64748b; font-weight:600;">InMail Conversion Potential</div>
+                <div style="font-size:1.35rem; font-weight:800; color:#2563eb; margin-top:0.2rem;">High (3.4x)</div>
+                <div style="font-size:0.7rem; color:#94a3b8;">Driven by deep operational hook</div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <!-- VIEW 5: EMBEDDED COMPANY INTELLIGENCE DOSSIER (DETAILS) -->
+        <section class="view-panel" id="view-company-dossier">
+          <div class="view-header" style="margin-bottom:0.75rem;">
+            <div>
+              <h1 class="view-title" id="tab-dossier-title">Company Intelligence Dossier</h1>
+              <p class="view-subtitle" id="tab-dossier-sub">Complete verified company intelligence, executive leadership, KPIs, and extracted LinkedIn posts feed.</p>
+            </div>
+            <div class="header-actions">
+              <label style="font-size:0.8rem; font-weight:700; color:#475569;">Select Lead:</label>
+              <select id="dossier-lead-selector" class="status-select-sm" style="padding:0.4rem 0.75rem; font-size:0.825rem; font-weight:600;">
+                <!-- Injected via JavaScript -->
+              </select>
+              <a href="/company-report?lead_id=1" id="tab-dossier-ext-link" target="_blank" class="btn btn-outline" style="display:flex; align-items:center; gap:0.4rem; text-decoration:none;">
+                <svg class="icon-svg icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                <span>Open Full Page ↗</span>
+              </a>
+            </div>
+          </div>
+          <div class="card" style="padding:0; overflow:hidden; border-radius:var(--radius-lg); height:calc(100vh - 175px); box-shadow:var(--shadow-md);">
+            <iframe id="main-dossier-iframe" src="/company-report?lead_id=1" style="width:100%; height:100%; border:none; display:block;"></iframe>
+          </div>
+        </section>
+
+        <!-- VIEW 6: EXECUTIVE DOSSIER & STRATEGY -->
+        <section class="view-panel" id="view-analytics">
+          <div class="view-header">
+            <div>
+              <h1 class="view-title">Executive Strategy Dossier</h1>
+              <p class="view-subtitle">Comprehensive Senior Business Analyst synthesis, competitive landscape, and digital visibility recommendations.</p>
+            </div>
+            <div class="header-actions">
+              <button class="btn btn-outline" id="btn-download-markdown" style="display:flex; align-items:center; gap:0.4rem;">
+                <svg class="icon-svg icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                <span>Download Report (.md)</span>
+              </button>
+              <button class="btn btn-primary" id="btn-download-json" style="display:flex; align-items:center; gap:0.4rem;">
+                <svg class="icon-svg icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                <span>Download Dossier (.json)</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="card" style="padding:1.5rem; line-height:1.7;">
+            <div id="dossier-report-content" style="font-size:0.9rem; color:#334155;">
+              <!-- Injected via JavaScript -->
+            </div>
+          </div>
+        </section>
+
+      </main>
+    </div>
+  </div>
+
+  <!-- LEAD DETAIL COMPANY DOSSIER MODAL -->
+  <div class="modal-overlay" id="lead-modal-overlay">
+    <div class="dossier-modal-window">
+      <div class="dossier-modal-header">
+        <div style="display:flex; align-items:center; gap:0.75rem;">
+          <div class="avatar-modern avatar-sm" id="modal-dossier-avatar">
+            <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          </div>
+          <div>
+            <h3 id="modal-lead-name" style="font-size:1.05rem; font-weight:800; margin:0; line-height:1.2;">
+              Azend Technologies — Executive Intelligence Dossier
+            </h3>
+            <p id="modal-lead-sub" style="font-size:0.75rem; color:#64748b; margin:0;">
+              Verified Company Report &amp; LinkedIn Posts Intelligence
+            </p>
+          </div>
+        </div>
+        <div style="display:flex; align-items:center; gap:0.5rem;">
+          <a href="/company-report?lead_id=1" id="modal-open-full-btn" target="_blank" class="btn btn-sm btn-outline" style="display:inline-flex; align-items:center; gap:0.35rem; text-decoration:none;">
+            <svg class="icon-svg icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            <span>Open in New Tab ↗</span>
+          </a>
+          <button class="btn-close" id="btn-close-modal" style="font-size:1.3rem; line-height:1; cursor:pointer;">✕</button>
+        </div>
+      </div>
+      <div class="dossier-modal-iframe-wrap">
+        <iframe id="dossier-iframe" src="/company-report?lead_id=1" frameborder="0" style="width:100%; height:100%; border:none; display:block;"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- DRAG & DROP / PASTE SCRAPED JSON MODAL -->
+  <div class="modal-overlay" id="dropzone-modal">
+    <div class="modal-drawer" style="max-width:580px; width:92%;">
+      <div class="drawer-header">
+        <h2 style="display:flex; align-items:center; gap:0.5rem; font-size:1.15rem;">
+          <svg class="icon-svg icon-md" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+          <span>Ingest Scraped JSON Payload</span>
+        </h2>
+        <button class="btn-close" id="btn-close-dropzone">✕</button>
+      </div>
+      <div class="drawer-body" style="padding:1.25rem;">
+        <div class="dropzone-container" id="dropzone-box">
+          <svg class="icon-svg" style="width:36px; height:36px; color:#2563eb; margin-bottom:0.5rem;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+          <div style="font-weight:700; font-size:0.95rem; color:#0f172a;">Drag &amp; Drop scraped_profiles.json here</div>
+          <div style="font-size:0.78rem; color:#64748b; margin-top:0.25rem;">or click to browse local files</div>
+        </div>
+        <div style="font-size:0.8rem; font-weight:700; margin-bottom:0.4rem; color:#475569;">OR PASTE RAW JSON PAYLOAD:</div>
+        <textarea class="paste-textarea" id="paste-json-input" placeholder='{"leads": [{"full_name": "...", "company_name": "..."}]}'></textarea>
+        <div style="display:flex; justify-content:flex-end; gap:0.5rem; margin-top:1rem;">
+          <button class="btn btn-outline" id="btn-cancel-dropzone">Cancel</button>
+          <button class="btn btn-primary" id="btn-submit-paste-json">
+            <span>Process Through 9 Agents</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FLOATING TOAST NOTIFICATION -->
+  <div class="toast-container" id="toast-notification">
+    <svg class="icon-svg icon-sm" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+    <span id="toast-message">Copied to clipboard!</span>
+  </div>
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

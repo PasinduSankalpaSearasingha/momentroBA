@@ -1,0 +1,584 @@
+{
+  "lead_id": 1,
+  "full_name": "Rajive Silva (FCMA (UK), CGMA)",
+  "linkedin_url": "https://www.linkedin.com/in/rajivesilva",
+  "scraped_at": "2026-09-07T09:11:51.261762+00:00",
+  "post_count": 10,
+  "posts": [
+    {
+      "author": {
+        "actor_type": "company",
+        "company_urn": "73851854",
+        "first_name": "Azend",
+        "headline": "20,431 followers",
+        "last_name": "Technologies",
+        "profile_picture": "https://media.licdn.com/dms/image/v2/C4D0BAQESyqsMsPFm9A/company-logo_400_400/company-logo_400_400/0/1653872977261?e=1790208000&v=beta&t=JtLEIwekQtiDkBNiuVRpn0mxYbCBSwsXCEvmwUz_NiQ",
+        "profile_url": "https://www.linkedin.com/company/azend-technologies/posts",
+        "username": "azend-technologies"
+      },
+      "comments": 0,
+      "full_urn": "urn:li:activity:7500387018410078209",
+      "image_url": "https://media.licdn.com/dms/image/v2/D5622AQHV83dChQkBJw/feedshare-shrink_1280/B56aBYQsDsJQAU-/0/1788187165414?e=1790208000&v=beta&t=5K2tdOraMdHeDsndOg324lMvM4aV7CIyD_TYJCFYpTY",
+      "media": {
+        "images": [
+          {
+            "height": 1600,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQHV83dChQkBJw/feedshare-shrink_1280/B56aBYQsDsJQAU-/0/1788187165414?e=1790208000&v=beta&t=5K2tdOraMdHeDsndOg324lMvM4aV7CIyD_TYJCFYpTY",
+            "width": 1280
+          }
+        ],
+        "type": "image",
+        "url": "https://media.licdn.com/dms/image/v2/D5622AQHV83dChQkBJw/feedshare-shrink_1280/B56aBYQsDsJQAU-/0/1788187165414?e=1790208000&v=beta&t=5K2tdOraMdHeDsndOg324lMvM4aV7CIyD_TYJCFYpTY"
+      },
+      "post_type": "repost",
+      "posted_at": {
+        "date": "2026-09-02 15:27:38",
+        "relative": "6 days ago • Visible to anyone on or off LinkedIn",
+        "timestamp": 1788355658127
+      },
+      "reposts": 1,
+      "stats": {
+        "celebrate": 0,
+        "comments": 0,
+        "curious": 0,
+        "funny": 0,
+        "insight": 0,
+        "like": 5,
+        "love": 0,
+        "reposts": 1,
+        "support": 0,
+        "total_reactions": 5
+      },
+      "text": "AI is changing education, but who’s protecting the data behind it?\n\nAt FLAsia 2026 in Singapore, one message stood out: as education franchisors increasingly adopt generative AI, data protection can no longer be an afterthought. With student, parent, franchisee, and financial data moving across locations and jurisdictions, organizations need to understand where their data goes and who remains responsible for it. Our latest blog explores the evolving data protection landscape and how education businesses can adopt AI while keeping sensitive data secure and under control.\n\nRead the full blog: https://lnkd.in/ggZ4DUMc",
+      "timestamp": 1788355658127,
+      "total_reactions": 5,
+      "url": "https://www.linkedin.com/posts/azend-technologies_ai-is-changing-education-but-whos-protecting-activity-7500387018410078209-UUyI?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG3AljMBv0YRgPyHNIeGc4TLV7gmaW0rO8I",
+      "urn": {
+        "activity_urn": "7500907290305191936",
+        "share_urn": "7500200586995191808",
+        "ugcPost_urn": null
+      },
+      "input": "rajivesilva"
+    },
+    {
+      "author": {
+        "actor_type": "company",
+        "company_urn": "73851854",
+        "first_name": "Azend",
+        "headline": "20,431 followers",
+        "last_name": "Technologies",
+        "profile_picture": "https://media.licdn.com/dms/image/v2/C4D0BAQESyqsMsPFm9A/company-logo_400_400/company-logo_400_400/0/1653872977261?e=1790208000&v=beta&t=JtLEIwekQtiDkBNiuVRpn0mxYbCBSwsXCEvmwUz_NiQ",
+        "profile_url": "https://www.linkedin.com/company/azend-technologies/posts",
+        "username": "azend-technologies"
+      },
+      "comments": 0,
+      "full_urn": "urn:li:ugcPost:7493011744789778433",
+      "image_url": "https://dms.licdn.com/playlist/vid/v2/D5605AQGZF518KVb2mg/mp4-720p-30fp-crf28/B56Z_yGtmMGUCM-/0/1786473283528?e=1789380000&v=beta&t=Viq9dsABeq0OIRfBbE1owQEt7yuj4CkRKUnwZN3eMAQ",
+      "media": {
+        "type": "video",
+        "url": "https://dms.licdn.com/playlist/vid/v2/D5605AQGZF518KVb2mg/mp4-720p-30fp-crf28/B56Z_yGtmMGUCM-/0/1786473283528?e=1789380000&v=beta&t=Viq9dsABeq0OIRfBbE1owQEt7yuj4CkRKUnwZN3eMAQ"
+      },
+      "post_type": "repost",
+      "posted_at": {
+        "date": "2026-08-13 13:33:11",
+        "relative": "3 weeks ago • Visible to anyone on or off LinkedIn",
+        "timestamp": 1786620791427
+      },
+      "reposts": 2,
+      "stats": {
+        "celebrate": 0,
+        "comments": 0,
+        "curious": 0,
+        "funny": 0,
+        "insight": 0,
+        "like": 5,
+        "love": 0,
+        "reposts": 2,
+        "support": 0,
+        "total_reactions": 5
+      },
+      "text": "Before investing in another AI solution, ask a few simple questions. Can your systems support it? Can your franchise data be trusted? Can different centres work from the same information? Can finance and operations work together seamlessly? AI is only as valuable as the operational foundation beneath it.\n \nWe'll be at FLAsia and in Singapore this week from 12th to 15th August. We would be happy to discuss what that foundation looks like.\n\n#ArtificialIntelligence #EducationFranchise #DataStrategy #DigitalTransformation #FLAsia",
+      "timestamp": 1786620791427,
+      "total_reactions": 5,
+      "url": "https://www.linkedin.com/posts/azend-technologies_before-buying-another-ai-tool-ugcPost-7493011744789778433-Di9F?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG3AljMBv0YRgPyHNIeGc4TLV7gmaW0rO8I",
+      "urn": {
+        "activity_urn": "7493630731965898752",
+        "share_urn": null,
+        "ugcPost_urn": "7493011744789778433"
+      },
+      "input": "rajivesilva"
+    },
+    {
+      "author": {
+        "actor_type": "company",
+        "company_urn": "73851854",
+        "first_name": "Azend",
+        "headline": "20,431 followers",
+        "last_name": "Technologies",
+        "profile_picture": "https://media.licdn.com/dms/image/v2/C4D0BAQESyqsMsPFm9A/company-logo_400_400/company-logo_400_400/0/1653872977261?e=1790208000&v=beta&t=JtLEIwekQtiDkBNiuVRpn0mxYbCBSwsXCEvmwUz_NiQ",
+        "profile_url": "https://www.linkedin.com/company/azend-technologies/posts",
+        "username": "azend-technologies"
+      },
+      "comments": 0,
+      "full_urn": "urn:li:activity:7491319711591215104",
+      "image_url": "https://media.licdn.com/dms/image/v2/D5622AQG5pAzNX49Vrw/feedshare-shrink_1280/B56Z_YacmWK8AM-/0/1786042240095?e=1790208000&v=beta&t=9KJVOhhzAheQDS-uGU3WJpp0pCfG2qQzr-PA7diYDAk",
+      "media": {
+        "images": [
+          {
+            "height": 1600,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQG5pAzNX49Vrw/feedshare-shrink_1280/B56Z_YacmWK8AM-/0/1786042240095?e=1790208000&v=beta&t=9KJVOhhzAheQDS-uGU3WJpp0pCfG2qQzr-PA7diYDAk",
+            "width": 1280
+          }
+        ],
+        "type": "image",
+        "url": "https://media.licdn.com/dms/image/v2/D5622AQG5pAzNX49Vrw/feedshare-shrink_1280/B56Z_YacmWK8AM-/0/1786042240095?e=1790208000&v=beta&t=9KJVOhhzAheQDS-uGU3WJpp0pCfG2qQzr-PA7diYDAk"
+      },
+      "post_type": "repost",
+      "posted_at": {
+        "date": "2026-08-07 06:21:50",
+        "relative": "1 month ago • Visible to anyone on or off LinkedIn",
+        "timestamp": 1786076510930
+      },
+      "reposts": 5,
+      "stats": {
+        "celebrate": 4,
+        "comments": 0,
+        "curious": 0,
+        "funny": 0,
+        "insight": 0,
+        "like": 28,
+        "love": 2,
+        "reposts": 5,
+        "support": 0,
+        "total_reactions": 34
+      },
+      "text": "We're heading to Singapore! ✈️ \n\nOur SVP – Business Operations, Janith Wimaladasa, will be in Singapore from 12th to 15th August and will also be attending FLAsia 2026. If you're interested in discussing how to create franchises that grow consistently, this is a great opportunity to connect.\n\nIf you're in Singapore, let's connect, whether at FLAsia 2026 or over a kopi to explore ideas, partnerships, and what's next.\n\nLooking forward to meaningful conversations in Singapore!\n\n#AzendTechnologies #FLAsia2026 #Singapore #Franchising #FranchiseTech",
+      "text_annotations": [
+        {
+          "length": 17,
+          "profile_urn": "ACoAAA_cR8sBGIg8Z3X5eMvCqYxLWFjXAfHT9rc",
+          "start": 64,
+          "text": "Janith Wimaladasa",
+          "type": "profile"
+        }
+      ],
+      "timestamp": 1786076510930,
+      "total_reactions": 34,
+      "url": "https://www.linkedin.com/posts/azend-technologies_azendtechnologies-flasia2026-singapore-activity-7491319711591215104-5mGX?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG3AljMBv0YRgPyHNIeGc4TLV7gmaW0rO8I",
+      "urn": {
+        "activity_urn": "7491347854100189184",
+        "share_urn": "7491204114840924161",
+        "ugcPost_urn": null
+      },
+      "input": "rajivesilva"
+    },
+    {
+      "author": {
+        "actor_type": "company",
+        "company_urn": "73851854",
+        "first_name": "Azend",
+        "headline": "20,431 followers",
+        "last_name": "Technologies",
+        "profile_picture": "https://media.licdn.com/dms/image/v2/C4D0BAQESyqsMsPFm9A/company-logo_400_400/company-logo_400_400/0/1653872977261?e=1790208000&v=beta&t=JtLEIwekQtiDkBNiuVRpn0mxYbCBSwsXCEvmwUz_NiQ",
+        "profile_url": "https://www.linkedin.com/company/azend-technologies/posts",
+        "username": "azend-technologies"
+      },
+      "comments": 0,
+      "full_urn": "urn:li:activity:7490957344198270976",
+      "image_url": "https://media.licdn.com/dms/image/v2/D5622AQEgosOz5tE3zA/feedshare-image-high-res/B56Z_TWA_bGsAU-/0/1785957228261?e=1790208000&v=beta&t=qUeSRm_ztcsh6LDOIhGsuAL1nKDnli5ELPzi2rVnQgE",
+      "media": {
+        "images": [
+          {
+            "height": 1350,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQEgosOz5tE3zA/feedshare-image-high-res/B56Z_TWA_bGsAU-/0/1785957228261?e=1790208000&v=beta&t=qUeSRm_ztcsh6LDOIhGsuAL1nKDnli5ELPzi2rVnQgE",
+            "width": 1080
+          }
+        ],
+        "type": "image",
+        "url": "https://media.licdn.com/dms/image/v2/D5622AQEgosOz5tE3zA/feedshare-image-high-res/B56Z_TWA_bGsAU-/0/1785957228261?e=1790208000&v=beta&t=qUeSRm_ztcsh6LDOIhGsuAL1nKDnli5ELPzi2rVnQgE"
+      },
+      "post_type": "repost",
+      "posted_at": {
+        "date": "2026-08-06 06:12:14",
+        "relative": "1 month ago • Visible to anyone on or off LinkedIn",
+        "timestamp": 1785989534719
+      },
+      "reposts": 2,
+      "stats": {
+        "celebrate": 0,
+        "comments": 0,
+        "curious": 0,
+        "funny": 0,
+        "insight": 0,
+        "like": 9,
+        "love": 0,
+        "reposts": 2,
+        "support": 0,
+        "total_reactions": 9
+      },
+      "text": "Every growing education franchise reaches a point where adding another platform creates more complexity than value.\n\nCRM. Marketing. HR. Finance. Assessments. Analytics. The challenge isn't having more tools, It's having systems that work together.\n\nAs more education franchises across South East Asia embrace digital transformation, scalable, connected technology makes growth simpler. So expanding to new locations feels like the next step, not the next hurdle.\n\nIf you're looking to simplify operations while scaling your franchise, we'd love to exchange ideas.\n\n#AzendTechnologies #Education #Franchising #Singapore #ASEAN",
+      "timestamp": 1785989534719,
+      "total_reactions": 9,
+      "url": "https://www.linkedin.com/posts/azend-technologies_azendtechnologies-education-franchising-activity-7490957344198270976-nhzX?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG3AljMBv0YRgPyHNIeGc4TLV7gmaW0rO8I",
+      "urn": {
+        "activity_urn": "7490983049430700032",
+        "share_urn": "7490847700855398400",
+        "ugcPost_urn": null
+      },
+      "input": "rajivesilva"
+    },
+    {
+      "author": {
+        "actor_type": "company",
+        "company_urn": "131364074",
+        "first_name": "Life",
+        "headline": "145 followers",
+        "last_name": "at Azend",
+        "profile_picture": "https://media.licdn.com/dms/image/v2/D560BAQEJ2taXqvU_aA/company-logo_400_400/B56Z6v6hEqIAAY-/0/1781067813432?e=1790208000&v=beta&t=Cc9PFWGSLqvM-bs3rFCSulud8e4zz_tjjcZKQbyTa10",
+        "profile_url": "https://www.linkedin.com/showcase/life-at-azend/posts"
+      },
+      "comments": 0,
+      "full_urn": "urn:li:ugcPost:7488797464217481216",
+      "image_url": "https://media.licdn.com/dms/image/v2/D5622AQG-MroVM8fttA/feedshare-image-high-res/B56Z.2NlywIMAY-/0/1785468444720?e=1790208000&v=beta&t=rMZ-B6kH0SCLp0KAQPVuJmGo_Nxr71-7XYkfJvwPjP0",
+      "media": {
+        "images": [
+          {
+            "height": 1365,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQG-MroVM8fttA/feedshare-image-high-res/B56Z.2NlywIMAY-/0/1785468444720?e=1790208000&v=beta&t=rMZ-B6kH0SCLp0KAQPVuJmGo_Nxr71-7XYkfJvwPjP0",
+            "width": 2048
+          },
+          {
+            "height": 1365,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQG6q5w8518wRw/feedshare-image-high-res/B56Z.2NmmBJoAU-/0/1785468447974?e=1790208000&v=beta&t=2gij7jo4MKGA_j89kT3edvz_12a1MRtc97mJ0yuVsBs",
+            "width": 2048
+          },
+          {
+            "height": 1365,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQGRjB1vfWT1KA/feedshare-image-high-res/B56Z.2NmuuLAAU-/0/1785468448517?e=1790208000&v=beta&t=S54zb77FUUqcCYd_5dxPJT_eVu_sCuTEprAM0zk2gSc",
+            "width": 2048
+          },
+          {
+            "height": 1365,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQGew3GarXahLw/feedshare-image-high-res/B56Z.2NmEfKoAU-/0/1785468446284?e=1790208000&v=beta&t=vMh_lqsDioSx4NAO6hkdjytTaSF3IzfUFLGuNbxPD3Q",
+            "width": 2048
+          },
+          {
+            "height": 1365,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQFr2zL9c3u62Q/feedshare-image-high-res/B56Z.2NlJhG4AY-/0/1785468441995?e=1790208000&v=beta&t=-9DjLUPrqoBGTHlyvUGVfiADEQruMcRlYlkh1NH5LBQ",
+            "width": 2048
+          }
+        ],
+        "type": "images",
+        "url": "https://media.licdn.com/dms/image/v2/D5622AQG-MroVM8fttA/feedshare-image-high-res/B56Z.2NlywIMAY-/0/1785468444720?e=1790208000&v=beta&t=rMZ-B6kH0SCLp0KAQPVuJmGo_Nxr71-7XYkfJvwPjP0"
+      },
+      "post_type": "repost",
+      "posted_at": {
+        "date": "2026-07-31 05:56:48",
+        "relative": "1 month ago • Visible to anyone on or off LinkedIn",
+        "timestamp": 1785470208756
+      },
+      "reposts": 5,
+      "stats": {
+        "celebrate": 2,
+        "comments": 0,
+        "curious": 0,
+        "funny": 0,
+        "insight": 0,
+        "like": 24,
+        "love": 1,
+        "reposts": 5,
+        "support": 1,
+        "total_reactions": 28
+      },
+      "text": "Building the future through continuous learning and strategic thinking.\n\nOur leadership team, together with several senior team members, recently participated in a Business Transformation Workshop as part of the Stanford Seed Transformation Program.\n \nFacilitated by Aditya Khurana, Business Transformation Advisor at Stanford Seed, the workshop provided an inspiring platform to exchange ideas, challenge perspectives, and explore practical approaches to business transformation.\n \nFrom strengthening strategic thinking to discovering new ways to drive sustainable growth, the experience was filled with valuable insights and meaningful discussions. We're excited to put these learnings into action as we continue our journey of innovation and transformation.\n\n#StanfordSeed #Growth #Transformation #StrategicThinking #AzendTechnologies",
+      "text_annotations": [
+        {
+          "length": 14,
+          "profile_urn": "ACoAAADUvPYBsLjjHVm6aw6uy5OFbO4kOnoz-6Q",
+          "start": 267,
+          "text": "Aditya Khurana",
+          "type": "profile"
+        }
+      ],
+      "timestamp": 1785470208756,
+      "total_reactions": 28,
+      "url": "https://www.linkedin.com/posts/life-at-azend_stanfordseed-growth-transformation-ugcPost-7488797464217481216-2tAT?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG3AljMBv0YRgPyHNIeGc4TLV7gmaW0rO8I",
+      "urn": {
+        "activity_urn": "7488804838466678784",
+        "share_urn": null,
+        "ugcPost_urn": "7488797464217481216"
+      },
+      "input": "rajivesilva"
+    },
+    {
+      "author": {
+        "actor_type": "company",
+        "company_urn": "73851854",
+        "first_name": "Azend",
+        "headline": "20,431 followers",
+        "last_name": "Technologies",
+        "profile_picture": "https://media.licdn.com/dms/image/v2/C4D0BAQESyqsMsPFm9A/company-logo_400_400/company-logo_400_400/0/1653872977261?e=1790208000&v=beta&t=JtLEIwekQtiDkBNiuVRpn0mxYbCBSwsXCEvmwUz_NiQ",
+        "profile_url": "https://www.linkedin.com/company/azend-technologies/posts",
+        "username": "azend-technologies"
+      },
+      "comments": 0,
+      "full_urn": "urn:li:activity:7487703402454593537",
+      "image_url": "https://media.licdn.com/dms/image/v2/D5622AQHStD4sUvCxIA/feedshare-image-high-res/B56Z.kqcxOGQAU-/0/1785174028801?e=1790208000&v=beta&t=UGFi6MT_Cy2fZ3_UTowyqZq4hsOTYR_AfvtfDNAXpXM",
+      "media": {
+        "images": [
+          {
+            "height": 1350,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQHStD4sUvCxIA/feedshare-image-high-res/B56Z.kqcxOGQAU-/0/1785174028801?e=1790208000&v=beta&t=UGFi6MT_Cy2fZ3_UTowyqZq4hsOTYR_AfvtfDNAXpXM",
+            "width": 1080
+          }
+        ],
+        "type": "image",
+        "url": "https://media.licdn.com/dms/image/v2/D5622AQHStD4sUvCxIA/feedshare-image-high-res/B56Z.kqcxOGQAU-/0/1785174028801?e=1790208000&v=beta&t=UGFi6MT_Cy2fZ3_UTowyqZq4hsOTYR_AfvtfDNAXpXM"
+      },
+      "post_type": "repost",
+      "posted_at": {
+        "date": "2026-07-29 10:18:00",
+        "relative": "1 month ago • Visible to anyone on or off LinkedIn",
+        "timestamp": 1785313080228
+      },
+      "reposts": 1,
+      "stats": {
+        "celebrate": 0,
+        "comments": 0,
+        "curious": 0,
+        "funny": 0,
+        "insight": 0,
+        "like": 11,
+        "love": 0,
+        "reposts": 1,
+        "support": 0,
+        "total_reactions": 11
+      },
+      "text": "Growth is exciting, until managing that growth starts becoming the biggest challenge.\n\nAs your education franchise grows, so does operational friction. More centres often mean more approvals, more spreadsheets, more reporting, and more manual work across your network. What starts as a few extra tasks can quickly become a barrier to growth. That's where the right technology makes the difference.\n\nAt Azend Technologies, we help education franchises simplify operations with connected systems that reduce manual effort, improve visibility, and make scaling far more manageable.\n\nBecause growing your network should feel exciting, not overwhelming.\n\n#EducationFranchise #OperationalExcellence #EdTech #Scalability #AzendTechnologies",
+      "timestamp": 1785313080228,
+      "total_reactions": 11,
+      "url": "https://www.linkedin.com/posts/azend-technologies_educationfranchise-operationalexcellence-activity-7487703402454593537-AEyN?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG3AljMBv0YRgPyHNIeGc4TLV7gmaW0rO8I",
+      "urn": {
+        "activity_urn": "7488145793653067776",
+        "share_urn": "7487562573878493185",
+        "ugcPost_urn": null
+      },
+      "input": "rajivesilva"
+    },
+    {
+      "author": {
+        "actor_type": "company",
+        "company_urn": "131364074",
+        "first_name": "Life",
+        "headline": "145 followers",
+        "last_name": "at Azend",
+        "profile_picture": "https://media.licdn.com/dms/image/v2/D560BAQEJ2taXqvU_aA/company-logo_400_400/B56Z6v6hEqIAAY-/0/1781067813432?e=1790208000&v=beta&t=Cc9PFWGSLqvM-bs3rFCSulud8e4zz_tjjcZKQbyTa10",
+        "profile_url": "https://www.linkedin.com/showcase/life-at-azend/posts"
+      },
+      "comments": 0,
+      "full_urn": "urn:li:ugcPost:7485404946834550784",
+      "image_url": "https://dms.licdn.com/playlist/vid/v2/D5605AQEJxEebEDUM0g/mp4-720p-30fp-crf28/B56Z.GAmoYKMCA-/0/1784659740349?e=1789380000&v=beta&t=lUaXuy3HzZUzemfKsYVs8ZigDG9DHxWmpMQZaOQs48s",
+      "media": {
+        "thumbnail": "https://media.licdn.com/dms/image/v2/D5605AQEJxEebEDUM0g/videocover-high/B56Z.GAmoYKMBQ-/0/1784659736672?e=1789380000&v=beta&t=k-UMjaM1TSAFwJkG9__Gsq7DIWFH_0JxJ2JlUFTYQUs",
+        "type": "video",
+        "url": "https://dms.licdn.com/playlist/vid/v2/D5605AQEJxEebEDUM0g/mp4-720p-30fp-crf28/B56Z.GAmoYKMCA-/0/1784659740349?e=1789380000&v=beta&t=lUaXuy3HzZUzemfKsYVs8ZigDG9DHxWmpMQZaOQs48s"
+      },
+      "post_type": "repost",
+      "posted_at": {
+        "date": "2026-07-22 06:26:54",
+        "relative": "1 month ago • Visible to anyone on or off LinkedIn",
+        "timestamp": 1784694414760
+      },
+      "reposts": 5,
+      "stats": {
+        "celebrate": 1,
+        "comments": 0,
+        "curious": 0,
+        "funny": 0,
+        "insight": 0,
+        "like": 14,
+        "love": 8,
+        "reposts": 5,
+        "support": 0,
+        "total_reactions": 23
+      },
+      "text": "A resume opens the door. What builds a lasting career is More Than Just Your Resume.\n\nNo matter your role, the formula stays the same: Technical competence helps you deliver. People skills help you lead, grow, and belong.\n\nCareers don’t collapse because of lack of intelligence, they collapse because of miscommunication, ego, poor collaboration, and weak accountability. That’s why we don’t hire for skills alone. We hire for mindset, attitude, and growth potential. Because real success is sustainable, not situational.\n\n#AzendTechnologies #CareerGrowth #EmployerBranding #FutureReady #BalancedProfessionals",
+      "timestamp": 1784694414760,
+      "total_reactions": 23,
+      "url": "https://www.linkedin.com/posts/life-at-azend_more-than-just-your-resume-ugcPost-7485404946834550784-MDWk?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG3AljMBv0YRgPyHNIeGc4TLV7gmaW0rO8I",
+      "urn": {
+        "activity_urn": "7485550922606067712",
+        "share_urn": null,
+        "ugcPost_urn": "7485404946834550784"
+      },
+      "input": "rajivesilva"
+    },
+    {
+      "author": {
+        "actor_type": "company",
+        "company_urn": "73851854",
+        "first_name": "Azend",
+        "headline": "20,431 followers",
+        "last_name": "Technologies",
+        "profile_picture": "https://media.licdn.com/dms/image/v2/C4D0BAQESyqsMsPFm9A/company-logo_400_400/company-logo_400_400/0/1653872977261?e=1790208000&v=beta&t=JtLEIwekQtiDkBNiuVRpn0mxYbCBSwsXCEvmwUz_NiQ",
+        "profile_url": "https://www.linkedin.com/company/azend-technologies/posts",
+        "username": "azend-technologies"
+      },
+      "comments": 0,
+      "full_urn": "urn:li:ugcPost:7482334269932056576",
+      "image_url": "https://dms.licdn.com/playlist/vid/v2/D5605AQHLv4unKU-5Ow/mp4-720p-30fp-crf28/B56Z9aX9inIQCQ-/0/1783927664796?e=1789380000&v=beta&t=K__jjHndjXShR9EBC55Khbq_cfrXGaZjYDR0SgHib9k",
+      "media": {
+        "thumbnail": "https://media.licdn.com/dms/image/v2/D5605AQHLv4unKU-5Ow/videocover-high/B56Z9aX9inIQBU-/0/1783927660855?e=1789380000&v=beta&t=2RxX92rk1BbS9vIn9ERvHNMewtrpb_SaH72OcSJtRLM",
+        "type": "video",
+        "url": "https://dms.licdn.com/playlist/vid/v2/D5605AQHLv4unKU-5Ow/mp4-720p-30fp-crf28/B56Z9aX9inIQCQ-/0/1783927664796?e=1789380000&v=beta&t=K__jjHndjXShR9EBC55Khbq_cfrXGaZjYDR0SgHib9k"
+      },
+      "post_type": "repost",
+      "posted_at": {
+        "date": "2026-07-14 17:39:52",
+        "relative": "1 month ago • Visible to anyone on or off LinkedIn",
+        "timestamp": 1784043592650
+      },
+      "reposts": 4,
+      "stats": {
+        "celebrate": 0,
+        "comments": 0,
+        "curious": 0,
+        "funny": 0,
+        "insight": 0,
+        "like": 16,
+        "love": 2,
+        "reposts": 4,
+        "support": 0,
+        "total_reactions": 18
+      },
+      "text": "Creativity flows best when ideas have a space to grow. ✨\n\nNotion is an all-in-one workspace that helps the Azend Team manage ideas, research, and design systems seamlessly in one place. With flexible dashboards, real-time collaboration, and customizable workflows, Notion helps us bring structure to creativity while keeping every project aligned and moving forward smoothly.\n\n#AzendTechnologies #Notion #UXDesign #ProductivityTools #TeamWorkflow",
+      "timestamp": 1784043592650,
+      "total_reactions": 18,
+      "url": "https://www.linkedin.com/posts/azend-technologies_tools-we-love-notion-ugcPost-7482334269932056576-oMWH?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG3AljMBv0YRgPyHNIeGc4TLV7gmaW0rO8I",
+      "urn": {
+        "activity_urn": "7482821176826699776",
+        "share_urn": null,
+        "ugcPost_urn": "7482334269932056576"
+      },
+      "input": "rajivesilva"
+    },
+    {
+      "author": {
+        "actor_type": "company",
+        "company_urn": "73851854",
+        "first_name": "Azend",
+        "headline": "20,431 followers",
+        "last_name": "Technologies",
+        "profile_picture": "https://media.licdn.com/dms/image/v2/C4D0BAQESyqsMsPFm9A/company-logo_400_400/company-logo_400_400/0/1653872977261?e=1790208000&v=beta&t=JtLEIwekQtiDkBNiuVRpn0mxYbCBSwsXCEvmwUz_NiQ",
+        "profile_url": "https://www.linkedin.com/company/azend-technologies/posts",
+        "username": "azend-technologies"
+      },
+      "comments": 0,
+      "full_urn": "urn:li:activity:7479104230826475520",
+      "image_url": "https://media.licdn.com/dms/image/v2/D5622AQEbQU4DFecH9g/feedshare-shrink_1280/B56Z8mwUfrHYAU-/0/1783061629381?e=1790208000&v=beta&t=hkmOkAJjWGqsgOEN2qsiWhQaPQm6vqtXqHaVD8kVQRc",
+      "media": {
+        "images": [
+          {
+            "height": 1600,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQEbQU4DFecH9g/feedshare-shrink_1280/B56Z8mwUfrHYAU-/0/1783061629381?e=1790208000&v=beta&t=hkmOkAJjWGqsgOEN2qsiWhQaPQm6vqtXqHaVD8kVQRc",
+            "width": 1280
+          }
+        ],
+        "type": "image",
+        "url": "https://media.licdn.com/dms/image/v2/D5622AQEbQU4DFecH9g/feedshare-shrink_1280/B56Z8mwUfrHYAU-/0/1783061629381?e=1790208000&v=beta&t=hkmOkAJjWGqsgOEN2qsiWhQaPQm6vqtXqHaVD8kVQRc"
+      },
+      "post_type": "repost",
+      "posted_at": {
+        "date": "2026-07-04 14:44:13",
+        "relative": "2 months ago • Visible to anyone on or off LinkedIn",
+        "timestamp": 1783169053611
+      },
+      "reposts": 5,
+      "stats": {
+        "celebrate": 0,
+        "comments": 0,
+        "curious": 0,
+        "funny": 0,
+        "insight": 0,
+        "like": 15,
+        "love": 0,
+        "reposts": 5,
+        "support": 0,
+        "total_reactions": 15
+      },
+      "text": "This Fourth of July marks a historic milestone as the United States celebrates 250 years of independence, a moment to reflect on a legacy of progress, resilience, and shaping the future through bold ideas and shared ambition.\n\nTo our clients, partners, and communities celebrating across the United States, thank you for your continued trust and collaboration. We value the opportunity to innovate, grow, and create meaningful impact together. Wishing you a joyful and memorable Independence Day filled with celebration, connection, and new possibilities.\n\n#FourthOfJuly #IndependenceDay #GlobalInnovation #AzendTechnologies",
+      "timestamp": 1783169053611,
+      "total_reactions": 15,
+      "url": "https://www.linkedin.com/posts/azend-technologies_fourthofjuly-independenceday-globalinnovation-activity-7479104230826475520-u0ul?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG3AljMBv0YRgPyHNIeGc4TLV7gmaW0rO8I",
+      "urn": {
+        "activity_urn": "7479153094237310976",
+        "share_urn": "7478702529636118528",
+        "ugcPost_urn": null
+      },
+      "input": "rajivesilva"
+    },
+    {
+      "author": {
+        "actor_type": "company",
+        "company_urn": "131364074",
+        "first_name": "Life",
+        "headline": "145 followers",
+        "last_name": "at Azend",
+        "profile_picture": "https://media.licdn.com/dms/image/v2/D560BAQEJ2taXqvU_aA/company-logo_400_400/B56Z6v6hEqIAAY-/0/1781067813432?e=1790208000&v=beta&t=Cc9PFWGSLqvM-bs3rFCSulud8e4zz_tjjcZKQbyTa10",
+        "profile_url": "https://www.linkedin.com/showcase/life-at-azend/posts"
+      },
+      "comments": 0,
+      "full_urn": "urn:li:activity:7477918943534374914",
+      "image_url": "https://media.licdn.com/dms/image/v2/D5622AQG0E-XIo1jmWA/feedshare-shrink_1280/B56Z7_FlX6IMAM-/0/1782396115050?e=1790208000&v=beta&t=D0uih1nGBL5-rF8f6M8o0_lnwM1t3yCafmLRax3TK38",
+      "media": {
+        "images": [
+          {
+            "height": 1600,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQG0E-XIo1jmWA/feedshare-shrink_1280/B56Z7_FlX6IMAM-/0/1782396115050?e=1790208000&v=beta&t=D0uih1nGBL5-rF8f6M8o0_lnwM1t3yCafmLRax3TK38",
+            "width": 1280
+          }
+        ],
+        "type": "image",
+        "url": "https://media.licdn.com/dms/image/v2/D5622AQG0E-XIo1jmWA/feedshare-shrink_1280/B56Z7_FlX6IMAM-/0/1782396115050?e=1790208000&v=beta&t=D0uih1nGBL5-rF8f6M8o0_lnwM1t3yCafmLRax3TK38"
+      },
+      "post_type": "repost",
+      "posted_at": {
+        "date": "2026-07-01 10:03:17",
+        "relative": "2 months ago • Visible to anyone on or off LinkedIn",
+        "timestamp": 1782892997135
+      },
+      "reposts": 5,
+      "stats": {
+        "celebrate": 1,
+        "comments": 0,
+        "curious": 0,
+        "funny": 0,
+        "insight": 0,
+        "like": 14,
+        "love": 3,
+        "reposts": 5,
+        "support": 2,
+        "total_reactions": 20
+      },
+      "text": "Strong careers are built on two foundations: Capability: what you know and how well you perform. Character: how you behave, collaborate, and grow with others.\n\nAt Azend Technologies, we don’t just build systems, platforms, and solutions. We build people, professionals, and futures. If you believe growth comes from learning, accountability, adaptability, and excellence, you’ll belong here. This isn’t just a workplace. It’s a place to become more than your job title.\n\n#LifeAtAzend #AzendCareers #EmployerBranding #TalentDevelopment #FutureLeaders #WorkWithPurpose",
+      "text_annotations": [
+        {
+          "company_urn": "73851854",
+          "length": 18,
+          "start": 163,
+          "text": "Azend Technologies",
+          "type": "company"
+        }
+      ],
+      "timestamp": 1782892997135,
+      "total_reactions": 20,
+      "url": "https://www.linkedin.com/posts/life-at-azend_lifeatazend-azendcareers-employerbranding-activity-7477918943534374914-hLI-?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG3AljMBv0YRgPyHNIeGc4TLV7gmaW0rO8I",
+      "urn": {
+        "activity_urn": "7477995229455867904",
+        "share_urn": "7475911157166264322",
+        "ugcPost_urn": null
+      },
+      "input": "rajivesilva"
+    }
+  ]
+}

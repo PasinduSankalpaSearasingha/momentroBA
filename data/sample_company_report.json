@@ -1,0 +1,50 @@
+{
+  "lead_id": 1,
+  "full_name": "Rajive Silva (FCMA (UK), CGMA)",
+  "company_name": "Azend Technologies",
+  "company_linkedin_url": "https://www.linkedin.com/company/azend-technologies/",
+  "scraped_at": "2026-09-07T09:11:54.238718+00:00",
+  "company": {
+    "id": "73851854",
+    "universalName": "azend-technologies",
+    "linkedinUrl": "https://www.linkedin.com/company/azend-technologies/",
+    "name": "Azend Technologies",
+    "tagline": "Venture Product Builder",
+    "website": "https://azendtech.com/",
+    "callToActionUrl": "https://azendtech.com",
+    "description": "Azend Technologies is a venture product builder specializing in transforming bold ideas into scalable, enterprise-grade digital products. Founded in 2021, we partner with organizations across the world to design, develop, and scale innovative solutions in education, franchise technology, fintech, banking, and professional services. \n\nOur team of technology professionals brings deep expertise from leading global organizations, combining strategic product thinking with technical excellence to build ventures that make an impact. \n\nFrom concept to launch and beyond, we don't just write code, we empower our partners and clients to turn ambitious visions into market-ready products that drive real transformation.",
+    "companyType": "Privately Held",
+    "specialities": [
+      "MVP Development",
+      "Software Engineering",
+      "IT Consultancy",
+      "Digital Products",
+      "Edtech",
+      "Franchising",
+      "Fintech"
+    ],
+    "industries": [
+      {
+        "id": "96",
+        "name": "IT Services and IT Consulting"
+      }
+    ],
+    "similarOrganizations": [
+      {
+        "id": "81900720",
+        "name": "Coura",
+        "description": "Coura is a founder product strategy studio for first-time, non-technical software founders. We help founders make clearer product, positioning, go-to-market, and fundraising decisions before they build."
+      },
+      {
+        "id": "82588875",
+        "name": "Expernetic",
+        "description": "Expernetic is a software development and IT consulting company based in Colombo, Sri Lanka. We partner with businesses around the world to turn ideas into scalable digital products and reliable systems."
+      },
+      {
+        "id": "89911221",
+        "name": "Decryptogen",
+        "description": "Decryptogen is a global partner for digital transformation, specializing in Artificial Intelligence (AI), Data, Cloud, DevOps, and Software Engineering Services."
+      }
+    ]
+  }
+}
