@@ -113,13 +113,14 @@ class ContactRetrieverTool:
         return None
 
     def _fallback_deterministic_extract(self, url: str, company_name: Optional[str]) -> CompanyContactInfo:
-        """Direct, lightweight crawler that fetches the homepage and contact page,
-        using scraper.extractor to discover emails, phone numbers, locations, and socials.
+        """Direct, lightweight crawler that fetches the homepage,
+        discovering emails, phone numbers, locations, and socials using bs4 and regex.
         """
+        import re
         try:
-            from scraper.extractor import extract_deterministic_data
+            from bs4 import BeautifulSoup
         except ImportError:
-            extract_deterministic_data = None
+            BeautifulSoup = None
 
         html_content = ""
         headers = {
@@ -133,40 +134,51 @@ class ContactRetrieverTool:
         except Exception as e:
             logger.warning(f"Could not fetch homepage for {url}: {e}")
 
-        if extract_deterministic_data and html_content:
+        emails = []
+        phone_numbers = []
+        social_links = {}
+
+        if html_content and BeautifulSoup:
             try:
-                raw_extracted = extract_deterministic_data(html_content, url)
-                return CompanyContactInfo(
-                    company_name=raw_extracted.company_name or company_name,
-                    website=url,
-                    emails=raw_extracted.emails,
-                    phone_numbers=raw_extracted.phone_numbers,
-                    locations=[
-                        LocationInfo(
-                            label=loc.label,
-                            full_address=loc.full_address,
-                            street=loc.street,
-                            city=loc.city,
-                            state=loc.state,
-                            postal_code=loc.postal_code,
-                            country=loc.country,
-                            map_url=loc.map_url
-                        ) for loc in raw_extracted.locations
-                    ],
-                    social_links=raw_extracted.social_links,
-                    contact_pages_found=raw_extracted.contact_pages_found
-                )
+                soup = BeautifulSoup(html_content, "html.parser")
+                
+                # Extract emails
+                email_pattern = re.compile(r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}')
+                found_emails = set(email_pattern.findall(html_content))
+                # Filter out likely image extensions and long garbage
+                for e in found_emails:
+                    if not any(e.lower().endswith(ext) for ext in ['.png', '.jpg', '.jpeg', '.gif', '.webp', '.svg']):
+                        if len(e) < 50:
+                            emails.append(e)
+
+                # Extract phones (basic international format fallback)
+                phone_pattern = re.compile(r'\+?\d{1,3}[-.\s]?\(?\d{1,4}\)?[-.\s]?\d{1,4}[-.\s]?\d{1,9}')
+                for tag in soup.find_all(string=phone_pattern):
+                    matches = phone_pattern.findall(tag)
+                    for m in matches:
+                        clean_m = re.sub(r'[^\d+]', '', m)
+                        if len(clean_m) >= 7 and len(clean_m) <= 15:
+                            phone_numbers.append(m.strip())
+                phone_numbers = list(set(phone_numbers))
+
+                # Extract socials
+                for a in soup.find_all('a', href=True):
+                    href = a['href'].lower()
+                    if 'linkedin.com' in href: social_links['linkedin'] = a['href']
+                    elif 'twitter.com' in href or 'x.com' in href: social_links['twitter'] = a['href']
+                    elif 'facebook.com' in href: social_links['facebook'] = a['href']
+                    elif 'instagram.com' in href: social_links['instagram'] = a['href']
+
             except Exception as e:
                 logger.warning(f"Deterministic extraction error: {e}")
 
-        # Basic default if everything failed
         return CompanyContactInfo(
             company_name=company_name,
             website=url,
-            emails=[],
-            phone_numbers=[],
+            emails=list(set(emails))[:5],
+            phone_numbers=list(set(phone_numbers))[:5],
             locations=[],
-            social_links={},
+            social_links=social_links,
             contact_pages_found=[]
         )
 

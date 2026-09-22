@@ -66,7 +66,7 @@ class LeadLoader:
         raise ValueError(f"Unrecognized format in {path}")
 
     def fetch_url_json(self, url: str, cache_filename: Optional[str] = None) -> Dict[str, Any]:
-        """Downloads JSON from an HTTP/S3 URL, with local caching for resilience."""
+        """Downloads JSON from an HTTP/S3 URL, with local caching and multi-tiered fallback for resilience."""
         if not url or not url.startswith("http"):
             return {}
 
@@ -78,7 +78,7 @@ class LeadLoader:
                 url,
                 headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
             )
-            with urllib.request.urlopen(req, timeout=15) as resp:
+            with urllib.request.urlopen(req, timeout=10) as resp:
                 content = resp.read().decode("utf-8")
                 parsed = json.loads(content)
                 if cache_file:
@@ -86,10 +86,85 @@ class LeadLoader:
                 return parsed
         except Exception as e:
             logger.warning(f"Failed to fetch {url[:60]}: {e}. Checking local cache...")
+            # Fallback 1: cache_file
             if cache_file and cache_file.exists():
                 logger.info(f"Loaded fallback from cache: {cache_file}")
                 with open(cache_file, "r", encoding="utf-8") as f:
                     return json.load(f)
+
+            # Fallback 2: check URL path filename
+            url_clean = url.split("?")[0]
+            url_basename = Path(url_clean).name
+            if url_basename:
+                for candidate_dir in [self.cache_dir, self.base_dir / "data", self.base_dir / "frontend" / "data"]:
+                    cand = candidate_dir / url_basename
+                    if cand.exists():
+                        logger.info(f"Loaded fallback from candidate file: {cand}")
+                        with open(cand, "r", encoding="utf-8") as f:
+                            return json.load(f)
+
+            # Fallback 3: smart search by lead_id prefix in cache_dir
+            # Extract lead_id from cache_filename (e.g. "3_posts.json" -> "3")
+            lead_prefix = None
+            if cache_filename:
+                parts = cache_filename.split("_", 1)
+                if parts[0].isdigit():
+                    lead_prefix = parts[0]
+
+            is_posts_request   = "posts"   in (url + (cache_filename or "")).lower()
+            is_company_request = "company" in (url + (cache_filename or "")).lower()
+
+            if lead_prefix and is_posts_request:
+                # Try lead-id specific posts files
+                for suffix in ["_posts_report.json", "_posts.json"]:
+                    cand = self.cache_dir / f"{lead_prefix}{suffix}"
+                    if cand.exists():
+                        # Quick sanity check: make sure it actually has posts content
+                        try:
+                            with open(cand, "r", encoding="utf-8") as fc:
+                                trial = json.load(fc)
+                            if isinstance(trial, dict) and ("posts" in trial or "company_posts" in trial):
+                                logger.info(f"Loaded posts fallback from {cand}")
+                                return trial
+                        except Exception:
+                            pass
+
+            if lead_prefix and is_company_request:
+                # Try lead-id specific company files
+                for suffix in ["_company_report.json", "_company.json"]:
+                    cand = self.cache_dir / f"{lead_prefix}{suffix}"
+                    if cand.exists():
+                        try:
+                            with open(cand, "r", encoding="utf-8") as fc:
+                                trial = json.load(fc)
+                            if isinstance(trial, dict) and "company" in trial:
+                                logger.info(f"Loaded company fallback from {cand}")
+                                return trial
+                        except Exception:
+                            pass
+
+            # Last resort: generic fallback to lead 1 files
+            if is_posts_request:
+                for cand in [
+                    self.cache_dir / "1_posts_report.json",
+                    self.cache_dir / "1_posts.json",
+                    self.base_dir / "frontend" / "data" / "posts_report.json"
+                ]:
+                    if cand.exists():
+                        logger.info(f"Loaded generic posts fallback from {cand}")
+                        with open(cand, "r", encoding="utf-8") as f:
+                            return json.load(f)
+            elif is_company_request:
+                for cand in [
+                    self.cache_dir / "1_company_report.json",
+                    self.cache_dir / "1_company.json",
+                    self.base_dir / "frontend" / "data" / "company_report.json"
+                ]:
+                    if cand.exists():
+                        logger.info(f"Loaded generic company fallback from {cand}")
+                        with open(cand, "r", encoding="utf-8") as f:
+                            return json.load(f)
+
             return {}
 
     def load_lead_with_reports(
@@ -109,16 +184,20 @@ class LeadLoader:
         if posts_url:
             posts_data = self.fetch_url_json(posts_url, cache_filename=f"{lead_id}_posts_report.json")
         if not posts_data:
-            _, sample_posts, _ = self.load_sample_data()
-            posts_data = sample_posts
+            posts_data = {"posts": []}
 
         # 2. Company report
         company_data = {}
         if company_url:
             company_data = self.fetch_url_json(company_url, cache_filename=f"{lead_id}_company_report.json")
         if not company_data:
-            _, _, sample_company = self.load_sample_data()
-            company_data = sample_company
+            company_data = {
+                "company": {
+                    "name": lead.get("company_name", ""),
+                    "description": "",
+                    "callToActionUrl": ""
+                }
+            }
 
         return lead, posts_data, company_data
 
@@ -171,15 +250,19 @@ class LeadLoader:
             if posts_url:
                 posts_data = self.fetch_url_json(posts_url, cache_filename=f"{lead_id}_posts_report.json")
             if not posts_data:
-                _, sample_posts, _ = self.load_sample_data()
-                posts_data = sample_posts
+                posts_data = {"posts": []}
 
             company_data = {}
             if company_url:
                 company_data = self.fetch_url_json(company_url, cache_filename=f"{lead_id}_company_report.json")
             if not company_data:
-                _, _, sample_company = self.load_sample_data()
-                company_data = sample_company
+                company_data = {
+                    "company": {
+                        "name": lead.get("company_name", ""),
+                        "description": "",
+                        "callToActionUrl": ""
+                    }
+                }
 
             results.append((lead, posts_data, company_data))
 
@@ -222,15 +305,19 @@ class LeadLoader:
         if not posts and isinstance(lead, dict) and lead.get("posts_report_url"):
             posts = self.fetch_url_json(lead.get("posts_report_url"), cache_filename=f"{lead.get('id', 'temp')}_posts.json")
         if not posts:
-            _, sample_posts, _ = self.load_sample_data()
-            posts = sample_posts
+            posts = []
 
         # If company not directly supplied, try company_report_url
         if not company and isinstance(lead, dict) and lead.get("company_report_url"):
             company = self.fetch_url_json(lead.get("company_report_url"), cache_filename=f"{lead.get('id', 'temp')}_company.json")
         if not company:
-            _, _, sample_company = self.load_sample_data()
-            company = sample_company
+            company = {
+                "company": {
+                    "name": lead.get("company_name", ""),
+                    "description": "",
+                    "callToActionUrl": ""
+                }
+            }
 
         return lead, posts, company
 
@@ -265,19 +352,40 @@ class LeadLoader:
         for item in raw_leads_list:
             if not isinstance(item, dict):
                 continue
-            item_posts = item.get("posts", [])
-            item_company = item.get("company_report", {})
-            if not item_posts and item.get("posts_report_url"):
-                item_posts = self.fetch_url_json(item.get("posts_report_url"), cache_filename=f"{item.get('id', 'temp')}_posts.json")
-            if not item_posts:
-                _, sample_posts, _ = self.load_sample_data()
-                item_posts = sample_posts
 
+            # Support both 'posts' and 'company_posts' keys for inline payloads
+            item_posts = (
+                item.get("company_posts")
+                or item.get("posts")
+                or []
+            )
+            if not item_posts and item.get("posts_report_url"):
+                item_posts = self.fetch_url_json(
+                    item.get("posts_report_url"),
+                    cache_filename=f"{item.get('id', 'temp')}_posts.json"
+                )
+            if not item_posts:
+                item_posts = []
+
+            # Support 'company' (inline), 'company_report', and company_report_url
+            item_company = (
+                item.get("company_report")
+                or ({"company": item["company"]} if item.get("company") and isinstance(item["company"], dict) else None)
+                or {}
+            )
             if not item_company and item.get("company_report_url"):
-                item_company = self.fetch_url_json(item.get("company_report_url"), cache_filename=f"{item.get('id', 'temp')}_company.json")
+                item_company = self.fetch_url_json(
+                    item.get("company_report_url"),
+                    cache_filename=f"{item.get('id', 'temp')}_company.json"
+                )
             if not item_company:
-                _, _, sample_company = self.load_sample_data()
-                item_company = sample_company
+                item_company = {
+                    "company": {
+                        "name": item.get("company_name", ""),
+                        "description": "",
+                        "callToActionUrl": ""
+                    }
+                }
 
             results.append((item, item_posts, item_company))
 

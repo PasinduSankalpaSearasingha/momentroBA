@@ -78,14 +78,24 @@ class DataCleanerAgent(BaseAgent):
         )
 
     def _extract_post_texts(self, raw_posts_input: Any) -> List[str]:
-        """Extracts only the 'text' field from a posts list or posts_report_url dictionary."""
+        """Extracts post text from various LinkedIn scraper formats.
+
+        Supported formats:
+        - {'posts': [...]}  with 'text', 'post_text', or 'content' per post
+        - {'company_posts': [...]}  same per-post fields
+        - direct list of post dicts
+        """
         posts_list: List[Dict[str, Any]] = []
 
         if isinstance(raw_posts_input, dict):
-            # Check for 'posts' key
+            # Personal posts key
             if "posts" in raw_posts_input and isinstance(raw_posts_input["posts"], list):
                 posts_list = raw_posts_input["posts"]
-            elif "text" in raw_posts_input:
+            # Company posts key (company report format)
+            if "company_posts" in raw_posts_input and isinstance(raw_posts_input["company_posts"], list):
+                posts_list += raw_posts_input["company_posts"]
+            # Single post dict
+            if not posts_list and ("text" in raw_posts_input or "content" in raw_posts_input or "post_text" in raw_posts_input):
                 posts_list = [raw_posts_input]
         elif isinstance(raw_posts_input, list):
             posts_list = raw_posts_input
@@ -96,7 +106,12 @@ class DataCleanerAgent(BaseAgent):
         for post in posts_list:
             if not isinstance(post, dict):
                 continue
-            text = post.get("text")
+            # Try all known text field names in priority order
+            text = (
+                post.get("text")
+                or post.get("post_text")
+                or post.get("content")
+            )
             if text and isinstance(text, str):
                 cleaned = text.strip()
                 if cleaned and cleaned not in seen:

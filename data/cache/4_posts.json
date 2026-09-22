@@ -1,0 +1,1038 @@
+{
+  "lead_id": 4,
+  "full_name": "Nilan Meegoda",
+  "linkedin_url": "https://www.linkedin.com/in/nilandmeegoda",
+  "scraped_at": "2026-09-11T08:10:31.395411+00:00",
+  "post_count": 10,
+  "posts": [
+    {
+      "author": {
+        "actor_type": "member",
+        "first_name": "Nilan",
+        "headline": "CEO at SoftSora | AI Business Translator | Empowering Businesses with Scalable Software Solutions 🚀",
+        "last_name": "Meegoda",
+        "profile_picture": "https://media.licdn.com/dms/image/v2/D5603AQHnuK5QxQNelA/profile-displayphoto-crop_800_800/B56aADAoiJGgAI-/0/1786756893387?e=1790812800&v=beta&t=XplD96oT7dofWOzGDnzEdDIobXjZYTqUjnrteNdqxLE",
+        "profile_url": "https://www.linkedin.com/in/nilandmeegoda?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACBXtroBUyOOl8zpRdObkpOUXPgjXg7qy2Q",
+        "username": "nilandmeegoda"
+      },
+      "comments": 0,
+      "full_urn": "urn:li:ugcPost:7500675059192233984",
+      "image_url": "https://media.licdn.com/dms/image/v2/D5622AQEse5_KpTFSow/feedshare-image-high-res/B56aBfAMXLJUAU-/0/1788300283438?e=1790812800&v=beta&t=Hr8toR1--4KBfstA-GZnaZTimfwo2s9mfvaqT8D0Wfs",
+      "media": {
+        "images": [
+          {
+            "height": 1536,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQEse5_KpTFSow/feedshare-image-high-res/B56aBfAMXLJUAU-/0/1788300283438?e=1790812800&v=beta&t=Hr8toR1--4KBfstA-GZnaZTimfwo2s9mfvaqT8D0Wfs",
+            "width": 2048
+          },
+          {
+            "height": 1707,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQE8pEriZ5ON3A/feedshare-shrink_1280/B56aBfANMbKAAM-/0/1788300287635?e=1790812800&v=beta&t=JZMoBgUlI8HhygitFtJMzqhWkNy91uGPQcxSqrKRLvA",
+            "width": 1280
+          },
+          {
+            "height": 1536,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQHLCfKy91xKHA/feedshare-image-high-res/B56aBfAMAfJUAU-/0/1788300281364?e=1790812800&v=beta&t=DZWuYkEG6W2lJFpeNqJxxOILaMjCLKgJcibUUG5xwg8",
+            "width": 2048
+          },
+          {
+            "height": 1536,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQFOJHsOirS91g/feedshare-image-high-res/B56aBfANSYJwAU-/0/1788300286575?e=1790812800&v=beta&t=e6OnlKwTpLsKC3BcD9QeVPi2P5D4_HBokyzhTSSBb4g",
+            "width": 2048
+          }
+        ],
+        "type": "images",
+        "url": "https://media.licdn.com/dms/image/v2/D5622AQEse5_KpTFSow/feedshare-image-high-res/B56aBfAMXLJUAU-/0/1788300283438?e=1790812800&v=beta&t=Hr8toR1--4KBfstA-GZnaZTimfwo2s9mfvaqT8D0Wfs"
+      },
+      "post_type": "regular",
+      "posted_at": {
+        "date": "2026-09-02 00:04:50",
+        "relative": "1 week ago • Visible to anyone on or off LinkedIn",
+        "timestamp": 1788300290503
+      },
+      "reposts": 2,
+      "stats": {
+        "celebrate": 4,
+        "comments": 0,
+        "curious": 0,
+        "funny": 0,
+        "insight": 3,
+        "like": 35,
+        "love": 3,
+        "reposts": 2,
+        "support": 0,
+        "total_reactions": 45
+      },
+      "text": "Back in July I took Otani san and Yamazaki san down to Hambantota to visit the Lanka Salt saltern. We walked the pans at sunset, then spent the evening inside a few small processing centres nearby, tasting samples and talking to the people who run the machines.\n \nWe went with two questions.\n \nOur Japanese partners were asking whether Sri Lankan salt, and what comes out alongside it, could feed beauty and personal care manufacturing in Japan. Gypsum settles in the concentrating ponds. Magnesium stays in the bittern left after harvest, the same raw material Japan knows as nigari. The pink colour in the crystalliser ponds comes from Dunaliella salina, a microalga whose carotenoid extracts already go into skincare. Most of it never leaves Hambantota as anything more than raw salt.\n \nMy own question was what a modern salt processing line would look like if we built it today, with sensors, embedded control and AI watching the evaporation, crystallisation and separation steps instead of relying on experience alone. The engineering is not the hard part. The hard part is that nobody has had the resources to try.\n \nThat gap is where SoftSora can be useful. We bring the technical side, AI, embedded systems and automation, and we bring the Japanese relationships that turn a pilot into a buyer. Ideas like this usually stall somewhere between the field and the factory. That is the part we are working on.\n \n#SriLanka #Japan #AI #EmbeddedSystems #Manufacturing #Export #SoftSora",
+      "timestamp": 1788300290503,
+      "total_reactions": 45,
+      "url": "https://www.linkedin.com/posts/nilandmeegoda_srilanka-japan-ai-activity-7500675061658365952-2wOV?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG326cMB4BM6Bc5WlopT0NOJkgMhf1oJIPw",
+      "urn": {
+        "activity_urn": "7500675061658365952",
+        "share_urn": null,
+        "ugcPost_urn": "7500675059192233984"
+      },
+      "input": "nilandmeegoda"
+    },
+    {
+      "author": {
+        "actor_type": "member",
+        "first_name": "Nilan",
+        "headline": "CEO at SoftSora | AI Business Translator | Empowering Businesses with Scalable Software Solutions 🚀",
+        "last_name": "Meegoda",
+        "profile_picture": "https://media.licdn.com/dms/image/v2/D5603AQHnuK5QxQNelA/profile-displayphoto-crop_800_800/B56aADAoiJGgAI-/0/1786756893387?e=1790812800&v=beta&t=XplD96oT7dofWOzGDnzEdDIobXjZYTqUjnrteNdqxLE",
+        "profile_url": "https://www.linkedin.com/in/nilandmeegoda?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACBXtroBUyOOl8zpRdObkpOUXPgjXg7qy2Q",
+        "username": "nilandmeegoda"
+      },
+      "comments": 1,
+      "full_urn": "urn:li:ugcPost:7499835555308945408",
+      "image_url": "https://media.licdn.com/dms/image/v2/D5622AQHQLOTVjLAP0g/feedshare-shrink_1280/B56aBTEsVMGcAM-/0/1788100134780?e=1790812800&v=beta&t=JCxWxymsAkaODFBIgUhZ5iZj5jfouPpgKIYmRERdi8g",
+      "media": {
+        "images": [
+          {
+            "height": 1920,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQHQLOTVjLAP0g/feedshare-shrink_1280/B56aBTEsVMGcAM-/0/1788100134780?e=1790812800&v=beta&t=JCxWxymsAkaODFBIgUhZ5iZj5jfouPpgKIYmRERdi8g",
+            "width": 1280
+          },
+          {
+            "height": 1365,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQFueld668rrcg/feedshare-image-high-res/B56aBTEsU_JYAU-/0/1788100134812?e=1790812800&v=beta&t=lETbyXx7zqyoBiPO3mtHu_0HGUY146LHgMkKn-5eF2k",
+            "width": 2048
+          }
+        ],
+        "type": "images",
+        "url": "https://media.licdn.com/dms/image/v2/D5622AQHQLOTVjLAP0g/feedshare-shrink_1280/B56aBTEsVMGcAM-/0/1788100134780?e=1790812800&v=beta&t=JCxWxymsAkaODFBIgUhZ5iZj5jfouPpgKIYmRERdi8g"
+      },
+      "post_type": "regular",
+      "posted_at": {
+        "date": "2026-08-30 16:28:56",
+        "relative": "1 week ago • Visible to anyone on or off LinkedIn",
+        "timestamp": 1788100136803
+      },
+      "reposts": 3,
+      "stats": {
+        "celebrate": 9,
+        "comments": 1,
+        "curious": 0,
+        "funny": 0,
+        "insight": 0,
+        "like": 50,
+        "love": 15,
+        "reposts": 3,
+        "support": 2,
+        "total_reactions": 76
+      },
+      "text": "Was glad to join Path to Internship 2026 at SLIIT as a panelist. It's my own university, so it meant a bit more to be back.\n \nMy main point to the students was simple. Don't just be a consumer of AI, learn to evaluate it. Question what it gives you, judge the output, and know when it's wrong. That's where the real value is now. And alongside that, the basics still matter more than ever. Attitude, critical thinking, and taking ownership of your work.\n \nWell done to the IEEE Student Branch and IEEE IAS teams at SLIIT for putting this together. Thanks for having me, and good luck to everyone who took part.\n \n#SoftSora #SLIIT #PathToInternship #PTI2026 #IEEE #SriLanka",
+      "timestamp": 1788100136803,
+      "total_reactions": 76,
+      "url": "https://www.linkedin.com/posts/nilandmeegoda_softsora-sliit-pathtointernship-activity-7499835556193792000-hd62?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG326cMB4BM6Bc5WlopT0NOJkgMhf1oJIPw",
+      "urn": {
+        "activity_urn": "7499835556193792000",
+        "share_urn": null,
+        "ugcPost_urn": "7499835555308945408"
+      },
+      "input": "nilandmeegoda"
+    },
+    {
+      "author": {
+        "actor_type": "company",
+        "company_urn": "74066235",
+        "first_name": "IEEE",
+        "headline": "1,344 followers",
+        "last_name": "Industry Applications Society of SLIIT",
+        "profile_picture": "https://media.licdn.com/dms/image/v2/D560BAQEyqfbZjV4XuQ/company-logo_400_400/company-logo_400_400/0/1713107279641/ieee_industry_applications_society_of_sliit_logo?e=1790812800&v=beta&t=dM16vrkAQ7kppB_8Q5Ebdf0m1laMmbP2si3OpQbZRrk",
+        "profile_url": "https://www.linkedin.com/company/ieee-industry-applications-society-of-sliit/posts",
+        "username": "ieee-industry-applications-society-of-sliit"
+      },
+      "comments": 0,
+      "full_urn": "urn:li:activity:7491098052909236224",
+      "image_url": "https://media.licdn.com/dms/image/v2/D5622AQEAdCDDFeVALw/feedshare-shrink_1280/B56Z_W5.6eJoAI-/0/1786016952229?e=1790812800&v=beta&t=17ESE1B4ocqw6PZT5OGxHplghQ6zOnRT16CNT-79l34",
+      "media": {
+        "images": [
+          {
+            "height": 1080,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQEAdCDDFeVALw/feedshare-shrink_1280/B56Z_W5.6eJoAI-/0/1786016952229?e=1790812800&v=beta&t=17ESE1B4ocqw6PZT5OGxHplghQ6zOnRT16CNT-79l34",
+            "width": 1080
+          }
+        ],
+        "type": "image",
+        "url": "https://media.licdn.com/dms/image/v2/D5622AQEAdCDDFeVALw/feedshare-shrink_1280/B56Z_W5.6eJoAI-/0/1786016952229?e=1790812800&v=beta&t=17ESE1B4ocqw6PZT5OGxHplghQ6zOnRT16CNT-79l34"
+      },
+      "post_type": "repost",
+      "posted_at": {
+        "date": "2026-08-06 18:58:56",
+        "relative": "1 month ago • Visible to anyone on or off LinkedIn",
+        "timestamp": 1786035536094
+      },
+      "reposts": 10,
+      "stats": {
+        "celebrate": 25,
+        "comments": 0,
+        "curious": 0,
+        "funny": 0,
+        "insight": 0,
+        "like": 78,
+        "love": 15,
+        "reposts": 10,
+        "support": 8,
+        "total_reactions": 126
+      },
+      "text": "𝗟𝗲𝘃𝗲𝗹 𝘂𝗽 𝘆𝗼𝘂𝗿 𝘁𝗲𝗰𝗵 𝗰𝗮𝗿𝗲𝗲𝗿!✨\n\nCatch our powerhouse panel of industry leaders at 𝗣𝗮𝘁𝗵 𝘁𝗼 𝗜𝗻𝘁𝗲𝗿𝗻𝘀𝗵𝗶𝗽 '26 for game-changing insights that will bridge the gap between academia and the real world. 𝗗𝗼𝗻'𝘁 𝗺𝗶𝘀𝘀 𝗼𝘂𝘁!\n\n📅 08 August 2026\n🕤 9:30 AM onwards\n📍 SLIIT Main Auditorium\n\n📝 Register now:\nhttps://lnkd.in/gu_iQQ_y\n\n🌍 𝗢𝗽𝗲𝗻 𝘁𝗼 𝘀𝘁𝘂𝗱𝗲𝗻𝘁𝘀 𝗳𝗿𝗼𝗺 𝗮𝗹𝗹 𝘂𝗻𝗶𝘃𝗲𝗿𝘀𝗶𝘁𝗶𝗲𝘀 𝗮𝗰𝗿𝗼𝘀𝘀 𝗦𝗿𝗶 𝗟𝗮𝗻𝗸𝗮.\n\n🏆 𝗩𝗮𝗹𝘂𝗮𝗯𝗹𝗲 𝗰𝗲𝗿𝘁𝗶𝗳𝗶𝗰𝗮𝘁𝗲𝘀 𝘄𝗶𝗹𝗹 𝗯𝗲 𝗽𝗿𝗼𝘃𝗶𝗱𝗲𝗱 𝘁𝗼 𝗮𝗹𝗹 𝗽𝗮𝗿𝘁𝗶𝗰𝗶𝗽𝗮𝗻𝘁𝘀.\n\n📡 𝗦𝘁𝗮𝘆 𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗲𝗱:\n🌐 IEEE IAS SLIIT: https://lnkd.in/gvuc7ca7\n🌐 IEEE SB SLIIT: https://lnkd.in/dKasWbyH\n\n#PathToInternship #PTI26 #IEEEIASSLIIT #IEEESLIIT #IEEE #SLIIT",
+      "timestamp": 1786035536094,
+      "total_reactions": 126,
+      "url": "https://www.linkedin.com/posts/ieee-industry-applications-society-of-sliit_pathtointernship-pti26-ieeeiassliit-activity-7491098052909236224--75p?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG326cMB4BM6Bc5WlopT0NOJkgMhf1oJIPw",
+      "urn": {
+        "activity_urn": "7491175993181691904",
+        "share_urn": "7491098051319590912",
+        "ugcPost_urn": null
+      },
+      "input": "nilandmeegoda"
+    },
+    {
+      "author": {
+        "actor_type": "member",
+        "first_name": "Nilan",
+        "headline": "CEO at SoftSora | AI Business Translator | Empowering Businesses with Scalable Software Solutions 🚀",
+        "last_name": "Meegoda",
+        "profile_picture": "https://media.licdn.com/dms/image/v2/D5603AQHnuK5QxQNelA/profile-displayphoto-crop_800_800/B56aADAoiJGgAI-/0/1786756893387?e=1790812800&v=beta&t=XplD96oT7dofWOzGDnzEdDIobXjZYTqUjnrteNdqxLE",
+        "profile_url": "https://www.linkedin.com/in/nilandmeegoda?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACBXtroBUyOOl8zpRdObkpOUXPgjXg7qy2Q",
+        "username": "nilandmeegoda"
+      },
+      "comments": 1,
+      "full_urn": "urn:li:ugcPost:7490424321916702720",
+      "post_type": "quote",
+      "posted_at": {
+        "date": "2026-08-04 17:12:03",
+        "relative": "1 month ago • Visible to anyone on or off LinkedIn",
+        "timestamp": 1785856323961
+      },
+      "reposts": 2,
+      "reshared_post": {
+        "author": {
+          "actor_type": "company",
+          "company_urn": "98793413",
+          "first_name": "SoftSora",
+          "headline": "5,284 followers",
+          "profile_picture": "https://media.licdn.com/dms/image/v2/D560BAQGbRrvA8wi-BQ/company-logo_400_400/company-logo_400_400/0/1727015094920/softsora_logo?e=1790812800&v=beta&t=TLEMyEkvAyHKj-vOngE0RrYahbWoFTrEB3QiL5Ikd6Y",
+          "profile_url": "https://www.linkedin.com/company/softsora/posts",
+          "username": "softsora"
+        },
+        "full_urn": "urn:li:ugcPost:7490420893077348352",
+        "media": {
+          "images": [
+            {
+              "height": 1280,
+              "url": "https://media.licdn.com/dms/image/v2/D5622AQGpbcNrDi9qwQ/feedshare-shrink_1280/B56Z_NSGnFGgAM-/0/1785855503518?e=1790812800&v=beta&t=2G4fVNZ0MFGpfV2EO9x4oZnYMNzo2frGdeX2eG2av08",
+              "width": 960
+            },
+            {
+              "height": 960,
+              "url": "https://media.licdn.com/dms/image/v2/D5622AQF3eyDfqw5QEA/feedshare-image-high-res/B56Z_NSGrWKIAU-/0/1785855503386?e=1790812800&v=beta&t=ctFJCBCJHaSqag5pBAp6frQTm5AhFM1Jix7oubu_w6o",
+              "width": 1280
+            },
+            {
+              "height": 720,
+              "url": "https://media.licdn.com/dms/image/v2/D5622AQGUjmph53egHw/feedshare-shrink_1280/B56Z_NSGt6G4AM-/0/1785855503472?e=1790812800&v=beta&t=zcIPEOPEiCzsdQ1tics-E9kgdz3TZ-Ln86f8uqRHFIE",
+              "width": 1280
+            },
+            {
+              "height": 1600,
+              "url": "https://media.licdn.com/dms/image/v2/D5622AQF2Zxp1rffy2w/feedshare-shrink_1280/B56Z_NSG.yGsAM-/0/1785855504552?e=1790812800&v=beta&t=Re0J05a5__NmiWxRm17Yc-BbGd5BVOCyQohG2RlH53g",
+              "width": 1200
+            },
+            {
+              "height": 1600,
+              "url": "https://media.licdn.com/dms/image/v2/D5622AQE6VwhCceH5XA/feedshare-shrink_1280/B56Z_NSGq3G0AM-/0/1785855503345?e=1790812800&v=beta&t=aVDAE-y0E4hKEWmbf496OBShkHiluRwFYazqX8bVcuM",
+              "width": 1200
+            },
+            {
+              "height": 1600,
+              "url": "https://media.licdn.com/dms/image/v2/D5622AQErSaku-P2y5w/feedshare-shrink_1280/B56Z_NSGufKYAM-/0/1785855503522?e=1790812800&v=beta&t=AcrDGDmFj7jV00LQnWzHRHPL5hd87bztoCH5DHr1iMY",
+              "width": 1200
+            }
+          ],
+          "type": "images",
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGpbcNrDi9qwQ/feedshare-shrink_1280/B56Z_NSGnFGgAM-/0/1785855503518?e=1790812800&v=beta&t=2G4fVNZ0MFGpfV2EO9x4oZnYMNzo2frGdeX2eG2av08"
+        },
+        "post_type": "regular",
+        "posted_at": {
+          "date": "2026-08-04 16:58:26",
+          "relative": "1 month ago • Visible to anyone on or off LinkedIn",
+          "timestamp": 1785855506803
+        },
+        "stats": {
+          "celebrate": 6,
+          "comments": 0,
+          "curious": 0,
+          "funny": 0,
+          "insight": 0,
+          "like": 43,
+          "love": 13,
+          "reposts": 4,
+          "support": 1,
+          "total_reactions": 63
+        },
+        "text": "Last month we had the privilege of hosting Tomoaki Otani san, CEO of Frontieer Japan LLC, at our Colombo office for three weeks.\n\nFor anyone who knows the SoftSora story, Otani san is not just a business partner. He is one of the people who helped lay the foundation this company stands on today. Long before we had the team and the client base we have now across Japan and Europe, he believed in what a Sri Lankan team could deliver to Japanese enterprise standards.\n\nThose three weeks were anything but a formal visit. Working sessions with our engineers. Deep dives into live projects. Honest feedback on quality, process and how Japanese clients think. Our team asked questions, challenged ideas and learned directly from someone who has spent his career building trust across two very different business cultures.\n\nSeeing our younger engineers sit with him, some of them presenting to a Japanese client stakeholder for the first time, was the highlight of the month for all of us.\n\nOtani san, thank you for the time, the honesty and the belief. The plaque our team put together says it better than words here can.\n\nHere is to the next chapter of the Frontieer Japan and SoftSora partnership.\n\nいつもありがとうございます。\n\n#SoftSora #FrontieerJapan #SriLanka #Japan #Partnership #GlobalTeams",
+        "text_annotations": [
+          {
+            "length": 13,
+            "profile_urn": "ACoAAEI7H2YB-Jb2KxsszqTG4hCLSy_2NNG3e5E",
+            "start": 43,
+            "text": "Tomoaki Otani",
+            "type": "profile"
+          },
+          {
+            "company_urn": "98793413",
+            "length": 8,
+            "start": 155,
+            "text": "SoftSora",
+            "type": "company"
+          }
+        ],
+        "url": "https://www.linkedin.com/posts/softsora_softsora-frontieerjapan-srilanka-activity-7490420895606296576-aQb_?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG326cMB4BM6Bc5WlopT0NOJkgMhf1oJIPw",
+        "urn": {
+          "activity_urn": "7490420895606296576",
+          "share_urn": null,
+          "ugcPost_urn": "7490420893077348352"
+        }
+      },
+      "stats": {
+        "celebrate": 3,
+        "comments": 1,
+        "curious": 0,
+        "funny": 0,
+        "insight": 0,
+        "like": 31,
+        "love": 9,
+        "reposts": 2,
+        "support": 0,
+        "total_reactions": 43
+      },
+      "text": "Every founder has a handful of people who believed early, when believing was not the obvious choice. Tomoaki Otani san is one of mine.\n\nHe took a chance on us when SoftSora was still an idea with more ambition than proof. Three weeks with our team in Colombo last month, and he was still doing what he has always done, teaching, questioning, pushing us to be better. Watching him share the same patience with our young engineers that he once showed me was something I will not forget.\n\nFrontieer Japan and SoftSora have built a lot together. I think the best part is still ahead.\n\nThank you, always.",
+      "text_annotations": [
+        {
+          "length": 13,
+          "profile_urn": "ACoAAEI7H2YB-Jb2KxsszqTG4hCLSy_2NNG3e5E",
+          "start": 101,
+          "text": "Tomoaki Otani",
+          "type": "profile"
+        },
+        {
+          "company_urn": "98793413",
+          "length": 8,
+          "start": 164,
+          "text": "SoftSora",
+          "type": "company"
+        }
+      ],
+      "timestamp": 1785856323961,
+      "total_reactions": 43,
+      "url": "https://www.linkedin.com/posts/nilandmeegoda_softsora-frontieerjapan-srilanka-activity-7490424323015467008-TmtI?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG326cMB4BM6Bc5WlopT0NOJkgMhf1oJIPw",
+      "urn": {
+        "activity_urn": "7490424323015467008",
+        "share_urn": null,
+        "ugcPost_urn": "7490424321916702720"
+      },
+      "input": "nilandmeegoda"
+    },
+    {
+      "author": {
+        "actor_type": "member",
+        "first_name": "Manila",
+        "headline": "Forbes 30 Under 30 | Founder & CEO DWorld | Metaverse Global Leader | AI for good | International Keynote Speaker",
+        "last_name": "Di Giovanni",
+        "profile_picture": "https://media.licdn.com/dms/image/v2/D4D03AQFNSN9BY9ZeXA/profile-displayphoto-shrink_800_800/B4DZVcXLFdHYAc-/0/1741011334407?e=1790812800&v=beta&t=wI19sDbrGJGvnQZ6yeRmyLzWKKA5GAN-_K-UtQ_XeoA",
+        "profile_url": "https://www.linkedin.com/in/manila-di-giovanni-30396011a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB2vc7MBpkWmxcR5jy9ocI1xXYjQZ2ZqALo",
+        "username": "manila-di-giovanni-30396011a"
+      },
+      "comments": 4,
+      "full_urn": "urn:li:ugcPost:7490386662787571712",
+      "image_url": "https://media.licdn.com/dms/image/v2/D5622AQGfu42bqUiIBA/feedshare-image-high-res/B56Z_My9L_HAAU-/0/1785847337999?e=1790812800&v=beta&t=PqwTOiwTbd-qntEWWlUva1Tk3ezZ7odnLFsV_Kc_tjk",
+      "media": {
+        "images": [
+          {
+            "height": 1066,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQGfu42bqUiIBA/feedshare-image-high-res/B56Z_My9L_HAAU-/0/1785847337999?e=1790812800&v=beta&t=PqwTOiwTbd-qntEWWlUva1Tk3ezZ7odnLFsV_Kc_tjk",
+            "width": 1600
+          },
+          {
+            "height": 1066,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQGhKkRhZLFY-Q/feedshare-image-high-res/B56Z_My9PTKYAU-/0/1785847338175?e=1790812800&v=beta&t=O85hTiURmZ04x9zHbINs9vAi6wrpZ11SNcE7Zf_8N94",
+            "width": 1600
+          },
+          {
+            "height": 1066,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQHrrlVr_8hilg/feedshare-image-high-res/B56Z_My9SBHUAU-/0/1785847338368?e=1790812800&v=beta&t=ThkInYpWkmlgSDMq7muV7UyFS7Z8GjjnV6acpfvA3Xo",
+            "width": 1600
+          },
+          {
+            "height": 1200,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQFLEZwDoVQfQg/feedshare-image-high-res/B56Z_My9PUG0AU-/0/1785847338218?e=1790812800&v=beta&t=-Gonano7bF9A_TJWzqBqhaAPFCbJ1ApHuuPAd6XszZg",
+            "width": 1600
+          },
+          {
+            "height": 1200,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQGTt6aNCYXZMA/feedshare-image-high-res/B56Z_My9aeHIAg-/0/1785847338898?e=1790812800&v=beta&t=wzdLkZ-QXe34QAeelEPxE8coyWoQC4BlTXKMkgp6BDc",
+            "width": 1600
+          },
+          {
+            "height": 941,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQFDUVDcCtfwkg/feedshare-image-high-res/B56Z_My.aUGUAU-/0/1785847343054?e=1790812800&v=beta&t=w9fAUJkr3G09zsN7pJRlUkfLbOc_qKRnBkSdROX4kwo",
+            "width": 1672
+          }
+        ],
+        "type": "images",
+        "url": "https://media.licdn.com/dms/image/v2/D5622AQGfu42bqUiIBA/feedshare-image-high-res/B56Z_My9L_HAAU-/0/1785847337999?e=1790812800&v=beta&t=PqwTOiwTbd-qntEWWlUva1Tk3ezZ7odnLFsV_Kc_tjk"
+      },
+      "post_type": "repost",
+      "posted_at": {
+        "date": "2026-08-04 16:04:56",
+        "relative": "1 month ago • Visible to anyone on or off LinkedIn",
+        "timestamp": 1785852296251
+      },
+      "reposts": 7,
+      "stats": {
+        "celebrate": 16,
+        "comments": 4,
+        "curious": 0,
+        "funny": 0,
+        "insight": 0,
+        "like": 65,
+        "love": 11,
+        "reposts": 7,
+        "support": 2,
+        "total_reactions": 94
+      },
+      "text": "Touli Goes Live in Sri Lanka 🇱🇰\n\nOn July 31st, in Colombo, DWorld VR  launched Touli in Sri Lanka in collaboration with SoftSora , our engineering partner and the team that turned this vision into a living platform for the island🇱🇰\n\nTouli rewards real, everyday generosity: verified good deeds across Social, Education, Sport, and Environment, recorded transparently and redeemed as local gifts from partner businesses. It’s a simple idea with a bigger ambition: to make kindness visible, and to make it spread.\n\nWe were proud to launch alongside our partners AIESEC in Sri Lanka and WOMEN IN TECH ® Global Sri Lanka Sanali Kaushalya  \nWe were excited to have also representative from Women in Foss, Rotaract Club of SLIIT , soschildren's villages  , Sri Lanka Telecom and the Sri Lanka Export Development Board, communities of young leaders, technologists, and changemakers who are already shaping what civic impact looks like here.\n\nThis is only the beginning. Sri Lanka now joins the growing Touli community turning good deeds into shared, lasting impact🌱🎁\n\n#touli #srilanka #impact #community #change",
+      "text_annotations": [
+        {
+          "company_urn": "68494555",
+          "length": 9,
+          "start": 59,
+          "text": "DWorld VR",
+          "type": "company"
+        },
+        {
+          "company_urn": "98793413",
+          "length": 8,
+          "start": 120,
+          "text": "SoftSora",
+          "type": "company"
+        },
+        {
+          "company_urn": "2034",
+          "length": 6,
+          "start": 560,
+          "text": "AIESEC",
+          "type": "company"
+        },
+        {
+          "company_urn": "10139791",
+          "length": 22,
+          "start": 584,
+          "text": "WOMEN IN TECH ® Global",
+          "type": "company"
+        },
+        {
+          "length": 16,
+          "profile_urn": "ACoAABgSBFIBc5F7PsLJFW0-XzeikmQdsZm4S9Q",
+          "start": 617,
+          "text": "Sanali Kaushalya",
+          "type": "profile"
+        },
+        {
+          "company_urn": "14410203",
+          "length": 22,
+          "start": 700,
+          "text": "Rotaract Club of SLIIT",
+          "type": "company"
+        },
+        {
+          "length": 22,
+          "profile_urn": "ACoAAE0JInsBHyTqfn2inuRGFzVJn-tLJq1-N70",
+          "start": 725,
+          "text": "soschildren's villages",
+          "type": "profile"
+        },
+        {
+          "company_urn": "166104",
+          "length": 17,
+          "start": 751,
+          "text": "Sri Lanka Telecom",
+          "type": "company"
+        },
+        {
+          "company_urn": "2755125",
+          "length": 34,
+          "start": 777,
+          "text": "Sri Lanka Export Development Board",
+          "type": "company"
+        }
+      ],
+      "timestamp": 1785852296251,
+      "total_reactions": 94,
+      "url": "https://www.linkedin.com/posts/manila-di-giovanni-30396011a_touli-srilanka-impact-ugcPost-7490386662787571712-TiZj?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG326cMB4BM6Bc5WlopT0NOJkgMhf1oJIPw",
+      "urn": {
+        "activity_urn": "7490407429575471104",
+        "share_urn": null,
+        "ugcPost_urn": "7490386662787571712"
+      },
+      "input": "nilandmeegoda"
+    },
+    {
+      "author": {
+        "actor_type": "company",
+        "company_urn": "97909192",
+        "first_name": "Women",
+        "headline": "3,717 followers",
+        "last_name": "in Tech®Sri Lanka",
+        "profile_picture": "https://media.licdn.com/dms/image/v2/D4D0BAQHE3nkmlZQI0g/company-logo_400_400/company-logo_400_400/0/1700682697286/womenintechsrilanka_logo?e=1790812800&v=beta&t=gYNZGLqBpb7JsgOuipWJr9uABvSqnNOuA0qcup0ucgo",
+        "profile_url": "https://www.linkedin.com/showcase/womenintechsrilanka/posts"
+      },
+      "comments": 3,
+      "full_urn": "urn:li:ugcPost:7488912763843538944",
+      "image_url": "https://media.licdn.com/dms/image/v2/D5622AQGp5dKVFWMvag/feedshare-image-high-res/B56Z.32dNHHUAY-/0/1785495934008?e=1790812800&v=beta&t=r4iQjLwt9C58qGYH_-Z3q21bAoCzGvULkKT-TqTU0as",
+      "media": {
+        "images": [
+          {
+            "height": 1066,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQGp5dKVFWMvag/feedshare-image-high-res/B56Z.32dNHHUAY-/0/1785495934008?e=1790812800&v=beta&t=r4iQjLwt9C58qGYH_-Z3q21bAoCzGvULkKT-TqTU0as",
+            "width": 1600
+          },
+          {
+            "height": 1200,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQEylaqBrnw8aw/feedshare-image-high-res/B56Z.32dPbKYAU-/0/1785495934261?e=1790812800&v=beta&t=u5cKR3-yuVs9gss1bpds1ACEcMO4_x8XPfHtwDibYk4",
+            "width": 1600
+          },
+          {
+            "height": 1200,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQH1v8KPN6PCMQ/feedshare-image-high-res/B56Z.32c8WGcAc-/0/1785495932942?e=1790812800&v=beta&t=yqyrM1GH6J1xFgoZ4nk44OMWpT-MoW7gLjP7iDO65wM",
+            "width": 1600
+          },
+          {
+            "height": 1199,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQHsLD4ygWaSlw/feedshare-image-high-res/B56Z.32dQsJsAY-/0/1785495934462?e=1790812800&v=beta&t=YzVhEU5b9PpFqXi-i2uUVFGxcYtWzUCq6qq-LuZJ-Wk",
+            "width": 1600
+          },
+          {
+            "height": 1200,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQElWEFFasUl6w/feedshare-image-high-res/B56Z.32dSjHcAY-/0/1785495934455?e=1790812800&v=beta&t=wr24wzYqEhpmN5coCnRrT1rkvGq8Ei3riRl9zyjZNeg",
+            "width": 1600
+          },
+          {
+            "height": 1200,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQH97AYpTENEkQ/feedshare-image-high-res/B56Z.32dU0IcAU-/0/1785495934560?e=1790812800&v=beta&t=vqWs6uEeELhj6hRbe5pzvcyPEZ2a-G7-u9Vm7Cuaqwk",
+            "width": 1600
+          },
+          {
+            "height": 1199,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQGIZTymhoQl3Q/feedshare-image-high-res/B56Z.32dOiJsAY-/0/1785495934117?e=1790812800&v=beta&t=uCzwgxdmsBcrK0XEif-epfc2Zvkbr1vN-11SZ9qWRio",
+            "width": 1600
+          },
+          {
+            "height": 1200,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQHKA4EM0ePW2Q/feedshare-image-high-res/B56Z.32dX8G0AU-/0/1785495934817?e=1790812800&v=beta&t=U6cLgsgTiBxsrt3hkQb6Ptl-rdFpRB-dmw04mEFpTVg",
+            "width": 1600
+          }
+        ],
+        "type": "images",
+        "url": "https://media.licdn.com/dms/image/v2/D5622AQGp5dKVFWMvag/feedshare-image-high-res/B56Z.32dNHHUAY-/0/1785495934008?e=1790812800&v=beta&t=r4iQjLwt9C58qGYH_-Z3q21bAoCzGvULkKT-TqTU0as"
+      },
+      "post_type": "repost",
+      "posted_at": {
+        "date": "2026-08-02 05:20:25",
+        "relative": "1 month ago • Visible to anyone on or off LinkedIn",
+        "timestamp": 1785640825620
+      },
+      "reposts": 15,
+      "stats": {
+        "celebrate": 8,
+        "comments": 3,
+        "curious": 0,
+        "funny": 0,
+        "insight": 0,
+        "like": 93,
+        "love": 20,
+        "reposts": 15,
+        "support": 0,
+        "total_reactions": 121
+      },
+      "text": "We are proud that Women in Tech Sri Lanka joined the official launch of Touli App in Sri Lanka on 31 July 2026.\n\nTouli's vision of leveraging AI and blockchain to recognize meaningful community impact perfectly aligns with our mission of empowering girls and women through technology, leadership, digital skills, and innovation.\nThis partnership is more than a collaboration - it's a shared commitment to creating opportunities where learning, volunteering, mentoring, and social impact are recognized, celebrated, and transformed into lasting value.\n\nCongratulations to Manila Di Giovanni, Tulio, and the entire Touli team on this inspiring launch. A special appreciation to the SoftSora team and Nilan Meegoda for their technical leadership and commitment in bringing this innovative platform to Sri Lanka.\n\nTogether, we are building a future where technology doesn't just innovate - it empowers communities and creates meaningful impact.\n\nManila Di Giovanni DWorld VR Nilan Meegoda SoftSora Sanali Kaushalya WOMEN IN TECH ® Global Ayumi Moore Aoki Tamuna Kvintradze Alejandra Leyva Wafeeqa Wahid Ramya Kolla Yuki Aizawa 愛澤友己 🇯🇵🇲🇾🇦🇺🇭🇰\n\n#WomenInTech #WomenInTechSriLanka #Touli #Softsora #TechForGood #AI #Blockchain #Innovation #Leadership #DigitalInclusion #CommunityImpact #SriLanka",
+      "text_annotations": [
+        {
+          "length": 18,
+          "profile_urn": "ACoAAB2vc7MBpkWmxcR5jy9ocI1xXYjQZ2ZqALo",
+          "start": 571,
+          "text": "Manila Di Giovanni",
+          "type": "profile"
+        },
+        {
+          "company_urn": "98793413",
+          "length": 8,
+          "start": 680,
+          "text": "SoftSora",
+          "type": "company"
+        },
+        {
+          "length": 13,
+          "profile_urn": "ACoAACBXtroBUyOOl8zpRdObkpOUXPgjXg7qy2Q",
+          "start": 698,
+          "text": "Nilan Meegoda",
+          "type": "profile"
+        },
+        {
+          "length": 18,
+          "profile_urn": "ACoAAB2vc7MBpkWmxcR5jy9ocI1xXYjQZ2ZqALo",
+          "start": 942,
+          "text": "Manila Di Giovanni",
+          "type": "profile"
+        },
+        {
+          "company_urn": "68494555",
+          "length": 9,
+          "start": 961,
+          "text": "DWorld VR",
+          "type": "company"
+        },
+        {
+          "length": 13,
+          "profile_urn": "ACoAACBXtroBUyOOl8zpRdObkpOUXPgjXg7qy2Q",
+          "start": 971,
+          "text": "Nilan Meegoda",
+          "type": "profile"
+        },
+        {
+          "company_urn": "98793413",
+          "length": 8,
+          "start": 985,
+          "text": "SoftSora",
+          "type": "company"
+        },
+        {
+          "length": 16,
+          "profile_urn": "ACoAABgSBFIBc5F7PsLJFW0-XzeikmQdsZm4S9Q",
+          "start": 994,
+          "text": "Sanali Kaushalya",
+          "type": "profile"
+        },
+        {
+          "company_urn": "10139791",
+          "length": 22,
+          "start": 1011,
+          "text": "WOMEN IN TECH ® Global",
+          "type": "company"
+        },
+        {
+          "length": 16,
+          "profile_urn": "ACoAAA4m-UIBX2TJMSe617bGFuiKJFNZiMU3R90",
+          "start": 1034,
+          "text": "Ayumi Moore Aoki",
+          "type": "profile"
+        },
+        {
+          "length": 17,
+          "profile_urn": "ACoAAAMOtB8Bs63I6z4hSba8F5-pZkYmjOhdYj4",
+          "start": 1051,
+          "text": "Tamuna Kvintradze",
+          "type": "profile"
+        },
+        {
+          "length": 15,
+          "profile_urn": "ACoAACljmCoBtIMtLi3i-1JzG1-0vh4GlMMdXlc",
+          "start": 1069,
+          "text": "Alejandra Leyva",
+          "type": "profile"
+        },
+        {
+          "length": 13,
+          "profile_urn": "ACoAABEl9JcBUdfr0jpquut0Pq1Ck1HAwG0OvEY",
+          "start": 1085,
+          "text": "Wafeeqa Wahid",
+          "type": "profile"
+        },
+        {
+          "length": 11,
+          "profile_urn": "ACoAAB6eMrwB9KWrHAah0jTFqEInNC7-N926iks",
+          "start": 1099,
+          "text": "Ramya Kolla",
+          "type": "profile"
+        },
+        {
+          "length": 25,
+          "profile_urn": "ACoAAAUfoJsBFM9DfCcU7MKrZw-6c0uqEpn4Abk",
+          "start": 1111,
+          "text": "Yuki Aizawa 愛澤友己 🇯🇵🇲🇾🇦🇺🇭🇰",
+          "type": "profile"
+        }
+      ],
+      "timestamp": 1785640825620,
+      "total_reactions": 121,
+      "url": "https://www.linkedin.com/posts/womenintechsrilanka_womenintech-womenintechsrilanka-touli-ugcPost-7488912763843538944-hMBH?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG326cMB4BM6Bc5WlopT0NOJkgMhf1oJIPw",
+      "urn": {
+        "activity_urn": "7489520457461690368",
+        "share_urn": null,
+        "ugcPost_urn": "7488912763843538944"
+      },
+      "input": "nilandmeegoda"
+    },
+    {
+      "author": {
+        "actor_type": "member",
+        "first_name": "Nilan",
+        "headline": "CEO at SoftSora | AI Business Translator | Empowering Businesses with Scalable Software Solutions 🚀",
+        "last_name": "Meegoda",
+        "profile_picture": "https://media.licdn.com/dms/image/v2/D5603AQHnuK5QxQNelA/profile-displayphoto-crop_800_800/B56aADAoiJGgAI-/0/1786756893387?e=1790812800&v=beta&t=XplD96oT7dofWOzGDnzEdDIobXjZYTqUjnrteNdqxLE",
+        "profile_url": "https://www.linkedin.com/in/nilandmeegoda?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACBXtroBUyOOl8zpRdObkpOUXPgjXg7qy2Q",
+        "username": "nilandmeegoda"
+      },
+      "comments": 1,
+      "full_urn": "urn:li:activity:7478009071866949632",
+      "post_type": "quote",
+      "posted_at": {
+        "date": "2026-07-01 10:58:17",
+        "relative": "2 months ago • Visible to anyone on or off LinkedIn",
+        "timestamp": 1782896297423
+      },
+      "reposts": 1,
+      "reshared_post": {
+        "author": {
+          "actor_type": "member",
+          "first_name": "Manila",
+          "headline": "Forbes 30 Under 30 | Founder & CEO DWorld | Metaverse Global Leader | AI for good | International Keynote Speaker",
+          "last_name": "Di Giovanni",
+          "profile_picture": "https://media.licdn.com/dms/image/v2/D4D03AQFNSN9BY9ZeXA/profile-displayphoto-shrink_800_800/B4DZVcXLFdHYAc-/0/1741011334407?e=1790812800&v=beta&t=wI19sDbrGJGvnQZ6yeRmyLzWKKA5GAN-_K-UtQ_XeoA",
+          "profile_url": "https://www.linkedin.com/in/manila-di-giovanni-30396011a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB2vc7MBpkWmxcR5jy9ocI1xXYjQZ2ZqALo",
+          "username": "manila-di-giovanni-30396011a"
+        },
+        "full_urn": "urn:li:activity:7477996168946438144",
+        "post_type": "regular",
+        "posted_at": {
+          "date": "2026-07-01 10:27:12",
+          "relative": "2 months ago • Visible to anyone on or off LinkedIn",
+          "timestamp": 1782894432715
+        },
+        "stats": {
+          "celebrate": 4,
+          "comments": 0,
+          "curious": 0,
+          "funny": 0,
+          "insight": 0,
+          "like": 13,
+          "love": 2,
+          "reposts": 6,
+          "support": 0,
+          "total_reactions": 19
+        },
+        "text": "After months of silent work, I'm excited to finally share the new project we're bringing forward in DWorld VR together with SoftSora Nilan Meegoda Mohammed Rishard Riccardo Romoli: Touli 🎁 \nTouli will become the new mobile citizen and enterprise engagement layer of the DWorld ecosystem to generate real social impact. It's not a coincidence that we'll start this project from my city of birth, Genoa in Italy. Touli is an authentic Genoese word that means something close to “there it is,” “look at that,” or “there you go.” \nHence, deeply rooted in the Genoese spirit of the city where I'm coming from, Touli carries the energy of spontaneous discovery: the feeling of recognising that something meaningful is happening. \nAnd that's what we are here for. To create real impact that can be seen and can influence others to contribute to their society spontaneously.\n\nThere it is! Touli is soon to be launched and we are so excited to share all our next milestones ahead at DWorld VR 💫",
+        "text_annotations": [
+          {
+            "company_urn": "68494555",
+            "length": 9,
+            "start": 100,
+            "text": "DWorld VR",
+            "type": "company"
+          },
+          {
+            "company_urn": "98793413",
+            "length": 8,
+            "start": 124,
+            "text": "SoftSora",
+            "type": "company"
+          },
+          {
+            "length": 13,
+            "profile_urn": "ACoAACBXtroBUyOOl8zpRdObkpOUXPgjXg7qy2Q",
+            "start": 133,
+            "text": "Nilan Meegoda",
+            "type": "profile"
+          },
+          {
+            "length": 16,
+            "profile_urn": "ACoAADJqlgoBaIReRk_69E_og4mLlpCyr8ZdZQ0",
+            "start": 147,
+            "text": "Mohammed Rishard",
+            "type": "profile"
+          },
+          {
+            "length": 15,
+            "profile_urn": "ACoAACqPucIB9fOxvIXb4ZffPB3XIZgD5wCEKCM",
+            "start": 164,
+            "text": "Riccardo Romoli",
+            "type": "profile"
+          },
+          {
+            "company_urn": "68494555",
+            "length": 9,
+            "start": 974,
+            "text": "DWorld VR",
+            "type": "company"
+          }
+        ],
+        "url": "https://www.linkedin.com/posts/manila-di-giovanni-30396011a_after-months-of-silent-work-im-excited-activity-7478001250714894336-g1kU?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG326cMB4BM6Bc5WlopT0NOJkgMhf1oJIPw",
+        "urn": {
+          "activity_urn": "7478001250714894336",
+          "share_urn": "7478001249653678080",
+          "ugcPost_urn": null
+        }
+      },
+      "stats": {
+        "celebrate": 11,
+        "comments": 1,
+        "curious": 0,
+        "funny": 0,
+        "insight": 0,
+        "like": 17,
+        "love": 5,
+        "reposts": 1,
+        "support": 1,
+        "total_reactions": 34
+      },
+      "text": "It has been a genuine privilege to partner with Manila Di Giovanni  and the DWorld VR team on Touli. We at SoftSora are proud to contribute to a platform designed to create meaningful and measurable social impact, and we look forward to the milestones ahead as Touli launches in Genoa and beyond.",
+      "text_annotations": [
+        {
+          "length": 18,
+          "profile_urn": "ACoAAB2vc7MBpkWmxcR5jy9ocI1xXYjQZ2ZqALo",
+          "start": 48,
+          "text": "Manila Di Giovanni",
+          "type": "profile"
+        },
+        {
+          "company_urn": "68494555",
+          "length": 9,
+          "start": 76,
+          "text": "DWorld VR",
+          "type": "company"
+        },
+        {
+          "company_urn": "98793413",
+          "length": 8,
+          "start": 107,
+          "text": "SoftSora",
+          "type": "company"
+        }
+      ],
+      "timestamp": 1782896297423,
+      "total_reactions": 34,
+      "url": "https://www.linkedin.com/posts/nilandmeegoda_touli-dworld-genoa-activity-7478009071866949632-twPM?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG326cMB4BM6Bc5WlopT0NOJkgMhf1oJIPw",
+      "urn": {
+        "activity_urn": "7478009071866949632",
+        "share_urn": "7478009070944329729",
+        "ugcPost_urn": null
+      },
+      "input": "nilandmeegoda"
+    },
+    {
+      "author": {
+        "actor_type": "member",
+        "first_name": "Nilan",
+        "headline": "CEO at SoftSora | AI Business Translator | Empowering Businesses with Scalable Software Solutions 🚀",
+        "last_name": "Meegoda",
+        "profile_picture": "https://media.licdn.com/dms/image/v2/D5603AQHnuK5QxQNelA/profile-displayphoto-crop_800_800/B56aADAoiJGgAI-/0/1786756893387?e=1790812800&v=beta&t=XplD96oT7dofWOzGDnzEdDIobXjZYTqUjnrteNdqxLE",
+        "profile_url": "https://www.linkedin.com/in/nilandmeegoda?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACBXtroBUyOOl8zpRdObkpOUXPgjXg7qy2Q",
+        "username": "nilandmeegoda"
+      },
+      "comments": 2,
+      "full_urn": "urn:li:ugcPost:7472702702456750080",
+      "image_url": "https://media.licdn.com/dms/image/v2/D5622AQHSMUBjtGepxQ/feedshare-image-high-res/B56Z7RfgEeIgAU-/0/1781631157487?e=1790812800&v=beta&t=mzaRoe1-eAqh3Xl5LpI9JcbGGm5P3a_nDqq58-WuYmE",
+      "media": {
+        "images": [
+          {
+            "height": 1536,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQHSMUBjtGepxQ/feedshare-image-high-res/B56Z7RfgEeIgAU-/0/1781631157487?e=1790812800&v=beta&t=mzaRoe1-eAqh3Xl5LpI9JcbGGm5P3a_nDqq58-WuYmE",
+            "width": 2048
+          },
+          {
+            "height": 1707,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQGzhVW6EQoZtQ/feedshare-shrink_1280/B56Z7RfgIDJQAM-/0/1781631157845?e=1790812800&v=beta&t=Tf5RRE-hLu6n3obCV2mx_dGDCCYZGpo6w6IfDJ70lvQ",
+            "width": 1280
+          },
+          {
+            "height": 1152,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQEZFS_rTZnkyA/feedshare-image-high-res/B56Z7RfdVEHUAU-/0/1781631145549?e=1790812800&v=beta&t=XNKhOiD4h-jjzw5aqZbSWs-Rhq5Y4dYnUN-9fB7wi4A",
+            "width": 2048
+          },
+          {
+            "height": 900,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQG8AuRbCIN7Mw/feedshare-image-high-res/B56Z7Rfc9THcAU-/0/1781631144048?e=1790812800&v=beta&t=P98gUDkM3TkY6VcbIg6qQXfVpJR0aFZJ-dryI0XOSfQ",
+            "width": 1600
+          }
+        ],
+        "type": "images",
+        "url": "https://media.licdn.com/dms/image/v2/D5622AQHSMUBjtGepxQ/feedshare-image-high-res/B56Z7RfgEeIgAU-/0/1781631157487?e=1790812800&v=beta&t=mzaRoe1-eAqh3Xl5LpI9JcbGGm5P3a_nDqq58-WuYmE"
+      },
+      "post_type": "regular",
+      "posted_at": {
+        "date": "2026-06-16 19:32:41",
+        "relative": "2 months ago • Visible to anyone on or off LinkedIn",
+        "timestamp": 1781631161092
+      },
+      "reposts": 2,
+      "stats": {
+        "celebrate": 11,
+        "comments": 2,
+        "curious": 0,
+        "funny": 0,
+        "insight": 0,
+        "like": 52,
+        "love": 13,
+        "reposts": 2,
+        "support": 4,
+        "total_reactions": 80
+      },
+      "text": "🍵 Almost a year ago, I was sitting at a small table in Tokyo with our partners in Japan, drinking matcha.\n\nIf you have ever watched matcha being made, you know it is not fast. The leaves are ground slowly into a fine powder, no shortcuts, just patience. What comes out is smooth, clean, and worth the wait.\n\nThat is exactly how building SoftSora in Japan has felt.\n\nWe did not arrive overnight. For three years we have delivered AI and software engineering to Japanese enterprises, and that market teaches you one thing above all else, shortcuts get caught. The documentation, the bilingual coordination, the obsession with quality, the trust you earn one project at a time,  that was the grind. And like good matcha, the result was worth every bit of it.\n\nI have a deep respect for Japanese culture and the discipline behind it. That standard is now part of who we are.\n\nThis September, we take the next step. SoftSora will be exhibiting at the Overseas Business EXPO 2026 Tokyo (海外ビジネスEXPO) on 17–18 September at Hamamatsucho, together with our Japanese partner. This year's theme is \"Overseas Business in the AI Era\" exactly the conversation we are here to have.\n\nWhat we bring is simple, a team of highly skilled Sri Lankan engineers who pair real AI capability with the delivery standards Japan trained us to meet.\n\nIf you are exploring AI, automation, or a cross border delivery partner you can actually trust, come find us. The tea is ready, we would love for you to visit our booth. 🇯🇵🇱🇰 \n\n#OverseasBusinessEXPO #SoftSora #Japan #AI #SriLanka #DigitalTransformation #GlobalTalent",
+      "timestamp": 1781631161092,
+      "total_reactions": 80,
+      "url": "https://www.linkedin.com/posts/nilandmeegoda_overseasbusinessexpo-softsora-japan-activity-7472702705493377024-J8EK?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG326cMB4BM6Bc5WlopT0NOJkgMhf1oJIPw",
+      "urn": {
+        "activity_urn": "7472702705493377024",
+        "share_urn": null,
+        "ugcPost_urn": "7472702702456750080"
+      },
+      "input": "nilandmeegoda"
+    },
+    {
+      "author": {
+        "actor_type": "member",
+        "first_name": "Nilan",
+        "headline": "CEO at SoftSora | AI Business Translator | Empowering Businesses with Scalable Software Solutions 🚀",
+        "last_name": "Meegoda",
+        "profile_picture": "https://media.licdn.com/dms/image/v2/D5603AQHnuK5QxQNelA/profile-displayphoto-crop_800_800/B56aADAoiJGgAI-/0/1786756893387?e=1790812800&v=beta&t=XplD96oT7dofWOzGDnzEdDIobXjZYTqUjnrteNdqxLE",
+        "profile_url": "https://www.linkedin.com/in/nilandmeegoda?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACBXtroBUyOOl8zpRdObkpOUXPgjXg7qy2Q",
+        "username": "nilandmeegoda"
+      },
+      "comments": 0,
+      "full_urn": "urn:li:ugcPost:7466481898207272960",
+      "image_url": "https://media.licdn.com/dms/image/v2/D5622AQFVVWBmtg7zCw/feedshare-shrink_1280/B56Z55FuB_JMAQ-/0/1780148003668?e=1790812800&v=beta&t=mys7i8UzhR84W2UbjHBlhLaGNdaj2OyAF8ER27g2naU",
+      "media": {
+        "images": [
+          {
+            "height": 1706,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQFVVWBmtg7zCw/feedshare-shrink_1280/B56Z55FuB_JMAQ-/0/1780148003668?e=1790812800&v=beta&t=mys7i8UzhR84W2UbjHBlhLaGNdaj2OyAF8ER27g2naU",
+            "width": 1280
+          },
+          {
+            "height": 1536,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQHq64D0eNGv3A/feedshare-image-high-res/B56Z55FtOsIEAU-/0/1780148000733?e=1790812800&v=beta&t=tPRpwp0jm1RKtZdqQDImka4a1IKbigap9cl28ItEmG8",
+            "width": 2048
+          },
+          {
+            "height": 1536,
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQGuXkzKv-cktw/feedshare-image-high-res/B56Z55FtNqK8AU-/0/1780148000137?e=1790812800&v=beta&t=abJ0b7Dsr5va43nVhBiyrrFtAmKdyGCLexeBN33MRoY",
+            "width": 2048
+          }
+        ],
+        "type": "images",
+        "url": "https://media.licdn.com/dms/image/v2/D5622AQFVVWBmtg7zCw/feedshare-shrink_1280/B56Z55FuB_JMAQ-/0/1780148003668?e=1790812800&v=beta&t=mys7i8UzhR84W2UbjHBlhLaGNdaj2OyAF8ER27g2naU"
+      },
+      "post_type": "regular",
+      "posted_at": {
+        "date": "2026-05-30 15:33:25",
+        "relative": "3 months ago • Visible to anyone on or off LinkedIn",
+        "timestamp": 1780148005810
+      },
+      "reposts": 2,
+      "stats": {
+        "celebrate": 36,
+        "comments": 0,
+        "curious": 0,
+        "funny": 0,
+        "insight": 0,
+        "like": 82,
+        "love": 20,
+        "reposts": 2,
+        "support": 4,
+        "total_reactions": 142
+      },
+      "text": "Spent the first two days at the Sri Lankan-German Business Forum 2026 in Colombo, organised by AHK Sri Lanka under the theme \"Building Trusted Partnerships.\"\n\nDay one was the Kick-Off and Start Up Night at TRACE Expert City, with pitches from early stage founders across sectors, including one building AI tools for drug discovery. Day two moved to the main conference at ITC Ratnadipa, with panels on ports as regional gateways, EU expectations on digitalization and sustainability, and how German and Sri Lankan companies build trust that outlasts a single project cycle.\n\nFor us at SoftSora this is not theory. We have spent years earning that trust with Japanese enterprises, and we are now carrying the same discipline into the German and European market. The opportunity is real, but it belongs to the companies willing to show up, listen, and deliver consistently.\n\nGood to have met Dr. Felix Neumann, German Ambassador to Sri Lanka and the Maldives, along with many others working to make this corridor stronger.",
+      "text_annotations": [
+        {
+          "company_urn": "13751829",
+          "length": 13,
+          "start": 95,
+          "text": "AHK Sri Lanka",
+          "type": "company"
+        },
+        {
+          "length": 17,
+          "profile_urn": "ACoAADm4ER4BiuA-ka9J9lHEtLW-EGX67t4qcfI",
+          "start": 890,
+          "text": "Dr. Felix Neumann",
+          "type": "profile"
+        }
+      ],
+      "timestamp": 1780148005810,
+      "total_reactions": 142,
+      "url": "https://www.linkedin.com/posts/nilandmeegoda_spent-the-first-two-days-at-the-sri-lankan-german-activity-7466481901361401858-ooZ8?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG326cMB4BM6Bc5WlopT0NOJkgMhf1oJIPw",
+      "urn": {
+        "activity_urn": "7466481901361401858",
+        "share_urn": null,
+        "ugcPost_urn": "7466481898207272960"
+      },
+      "input": "nilandmeegoda"
+    },
+    {
+      "author": {
+        "actor_type": "company",
+        "company_urn": "103915660",
+        "first_name": "betahausX",
+        "headline": "1,620 followers",
+        "profile_picture": "https://media.licdn.com/dms/image/v2/D4D0BAQEniV1BSe3Swg/company-logo_400_400/company-logo_400_400/0/1719915995937/betahausx_logo?e=1790812800&v=beta&t=qq1-hYOyGoRFfHm7wr-uqLi0RDlOMCrZ7wzCrShKtiA",
+        "profile_url": "https://www.linkedin.com/company/betahausx/posts",
+        "username": "betahausx"
+      },
+      "comments": 0,
+      "full_urn": "urn:li:ugcPost:7457095230123614208",
+      "image_url": "https://dms.licdn.com/playlist/vid/v2/D4D05AQHQYyz2FzdHrQ/mp4-720p-30fp-crf28/B4DZ3zs2fvGcCA-/0/1777910122222?e=1789722000&v=beta&t=SrbAJ1oCy2xWyBrnAfnVNv0JO_sO0xy7u0rrN76wI1M",
+      "media": {
+        "thumbnail": "https://media.licdn.com/dms/image/v2/D4D05AQHQYyz2FzdHrQ/videocover-high/B4DZ3zs2fvGcBQ-/0/1777910119504?e=1789722000&v=beta&t=ojH81CylXNxlhjpGaWi1P4HNLPwEyOJ3T7i2TIZVKH8",
+        "type": "video",
+        "url": "https://dms.licdn.com/playlist/vid/v2/D4D05AQHQYyz2FzdHrQ/mp4-720p-30fp-crf28/B4DZ3zs2fvGcCA-/0/1777910122222?e=1789722000&v=beta&t=SrbAJ1oCy2xWyBrnAfnVNv0JO_sO0xy7u0rrN76wI1M"
+      },
+      "post_type": "repost",
+      "posted_at": {
+        "date": "2026-05-04 21:01:23",
+        "relative": "4 months ago • Visible to anyone on or off LinkedIn",
+        "timestamp": 1777921283009
+      },
+      "reposts": 3,
+      "stats": {
+        "celebrate": 0,
+        "comments": 0,
+        "curious": 0,
+        "funny": 0,
+        "insight": 0,
+        "like": 9,
+        "love": 3,
+        "reposts": 3,
+        "support": 1,
+        "total_reactions": 13
+      },
+      "text": "Quick wrap-up from our day with IPD - Import Promotion Desk at betahausX — hosting a strong group of tech companies and founders and plugging them into #Berlin’s ecosystem the right way.\n\nHighlights from the program:\n\n- A warm welcome into the local tech community\n- Founder-led sessions with Berlin builders\n- A practical tune-up on #B2B communication\n- #Pitches to the room — and the conversations that actually matter after the stage\n- Big thanks to our partners at IPD for making it happen with us.\n\n#betahausX #IPD #BerlinEcosystem #StartupNetworking #B2B #TechPitches #Partnerships #EmergingMarkets",
+      "text_annotations": [
+        {
+          "company_urn": "42164981",
+          "length": 27,
+          "start": 32,
+          "text": "IPD - Import Promotion Desk",
+          "type": "company"
+        },
+        {
+          "company_urn": "103915660",
+          "length": 9,
+          "start": 63,
+          "text": "betahausX",
+          "type": "company"
+        }
+      ],
+      "timestamp": 1777921283009,
+      "total_reactions": 13,
+      "url": "https://www.linkedin.com/posts/betahausx_berlin-b2b-pitches-ugcPost-7457095230123614208-ceIW?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAG326cMB4BM6Bc5WlopT0NOJkgMhf1oJIPw",
+      "urn": {
+        "activity_urn": "7457142349010219008",
+        "share_urn": null,
+        "ugcPost_urn": "7457095230123614208"
+      },
+      "input": "nilandmeegoda"
+    }
+  ]
+}

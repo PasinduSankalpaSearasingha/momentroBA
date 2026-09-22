@@ -2,32 +2,28 @@ import json
 from typing import Any, Dict, List, Optional
 from agents.base_agent import BaseAgent
 from core.schemas import CompetitorAnalysis, CompetitorItem, MultiAgentState
-from tools.competitor_search_tool import CompetitorSearchTool
-
 class CompetitorAnalystAgent(BaseAgent):
-    """Specialized Senior BA Agent equipped with a Search Tool to discover and analyze competitors."""
+    """Specialized Senior BA Agent that analyzes competitors provided in the company report."""
 
-    def __init__(self, search_tool: Optional[CompetitorSearchTool] = None, llm_client=None):
+    def __init__(self, llm_client=None):
         super().__init__(
             name="CompetitorAnalystAgent",
             role="Competitive Intelligence & Market Benchmarking Analyst",
             llm_client=llm_client
         )
-        self.search_tool = search_tool or CompetitorSearchTool(llm_client=self.llm_client)
 
     def process(self, state: MultiAgentState) -> MultiAgentState:
         if not state.sanitized_company:
             raise ValueError("Sanitized company profile is required before running CompetitorAnalystAgent.")
 
         company = state.sanitized_company
-        self.log(state, f"Running search tool to discover competitors for '{company.company_name}'...")
+        self.log(state, f"Extracting competitors from company report for '{company.company_name}'...")
 
-        # 1. Use Search Tool to gather competitor intelligence
-        search_results = self.search_tool.search_competitors(
-            company_name=company.company_name,
-            description=company.description
-        )
-        self.log(state, f"Search tool retrieved {len(search_results)} competitor candidate(s).")
+        # 1. Gather competitor intelligence from raw report
+        raw_report = state.raw_company_report or {}
+        search_results = raw_report.get("similar_organizations") or raw_report.get("similar_organizations_json") or []
+        
+        self.log(state, f"Found {len(search_results)} competitor candidate(s) in company report.")
 
         # 2. Senior BA Competitive Synthesis
         competitor_analysis = self._benchmark_competitors(company, search_results)
