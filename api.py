@@ -23,6 +23,7 @@ All three endpoints work purely from the database after processing.
 
 import json
 import logging
+import re
 from typing import Any, Dict, List, Optional
 from pathlib import Path
 
@@ -208,6 +209,11 @@ def _from_db(lead_id: int) -> Dict[str, Any]:
         "company_website": site,
         "status":          c.get("status","Draft Generated"),
 
+        # ── Added Details ───────────────────────────────────────────────────
+        "education_details": _j(c.get("education_details")),
+        "focusing_areas":    _j(c.get("focusing_areas")),
+        "post_details":      _j(c.get("post_details")),
+
         # ── Scores (AEO / GEO / ICP) ────────────────────────────────────────
         "scores": {
             "icp_score":       icp,
@@ -346,6 +352,41 @@ def process_leads(payload: Any = Body(...)):
         for lead_data, posts_data, company_data in leads_items:
             lead_id = lead_data.get("id")
 
+            # Extract focusing areas from post texts if not provided
+            if not lead_data.get("focusing_areas") and not lead_data.get("certificates"):
+                extracted_tags = set()
+                keywords = [
+                    "AI", "Artificial Intelligence", "Database", "Digital Marketing", "FMCG", "Retail",
+                    "Management", "Leadership", "Supply Chain", "Sales", "Operations", "E-commerce",
+                    "Data Science", "Machine Learning", "Software", "Cloud",
+                    "Finance", "Human Resources", "Customer Success", "Business Development",
+                    "Agile", "Scrum", "Product Management", "Marketing", "SEO", "Logistics",
+                    "Cybersecurity", "Blockchain", "SaaS", "B2B", "B2C", "Teamwork", "Technology"
+                ]
+                
+                all_text = ""
+                raw_list = []
+                if isinstance(posts_data, list):
+                    raw_list = posts_data
+                elif isinstance(posts_data, dict):
+                    raw_list = posts_data.get("posts", []) + posts_data.get("company_posts", [])
+                
+                for p in raw_list:
+                    if isinstance(p, dict):
+                        txt = p.get("text") or p.get("post_text") or p.get("content") or ""
+                        all_text += " " + txt.lower()
+                
+                for kw in keywords:
+                    if kw in ["AI", "SEO", "B2B", "B2C", "SaaS", "FMCG"]:
+                        if re.search(r'\b' + kw.lower() + r'\b', all_text):
+                            extracted_tags.add(kw)
+                    else:
+                        if kw.lower() in all_text:
+                            extracted_tags.add(kw)
+                
+                if extracted_tags:
+                    lead_data["focusing_areas"] = list(extracted_tags)
+
             # Step 1: Always upsert the lead row into MySQL
             db_manager.upsert_lead(lead_data, status="Processing")
 
@@ -457,6 +498,14 @@ def process_leads(payload: Any = Body(...)):
         raise HTTPException(status_code=500, detail=str(exc))
 
 
+
+
+@app.get("/api/studio/process", include_in_schema=False)
+def get_studio_process_error():
+    raise HTTPException(
+        status_code=405,
+        detail="Method Not Allowed: /api/studio/process requires a POST request with a JSON body. In Postman, switch the dropdown next to the URL from GET to POST."
+    )
 
 
 # ════════════════════════════════════════════════════════════════════════════

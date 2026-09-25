@@ -55,11 +55,20 @@ class DatabaseManager:
                     location VARCHAR(255),
                     posts_report_url TEXT,
                     company_report_url TEXT,
+                    education_details LONGTEXT,
+                    focusing_areas LONGTEXT,
+                    post_details LONGTEXT,
                     status VARCHAR(50) DEFAULT 'Draft Generated',
                     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
                     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
                 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
                 """)
+                try:
+                    cur.execute("ALTER TABLE leads ADD COLUMN education_details LONGTEXT;")
+                    cur.execute("ALTER TABLE leads ADD COLUMN focusing_areas LONGTEXT;")
+                    cur.execute("ALTER TABLE leads ADD COLUMN post_details LONGTEXT;")
+                except Exception:
+                    pass
                 cur.execute("""
                 CREATE TABLE IF NOT EXISTS lead_dossiers (
                     lead_id INT PRIMARY KEY,
@@ -173,8 +182,8 @@ class DatabaseManager:
                 sql = """
                 INSERT INTO leads (
                     id, full_name, job_title, company_name, sector_tag, country, location,
-                    posts_report_url, company_report_url, status, updated_at
-                ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                    posts_report_url, company_report_url, education_details, focusing_areas, post_details, status, updated_at
+                ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
                 ON DUPLICATE KEY UPDATE
                     full_name=VALUES(full_name),
                     job_title=VALUES(job_title),
@@ -184,9 +193,37 @@ class DatabaseManager:
                     location=VALUES(location),
                     posts_report_url=VALUES(posts_report_url),
                     company_report_url=VALUES(company_report_url),
+                    education_details=VALUES(education_details),
+                    focusing_areas=VALUES(focusing_areas),
+                    post_details=VALUES(post_details),
                     status=VALUES(status),
                     updated_at=VALUES(updated_at);
                 """
+                
+                def _safe_str(val):
+                    return json.dumps(val) if isinstance(val, (dict, list)) else (str(val) if val else "")
+
+                def _extract_tags(val):
+                    if not val:
+                        return "[]"
+                    if isinstance(val, str):
+                        val = val.strip()
+                        if val.startswith("["):
+                            return val # Already JSON array
+                        # Split by comma for plain strings
+                        return json.dumps([x.strip() for x in val.split(",") if x.strip()])
+                    if isinstance(val, list):
+                        tags = []
+                        for item in val:
+                            if isinstance(item, str):
+                                tags.append(item)
+                            elif isinstance(item, dict):
+                                name = item.get("name") or item.get("title") or item.get("skill")
+                                if name:
+                                    tags.append(str(name))
+                        return json.dumps(tags)
+                    return "[]"
+
                 cur.execute(sql, (
                     lead_id,
                     lead_data.get("full_name", ""),
@@ -197,6 +234,9 @@ class DatabaseManager:
                     lead_data.get("location", ""),
                     lead_data.get("posts_report_url", ""),
                     lead_data.get("company_report_url", ""),
+                    _safe_str(lead_data.get("education_details") or lead_data.get("education")),
+                    _extract_tags(lead_data.get("focusing_areas") or lead_data.get("certificates")),
+                    _safe_str(lead_data.get("post_details") or lead_data.get("posts_details")),
                     status,
                     now
                 ))
